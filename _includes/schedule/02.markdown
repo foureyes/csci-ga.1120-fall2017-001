@@ -1,0 +1,16 @@
+	<td markdown="block">
+* [Functions](slides/02/functions.html)
+* [format Method](slides/02/format-method.html)
+* [Modules](slides/02/modules.html)
+* [turtle](slides/02/turtle.html)
+    * [collision detection example](resources/code/intersects.py)
+    * [keyboard input example](resources/code/keys.py)
+</td>
+	<td markdown="block">
+
+Due Thursday, Feb 4th
+
+* [Assignment #1](assignments/hw01.html) 
+* The first quiz is postponed; will be posted next week instead
+
+</td>

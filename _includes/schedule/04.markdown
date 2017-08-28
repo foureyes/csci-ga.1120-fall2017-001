@@ -1,0 +1,27 @@
+	<td markdown="block">
+* [Exception Handling](slides/04/exceptions.html)
+* [Strings](slides/04/strings.html)
+* (see section 3.4) [Transposition / Rail Cipher](slides/04/rail-cipher.html)
+
+</td>
+{% comment %}
+	<td markdown="block">
+From {{ site.book1 }}
+
+* Ch 3 - Codes and Other Secrets
+</td>
+{% endcomment %}
+	<td markdown="block">
+Today, in-class...
+
+* [Transposition cipher in-class programming assignment!](https://docs.google.com/a/nyu.edu/forms/d/12gwd_MzazDz3Cx6KPNOQEEhftmXNpZb32y23cjOMnYw/viewform)
+
+Due Friday, Feb 12th
+
+* [Assignment #02 is posted](assignments/hw02.html)
+* (This assignment was posted later than last, so I can extend the open date upon request)
+
+{% comment %}
+* Submit [Assignment #03](assignments/hw03.html)
+{% endcomment %}
+</td>

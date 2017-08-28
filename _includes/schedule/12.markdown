@@ -1,0 +1,22 @@
+	<td colspan="3" markdown="block">
+
+Materials / Readings
+
+* chapters 1 - 6, 10 
+* slides from classes 1 through 11
+
+Notes
+
+* if material is in book only...
+* i'll give you adequate context / info in exam
+* there will be a reference with methods, objs for turtle, PIL, file io, etc.
+* ... just names and parameters though, not full description
+
+Not on Exam or Extra Credit Only
+
+* beautiful soup and dom manipulation
+* built-in PIL functions for resizing, thumbnailing, etc
+* lambda expressions
+
+
+</td>

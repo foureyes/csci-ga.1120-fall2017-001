@@ -1,0 +1,19 @@
+	<td markdown="block">
+* Homework, midterm reminder
+* [PIL, IO, Requests, DOM/HTML/CSS, BS4](slides/11/pil-bs4.html)
+* [Classes and Objects](slides/11/classes-objects.html)
+</td>
+{% comment %}
+	<td markdown="block">
+
+* Ch 10 - Astronomy (Classes and Objects)
+
+</td>
+{% endcomment %}
+	<td markdown="block">
+__Midterm Practice__ (these questions don't indicate the number of _actual_ questions on the exam; the exam will likely have a couple more questions)
+
+
+* [Sample questions for midterm](resources/handouts/midterm/midterm_practice.pdf)
+* [Sample questions solutions](resources/handouts/midterm/midterm_practice_solutions.pdf)
+</td>
