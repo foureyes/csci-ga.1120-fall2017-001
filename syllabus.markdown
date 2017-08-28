@@ -32,7 +32,7 @@ The class will meet weekly for 2.5 hours, with a mix of lecture, discussions of 
 
 There will be weekly office hours available, as well as weekly tutoring sessions with the course grader/tutor.
 
-On platform will be provided for asking questions online as well as moderating discussions among students.
+A platform will be provided for asking questions online as well as moderating discussions among students.
 
 </div>
     </div>
