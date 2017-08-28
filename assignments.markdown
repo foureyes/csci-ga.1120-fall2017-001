@@ -6,6 +6,8 @@ nav-state: assignments
 
 ## Assignments
 
+
+{% comment %}
 * [Assignment #1](assignments/hw01.html)
 * [Assignment #2](assignments/hw02.html)
 * [Assignment #3](assignments/hw03.html)
@@ -16,7 +18,6 @@ nav-state: assignments
 * [Assignment #8 (Optional/Make-Up)](assignments/hw08.html)
 * [Final Project](assignments/final-project.html)
 
-{% comment %}
 * [Assignment #9](assignments/hw09.html)
 * [Assignment #10](assignments/hw10.html)
 * [Assignment #11](assignments/hw11.html)
