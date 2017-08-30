@@ -18,29 +18,36 @@ nav-state: schedule
 </thead>
 <tbody>
 
-{% comment %}
 
 <!-- ------------ --><a name="01"></a>
 <tr><td>1</td><td><strong>Sep 07</strong><br>Thu</td>
 <td markdown="block">
 
-* Introduction to Python
-* The programming environment 
-* Installation / getting started
-* Using an IDE
-* Core data types
-* Writing simple programs
-* Using the commandline
+* Computers Overview
+* Programming Overview
+* Variables, Expressions, Statements
+* Printing
+* Data Types / Objects
+* User Input
+* Running Programs
+* Calling Functions
 
 </td>
 <td markdown="block">
-Learning Python, Chapters:
+Think Python
 
-* 1 - A Python Q&A Session
-* 2 - How Python Runs Programs
-* 3 - How You Run Programs
-* 4 - Introducing Python Object Types
-    * (contains an overview of material to be covered during the course)
+* 1 - The Way of the Program
+* 2 - Variables, Expressions, and Statements
+
+Additional Resources
+
+* Input
+* Printing
+* Data Types
+* Commandline
+* IDLE
+* Objects
+* format function?
 </td>
 <td></td><td markdown="block"></td>{% comment %}
 {% include schedule/01.markdown %}
@@ -52,19 +59,27 @@ Learning Python, Chapters:
 <tr><td>2</td><td><strong>Sep 14</strong><br>Thu</td>
 <td markdown="block">
 
-* Numeric types
-* Strings
-* Dynamic Typing
+* Built-In Modules (random, math, etc.)
+* Simple Functions
+* Objects and Methods
+* Turtle
+* Functions as Objects
+* Event Based Programming
 
 </td>
 <td markdown="block">
 
-Learning Python, Chapters:
+Think Python
 
-* 5 - Numeric Types
-* 6 - The Dynamic Typing Interlude
-* 7 - String Fundamentals
+* 3 - Functions
+* 4 - Case study: Interface Design (Turtle)
 
+Additional Resources
+
+* Event Based Programming
+* Objects and Methods
+* Graphical Input
+* Modules
 </td>
 <td></td><td markdown="block"></td>{% comment %}
 {% include schedule/02.markdown %}
@@ -76,17 +91,18 @@ Learning Python, Chapters:
 <tr><td>3</td><td><strong>Sep 21</strong><br>Thu</td>
 <td markdown="block">
 
-* Lists
-* Dictionaries
-* Tuples
+* Conditionals
+* Boolean Logic
+* Returning Values
+* Recursion
  
 </td>
 <td markdown="block">
 
-Learning Python, Chapters:
+Think Python
 
-* 8 - Lists and Dictionaries
-* 9 - Tuples, Files, and Everything Else
+* 5 - Conditionals and Recursion
+* 6 - Fruitful Functions
 
 </td>
 <td></td><td markdown="block"></td>{% comment %}
@@ -99,15 +115,19 @@ Learning Python, Chapters:
 <tr><td>4</td><td><strong>Sep 28</strong><br>Thu</td>
 <td markdown="block">
 
-* Statements and syntax 
-* Conditionals (if statements)
+* While Loops
+* For Loops
+
 </td>
 <td markdown="block">
-Learning Python: Chapters:
+Think Python
 
-* 10 - Introducing Python Statements
-* 11 - Assignments, Expressions, and Prints
-* 12 - If Tests and Syntax Rules
+* 7 - Iteration
+
+CS for All
+
+* Imperative Programming
+
 
 </td>
 <td></td><td markdown="block"></td>{% comment %}
@@ -119,13 +139,15 @@ Learning Python: Chapters:
 <!-- ------------ --><a name="05"></a>
 <tr><td>5</td><td><strong>Oct 5</strong><br>Thu</td>
 <td markdown="block">
-* While loops
-* For loops
+* Strings
 </td>
 <td markdown="block">
-Learning Python, Chapters 
+Think Python
 
-* 13 - While and For Loops
+* 8 - Strings
+* 9 - Case study: word play
+
+
 </td>
 
 <td></td><td markdown="block"></td>{% comment %}
@@ -139,53 +161,47 @@ Learning Python, Chapters
 <tr><td>6</td><td><strong>Oct 12</strong><br>Thu</td>
 <td markdown="block">
 
-Programming Topics
-
-* Lists / Higher Order Functions
-* Tuples
-* Dictionaries
-
-Application
+* Lists
+* List Algorithms
+* Objects Revisited / References
+* map, reduce, filter, etc.
 
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
+<td markdown="block">
+Think Python
+
+* 10 - Lists
+
+Additional Resources
+
+* Objects and References
+* List Algorithms
+* map, reduce and filter
+</td>
+<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/06.markdown %}
 {% endcomment %}
  </tr>
 
-<!-- ------------ -->
-<tr class="success"><td></td><td><strong>Oct 19</strong><br>Thu</td>
-<td markdown="block">
-President's Day, No Class Scheduled
-</td>
-<td></td><td></td><td></td>
- </tr>
 
 
 <!-- ------------ --><a name="07"></a>
 <tr><td>7</td><td><strong>Oct 19</strong><br>Thu</td>
 <td markdown="block">
 
-Programming Topics
+* Dictionaries
+* Midterm Quiz
 
-* Data
-* File I/O
-* Context Managers
-{% comment %}
-* Decorators
-* Advanced Lists
-* Advanced Dictionaries
-* Regular Expressions
-{% endcomment %}
-
-Application
-
-* Analyzing Survey Data
-{% comment %}
-* Cryptanalysis
-{% endcomment %}
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
+<td markdown="block">
+
+Think Python
+
+* 11 - Dictionaries
+</td>
+
+
+<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/07.markdown %}
 {% endcomment %}
  </tr>
@@ -195,24 +211,26 @@ Application
 <tr><td>8</td><td><strong>Oct 26</strong><br>Thu</td>
 <td markdown="block">
 
-Programming Topics
+* Tuples
+* Using a Different Text Editor
+* Downloading Modules
+* Data Visualization with matplotlib
 
-* File I/O Continued
-* Retrieving Data from the Web
-* Data Formats - csv, json, html
-* Start Image Processing
-* PIL 
-{% comment %}
-* cImage
-* openCV (maybe)
-{% endcomment %}
-
-Application
-
-* Working with csvs, json and html 
-* Basic Image Processing
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
+<td markdown="block">
+Think Python
+
+* 12 - Tuples
+* 13 - Case study: data structure selection
+
+Additional Resources
+
+* Text Editor
+* pip, virtualenv, etc.
+* matplotlib
+</td>
+
+<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/08.markdown %}
 {% endcomment %}
  </tr>
@@ -221,10 +239,22 @@ Application
 <tr><td>9</td><td><strong>Nov 02</strong><br>Thu</td>
 <td markdown="block">
 
-* 9 
-
+* File I/O
+* Retrieving Data from the Web
+* Text Processing with textblob
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
+<td markdown="block">
+Think Python
+
+* 14 - Files
+
+Additional Resources
+
+* web
+* text blob
+</td>
+
+<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/09.markdown %}
 {% endcomment %}
  </tr>
@@ -233,10 +263,24 @@ Application
 <tr><td>10</td><td><strong>Nov 09</strong><br>Thu</td>
 <td markdown="block">
 
-* 10 
+* Object Oriented Programming
+* Inheritance
 
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
+<td markdown="block">
+Think Python
+
+* 15 - Classes and objects
+* 16 - Classes and functions
+* 17 - Classes and methods
+* 18 - Inheritance
+
+CS for All
+
+* 6 - Fun and Games with OOPs
+</td>
+
+<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/10.markdown %}
 {% endcomment %}
  </tr>
@@ -245,10 +289,17 @@ Application
 <tr><td>11</td><td><strong>Nov 16</strong><br>Thu</td>
 <td markdown="block">
 
-* 11 
+* Functional Programming 
 
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
+<td markdown="block">
+CS for All
+
+* 3 - Functional Programming, Part Deux
+
+</td>
+
+<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/11.markdown %}
 {% endcomment %}
  </tr>
@@ -257,10 +308,16 @@ Application
 <tr><td>12</td><td><strong>Nov 30</strong><br>Thu</td>
 <td markdown="block">
 
-* 12 
+* How Computers Work
 
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
+<td markdown="block">
+CS for All
+
+* 4 - Computer Organization
+</td>
+
+<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/12.markdown %}
 {% endcomment %}
  </tr>
@@ -269,10 +326,12 @@ Application
 <tr><td>13</td><td><strong>Dec 07</strong><br>Thu</td>
 <td markdown="block">
 
-* 13 
+* Applications - Topic 1 (Image Processing)
 
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
+<td markdown="block">
+</td>
+<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/13.markdown %}
 {% endcomment %}
  </tr>
@@ -281,15 +340,16 @@ Application
 <tr><td>14</td><td><strong>Dec 14</strong><br>Thu</td>
 <td markdown="block">
 
-* 14 
+* Applications - Topic 2 (TBD)
 
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
+<td markdown="block">
+</td>
+<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/14.markdown %}
 {% endcomment %}
  </tr>
 
 
 </tbody>
-{% endcomment %}
 </table>

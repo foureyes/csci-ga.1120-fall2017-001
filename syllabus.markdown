@@ -47,17 +47,18 @@ A platform will be provided for asking questions online as well as moderating di
 instructor’s or student’s choice
 </div>
     </div>
-{% comment %}
     <div class="panel panel-default">
 <a name="books"></a>
 <div class="panel-heading">Books</div>
 <div class="panel-body" markdown="block">
 
-Lutz, Mark Learning Python: 5th Edition O’Reilly, 2013.
+Both books are available free online:
+
+* [Think Python, 2nd Edition](http://greenteapress.com/thinkpython2/html/index.html) by Allen B. Downey
+* [CS for All](https://www.cs.hmc.edu/csforall/) by Christine Alvarado, Zachary Dodds, Geoff Kuenning, Ran Libeskind-Hadas
 
 </div>
     </div>
-{% endcomment %}
   </div><!-- end col -->
 
   <div class="col-md-6">
