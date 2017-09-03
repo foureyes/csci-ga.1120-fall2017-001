@@ -5,6 +5,7 @@ nav-state: schedule
 <script>
 ....
 </script>
+<!-- It is part of the [Program in Digital Humanities and Social Science](http://dhss.nyu.edu/) at the [Computer Science Department](http://cs.nyu.edu/home/index.html) at NYU -->
 <table class="table table-striped table-hover">
 <thead>
 <tr>
@@ -140,6 +141,7 @@ CS for All
 <tr><td>5</td><td><strong>Oct 5</strong><br>Thu</td>
 <td markdown="block">
 * Strings
+* Lists Preview (maybe)
 </td>
 <td markdown="block">
 Think Python
@@ -189,7 +191,7 @@ Additional Resources
 <tr><td>7</td><td><strong>Oct 19</strong><br>Thu</td>
 <td markdown="block">
 
-* Dictionaries
+* More About Lists
 * Midterm Quiz
 
 </td>
@@ -197,7 +199,7 @@ Additional Resources
 
 Think Python
 
-* 11 - Dictionaries
+* 10 - Lists
 </td>
 
 
@@ -211,6 +213,26 @@ Think Python
 <tr><td>8</td><td><strong>Oct 26</strong><br>Thu</td>
 <td markdown="block">
 
+* Dictionaries
+
+</td>
+<td markdown="block">
+
+Think Python
+
+11 - Dictionaries
+
+
+</td>
+
+<td></td><td markdown="block"></td>{% comment %}
+{% include schedule/08.markdown %}
+{% endcomment %}
+ </tr>
+
+<!-- ------------ --><a name="09"></a>
+<tr><td>9</td><td><strong>Nov 02</strong><br>Thu</td>
+<td markdown="block">
 * Tuples
 * Using a Different Text Editor
 * Downloading Modules
@@ -231,17 +253,18 @@ Additional Resources
 </td>
 
 <td></td><td markdown="block"></td>{% comment %}
-{% include schedule/08.markdown %}
+{% include schedule/09.markdown %}
 {% endcomment %}
  </tr>
 
-<!-- ------------ --><a name="09"></a>
-<tr><td>9</td><td><strong>Nov 02</strong><br>Thu</td>
+<!-- ------------ --><a name="10"></a>
+<tr><td>10</td><td><strong>Nov 09</strong><br>Thu</td>
 <td markdown="block">
-
 * File I/O
 * Retrieving Data from the Web
 * Text Processing with textblob
+
+
 </td>
 <td markdown="block">
 Think Python
@@ -255,16 +278,16 @@ Additional Resources
 </td>
 
 <td></td><td markdown="block"></td>{% comment %}
-{% include schedule/09.markdown %}
+{% include schedule/10.markdown %}
 {% endcomment %}
  </tr>
 
-<!-- ------------ --><a name="10"></a>
-<tr><td>10</td><td><strong>Nov 09</strong><br>Thu</td>
+<!-- ------------ --><a name="11"></a>
+<tr><td>11</td><td><strong>Nov 16</strong><br>Thu</td>
 <td markdown="block">
-
 * Object Oriented Programming
 * Inheritance
+
 
 </td>
 <td markdown="block">
@@ -278,24 +301,6 @@ Think Python
 CS for All
 
 * 6 - Fun and Games with OOPs
-</td>
-
-<td></td><td markdown="block"></td>{% comment %}
-{% include schedule/10.markdown %}
-{% endcomment %}
- </tr>
-
-<!-- ------------ --><a name="11"></a>
-<tr><td>11</td><td><strong>Nov 16</strong><br>Thu</td>
-<td markdown="block">
-
-* Functional Programming 
-
-</td>
-<td markdown="block">
-CS for All
-
-* 3 - Functional Programming, Part Deux
 
 </td>
 
@@ -307,14 +312,14 @@ CS for All
 <!-- ------------ --><a name="12"></a>
 <tr><td>12</td><td><strong>Nov 30</strong><br>Thu</td>
 <td markdown="block">
+* Functional Programming 
 
-* How Computers Work
 
 </td>
 <td markdown="block">
 CS for All
 
-* 4 - Computer Organization
+* 3 - Functional Programming, Part Deux
 </td>
 
 <td></td><td markdown="block"></td>{% comment %}
@@ -325,11 +330,14 @@ CS for All
 <!-- ------------ --><a name="13"></a>
 <tr><td>13</td><td><strong>Dec 07</strong><br>Thu</td>
 <td markdown="block">
+* How Computers Work
 
-* Applications - Topic 1 (Image Processing)
 
 </td>
 <td markdown="block">
+CS for All
+
+* 4 - Computer Organization
 </td>
 <td></td><td markdown="block"></td>{% comment %}
 {% include schedule/13.markdown %}
@@ -339,8 +347,7 @@ CS for All
 <!-- ------------ --><a name="14"></a>
 <tr><td>14</td><td><strong>Dec 14</strong><br>Thu</td>
 <td markdown="block">
-
-* Applications - Topic 2 (TBD)
+* Special Topic (Image Processing or Audio)
 
 </td>
 <td markdown="block">

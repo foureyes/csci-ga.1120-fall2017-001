@@ -3,6 +3,13 @@ layout: default
 nav-state: help
 ---
 
+## General Help
+
+* {{site.office_hours}}
+* Tutoring Hours (link to be added)
+* Piazza (link to be added)
+* [Lab Information](http://www.nyu.edu/life/information-technology/locations-and-facilities/student-technology-centers.html)
+
 ## Installing Packages / Modules
 
 Sometimes Python's built-in modules just aren't enough! Maybe you want to do some fancy plottin' with [matplotlib](http://matplotlib.org/) or you want to make an amazing web application with [Django](https://www.djangoproject.com/).

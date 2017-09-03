@@ -7,10 +7,14 @@ course_number: "CSCI-GA.1120"
 course_section: "001"
 course_name: "Introduction to Programming"
 course_semester: "Fall 2017"
+course_dept: DHSS
+course_dept_link: http://dhss.nyu.edu/
 course_time: "Thursdays, 4:55PM to 7:35PM"
 course_room: 60 Fifth Ave C10
 course_site: http://foureyes.github.io/csci-ga.1120-fall2017-001/
 course_site_alt: http://cs.nyu.edu/~jversoza
+course_aside: A Course in the Digital Humanities and Social Sciences Program at NYU
+course_aside_link: http://dhss.nyu.edu/
 
 # office hours
 office_hours: "<br>&nbsp;2:15pm - 3:15pm on Mondays at WWH<br>12:30pm - 1:30pm on Tuesdays at 5th ave (Lobby)<br>12:30pm - 1:30pm on Wednesdays at WWH"

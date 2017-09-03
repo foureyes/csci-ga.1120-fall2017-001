@@ -45,6 +45,11 @@ A platform will be provided for asking questions online as well as moderating di
     * we may begin with IDLE (which comes with Python)
     * and then move on to PyCharm or Spyder
 instructor’s or student’s choice
+
+OR...
+
+
+* [Use the Technology Labs](http://www.nyu.edu/life/information-technology/locations-and-facilities/student-technology-centers.html)
 </div>
     </div>
     <div class="panel panel-default">
@@ -66,7 +71,7 @@ Both books are available free online:
 <a name="description"></a>
 <div class="panel-heading">Course Description</div>
 <div class="panel-body" markdown="block">
-This course introduces students to the fundamentals of computer programming as students design, write, and debug computer programs using the programming language Python.
+This course introduces students to the fundamentals of computer programming as students design, write, and debug computer programs using the programming language Python. It is part of the [Program in Digital Humanities and Social Science](http://dhss.nyu.edu/) at the [Computer Science Department](http://cs.nyu.edu/home/index.html) at NYU.
 
 Students will learn how to design algorithms to solve problems and how to translate these algorithms into working computer programs. Students acquire skills and experience as they learn Python through programming assignments with an approach that integrates project-based learning. This course is an introduction to the fundamental concepts of programming for students who lack a formal background in the field. 
 
