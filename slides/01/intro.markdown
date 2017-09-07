@@ -62,7 +62,6 @@ For future classes:
 ##  The Course Site
 * The course site is available at [http://cs.nyu.edu/~jversoza/](http://cs.nyu.edu/~jversoza/) 
 	* Follow the link to the course page... 
-	* Or use the incredibly difficult url to remember, write, and even say: [{{ site.course_url }}]({{ site.course_url }})
 * Pro tip: click on the print link or add a question mark and print (?print) to the slides url to get the [one page version](intro.html?print) &rarr;
 * Also, the course site and slides were only tested on Chrome on OSX (so you may have to use Chrome to view the slides from home)
 

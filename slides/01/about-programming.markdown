@@ -114,7 +114,6 @@ Some more motivation...
 * I'm managing a bunch of nerdy programmers; we need to figure out how to talk to each other.
 * Technology is the art medium of the future; I'm going to be the next [Cory](http://www.coryarcangel.com/things-i-made/2002-001-super-mario-clouds) [Arcangel](http://en.wikipedia.org/wiki/Cory_Arcangel)!
 * I want to make [MineCraft](http://www.minecraft.net/), like [Notch](http://en.wikipedia.org/wiki/Notch_(game_designer)), or at least make [minecraft in minecraft](http://www.youtube.com/watch?v=GwHBaSySHmo) 
-* It's a prereq (meh).
 * __It's fun!__ (seriously, it is!)
 
 <details open markdown="block">
