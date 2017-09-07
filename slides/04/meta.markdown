@@ -1,34 +1,35 @@
 ---
 layout: slides
-title: "Class #4 Notes"
+title: About Class #4 
 ---
-<section markdown="block" class="intro-slide">
-# {{ page.title }}
-
-### {{ site.course_number}}-{{ site.course_section }}
-
-<p><small></small></p>
+<section markdown="block" class="title-slide">
+#  About Class #4
+{% include title-slide-footer.html %}
 </section>
 
-{% comment %}
-## Exceptions
+<section markdown="block">
+###  Today's Class...
+* functions continued
+* if statements
+* expressions vs statements
+* string formatting (optional)
+</section>
 
-* ruuuuntiiiiiime
-* what are some errors?
+<section markdown="block">
+###  Homework
 
-## Syntax
+* [homework is due tonight at 11PM!](../../schedule.html#homework1)
+* turn in homework via NYU Classes
+* make sure to write your code outside of the comments!
+* remember: work in the text editor, not the shell/console
+* (no need to save and submit your program's output)
+* to turn in your homework, you can:
+	* create new files
+	* use the original files, and add your code beneath the comments
+* also, [__next homework is posted!__](../../schedule.html#homework2)
+</section>
 
-* try, except
-* try, except ExceptionType
-* try, except (ExceptionType1, ExceptionType2)
-* try, except (ExceptionType1, ExceptionType2) as foo
-* exception hierarchy
 
-## encryption/decryption
-
-* rail encrypt
-* subs
-    * generate alpha
-    * generate key
-
-{% endcomment %}
+<section markdown="block">
+##  [Review: Variables, User Input](user-input.html)
+</section>

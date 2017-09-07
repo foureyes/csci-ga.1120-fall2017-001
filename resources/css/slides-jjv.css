@@ -1,3 +1,7 @@
+details {
+	display: none;
+}
+
 #slides {
   font-size: 3.7vh;
   text-align: center;
@@ -39,7 +43,17 @@ body {
 }
 
 strong {
+  color: #000; 
   background-color: #ff7;
+}
+body section aside {
+  font-weight: bold;
+  color: #050;
+  /* background-color: #e9e9e9; */
+  text-align: center;
+}
+body section aside:hover {
+  background-color: #e5e5e5;
 }
 
 h1 {

@@ -4,8 +4,6 @@ layout: default
 nav-state: assignments
 ---
 
-## Assignments
-
 
 {% comment %}
 * [Assignment #1](assignments/hw01.html)

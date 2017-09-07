@@ -37,22 +37,22 @@ nav-state: schedule
 <td markdown="block">
 Think Python
 
-* 1 - The Way of the Program
-* 2 - Variables, Expressions, and Statements
+* [1 - The Way of the Program](http://greenteapress.com/thinkpython2/html/thinkpython2002.html)
+* [2 - Variables, Expressions, and Statements](http://greenteapress.com/thinkpython2/html/thinkpython2003.html)
 
-Additional Resources
+Additional Resources 
+<br>(by people named Paul)
+<br>(about what programming is)
 
-* Input
-* Printing
-* Data Types
-* Commandline
-* IDLE
-* Objects
-* format function?
+* [What is Code](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) by Paul Ford
+* [Hackers and Painters](http://www.paulgraham.com/hp.html) by Paul Graham
+* From the Slides
+    * User Input and Output to the Screen
+    * Data Types
+    * IDLE
+    * format Function
 </td>
-<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/01.markdown %}
-{% endcomment %}
  </tr>
 
 
@@ -60,6 +60,8 @@ Additional Resources
 <tr><td>2</td><td><strong>Sep 14</strong><br>Thu</td>
 <td markdown="block">
 
+* Objects
+* Commandline
 * Built-In Modules (random, math, etc.)
 * Simple Functions
 * Objects and Methods
@@ -69,6 +71,7 @@ Additional Resources
 
 </td>
 <td markdown="block">
+
 
 Think Python
 

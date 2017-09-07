@@ -1,7 +1,28 @@
 	<td markdown="block">
 * [Introductions](slides/01/intro.html)
-* [Required Software](slides/01/required-software.html)
-* [Python Overview](slides/01/python-overview.html)
+* [About Programming](slides/01/about-programming.html)
+* [Hardware](slides/01/computers-storage.html)
+* [Programming Languages](slides/01/programming-languages.html)
+* [Tools](slides/01/tools.html)
+* [Installing Tools](slides/01/installing-tools.html)
+* [Reading and Writing Programs with IDLE](slides/01/reading-writing-programs.html)
+* [Programming Work Flow](slides/01/programming-workflow.html)
+* [Hello](slides/01/hello.html) 
+* [Values and Types](slides/01/values-and-types.html)
+* [Operations and Variables](slides/01/operations-and-variables.html)
+* [User Input](slides/01/user-input.html)
+* [Design, Input, Processing, and Output](slides/01/design-input-output.html)
+* Coding Exercise!
+* [Formatting Output (Print and Format)](slides/01/formatting.html)
+* [Idioms and Style](slides/01/idioms-style.html)
+* [Variables Continued](slides/01/variables.html)
+* [Errors and Degugging](slides/01/debugging.html)
+
+{% comment %}
+* [Review and Reading](slides/01/review-and-assignments.html)
+* [Review](slides/02/review.html)
+{% endcomment %}
+
 
 <!--
 * [First Java Program](slides/01/first-java.html)
@@ -28,5 +49,25 @@ From the Official Python Documentation
 
 {% comment %}
 * [Assignment #1](assignments/hw01.html)
+{% endcomment %}
+
+
+In-Class Workshop / Homework
+
+* [numbers.py](assignments/hw01/numbers.py) (together?)
+* [mad_libs_lyrics.py](assignments/hw01/mad_libs_lyrics.py)
+* [candy_bars.py](assignments/hw01/candy_bars.py)
+* [tree.py](assignments/hw01/tree.py)
+* [multiply.py](assignments/hw01/multiply.py) (together?)
+* [change_puhleese.py](assignments/hw01/change_puhleese.py)
+
+Extra Practice 
+
+* [grade_bot_3000.py](assignments/hw01/grade_bot_3000.py)
+* [foods.py](assignments/hw01/foods.py)
+* [exercises.py](assignments/hw01/exercises.py)
+
+{% comment %}
+* [numbers 2.py](assignments/hw01/numbers 2.py)
 {% endcomment %}
 </td>
