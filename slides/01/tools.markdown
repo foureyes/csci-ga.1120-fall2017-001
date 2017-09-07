@@ -60,7 +60,7 @@ QUESTION - does anyone use any of these sites?
 *  invented in 1991 by this bearded Dutch guy (Guido van Rossum):
 
 <div class="img-container" markdown="block">
-![Guido Van Rossum](../../resources/img/guido.jpg)
+![Guido Van Rossum, BDFL](../../resources/img/guido.jpg)
 </div>
 
 <details open markdown="block">
