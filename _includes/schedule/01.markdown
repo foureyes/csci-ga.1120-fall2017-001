@@ -53,6 +53,7 @@ From the Official Python Documentation
 
 
 In-Class Workshop / Homework
+<br>Due __Wed, Sep 6th, 11pm__
 
 * [numbers.py](assignments/hw01/numbers.py) (together?)
 * [mad_libs_lyrics.py](assignments/hw01/mad_libs_lyrics.py)
