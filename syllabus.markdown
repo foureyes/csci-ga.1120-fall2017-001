@@ -103,10 +103,9 @@ No prerequisite
     * working with images and basic image analysis
     * creating and manipulating sound 
 * All projects should be turned in __electronically__ via __NYU Classes__
-* Projects will usually be __due one week after posting__
-* Project submission will stay open up to 24 hours after the due date in NYU classes
-* After the 24 hour grace period, projects cannot be submitted
-* A consistent pattern of projects submitted during the grace period will result in a penalty
+* Projects will usually be __due the evening before class (about 6 days after posting)__
+* NYU Classes will stay open up until the start of the following class for late submissions with penalty
+* After the grace period, projects cannot be submitted
 * You must __write your own code__ 
     * (don't copy other students' work, solutions found online, etc.)
     * Do not distribute your code
