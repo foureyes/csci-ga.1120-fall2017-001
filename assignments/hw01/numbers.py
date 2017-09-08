@@ -1,5 +1,5 @@
 """
-numbers.py (5 points)
+numbers.py
 =====
 Write a program that outputs the number in the thousands, hundreds, tens and 
 ones places of a number. 

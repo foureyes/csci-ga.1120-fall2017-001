@@ -1,5 +1,5 @@
 """
-mad_libs_lyrics.py (3 points)
+mad_libs_lyrics.py
 =====
 * find lyrics to one of your favorite songs - about 4 or 5 lines worth of 
   lyrics

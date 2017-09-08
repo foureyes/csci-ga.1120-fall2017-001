@@ -45,16 +45,38 @@ From the Official Python Documentation
 * [Assignment #1](assignments/hw01.html)
 {% endcomment %}
 
+<a name="homework1" id="homework1"></a>
 
-In-Class Workshop / Homework
-<br>Due __Wed, Sep 13th, 11pm__
+Homework Due __Wed, Sep 13th, 11pm__
 
-Draft! (Final Version to be Posted Sep 7th, 11pm)
+Submit via NYU Classes
 
-* [numbers.py](assignments/hw01/numbers.py) 
-* [mad_libs_lyrics.py](assignments/hw01/mad_libs_lyrics.py)
-* [candy_bars.py](assignments/hw01/candy_bars.py)
-* [tree.py](assignments/hw01/tree.py)
+* download each file below
+* do not rename files
+* do not zip
+* upload individual files
+* ...to NYU classes
 
+1. [mad_libs_lyrics.py](assignments/hw01/mad_libs_lyrics.py)
+2. [exercises.py](assignments/hw01/exercises.py)
+3. [tree.py](assignments/hw01/tree.py)
+4. [candy_bars.py](assignments/hw01/candy_bars.py)
+5. [numbers.py](assignments/hw01/numbers.py) 
+
+
+<pre>       /\
+      /  \
+      /  \
+     /____\
+       ||
+
+   /\
+   ""
+  /""\ 
+  """"
+ /""""\
+ """""" 
+   ||
+</pre>
 
 </td>

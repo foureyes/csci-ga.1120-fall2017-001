@@ -20,4 +20,10 @@ Due Thursday, Feb 4th
 * [Assignment #1](assignments/hw01.html) 
 * The first quiz is postponed; will be posted next week instead
 
+* [multiply.py](assignments/hw01/multiply.py) (together?)
+* [change_puhleese.py](assignments/hw01/change_puhleese.py)
+* [grade_bot_3000.py](assignments/hw01/grade_bot_3000.py)
+* [foods.py](assignments/hw01/foods.py)
+* [exercises.py](assignments/hw01/exercises.py)
+
 </td>

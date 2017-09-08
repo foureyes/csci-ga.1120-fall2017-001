@@ -1,5 +1,5 @@
 """
-exercises.py (3 points)
+exercises.py 
 =====
 * these three exercises are from the end of Chapter 2 in "How to Think Like a 
   Computer Scientist"

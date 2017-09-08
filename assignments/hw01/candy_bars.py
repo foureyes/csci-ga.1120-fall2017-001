@@ -1,5 +1,5 @@
 """
-candy_bars.py (6 points)
+candy_bars.py
 =====
 
 To make a little bit of money on the side, you decide to buy candy bars in
