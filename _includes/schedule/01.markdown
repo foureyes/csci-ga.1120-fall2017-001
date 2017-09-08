@@ -52,10 +52,10 @@ Homework Due __Wed, Sep 13th, 11pm__
 Submit via NYU Classes
 
 * download each file below
-* do not rename files
-* do not zip
+* instructions are in each file!
 * upload individual files
 * ...to NYU classes
+* (don't rename or zip files)
 
 1. [mad_libs_lyrics.py](assignments/hw01/mad_libs_lyrics.py)
 2. [exercises.py](assignments/hw01/exercises.py)
