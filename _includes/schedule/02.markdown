@@ -1,4 +1,11 @@
 	<td markdown="block">
+* [Design, Input, Processing, and Output](slides/01/design-input-output.html)
+* Coding Exercise!
+* [Formatting Output (Print and Format)](slides/01/formatting.html)
+* [Idioms and Style](slides/01/idioms-style.html)
+* [Variables Continued](slides/01/variables.html)
+* [Errors and Degugging](slides/01/debugging.html)
+
 * [Functions](slides/02/functions.html)
 * [format Method](slides/02/format-method.html)
 * [Modules](slides/02/modules.html)

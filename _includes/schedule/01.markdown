@@ -11,12 +11,6 @@
 * [Values and Types](slides/01/values-and-types.html)
 * [Operations and Variables](slides/01/operations-and-variables.html)
 * [User Input](slides/01/user-input.html)
-* [Design, Input, Processing, and Output](slides/01/design-input-output.html)
-* Coding Exercise!
-* [Formatting Output (Print and Format)](slides/01/formatting.html)
-* [Idioms and Style](slides/01/idioms-style.html)
-* [Variables Continued](slides/01/variables.html)
-* [Errors and Degugging](slides/01/debugging.html)
 
 {% comment %}
 * [Review and Reading](slides/01/review-and-assignments.html)
@@ -55,20 +49,12 @@ From the Official Python Documentation
 In-Class Workshop / Homework
 <br>Due __Wed, Sep 13th, 11pm__
 
-* [numbers.py](assignments/hw01/numbers.py) (together?)
+Draft! (Final Version to be Posted Sep 7th, 11pm)
+
+* [numbers.py](assignments/hw01/numbers.py) 
 * [mad_libs_lyrics.py](assignments/hw01/mad_libs_lyrics.py)
 * [candy_bars.py](assignments/hw01/candy_bars.py)
 * [tree.py](assignments/hw01/tree.py)
-* [multiply.py](assignments/hw01/multiply.py) (together?)
-* [change_puhleese.py](assignments/hw01/change_puhleese.py)
 
-Extra Practice 
 
-* [grade_bot_3000.py](assignments/hw01/grade_bot_3000.py)
-* [foods.py](assignments/hw01/foods.py)
-* [exercises.py](assignments/hw01/exercises.py)
-
-{% comment %}
-* [numbers 2.py](assignments/hw01/numbers 2.py)
-{% endcomment %}
 </td>
