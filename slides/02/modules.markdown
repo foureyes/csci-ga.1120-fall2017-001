@@ -228,9 +228,9 @@ __What do you think happens if your forget to import the file?   &rarr;__
 <div class="fragment" markdown="block"> 
 
 <pre><code data-trim contenteditable>
->>> math.sqrt(4)
+&gt;&gt;&gt; math.sqrt(4)
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
 NameError: name 'math' is not defined
 </code></pre>
 </div>
@@ -243,12 +243,12 @@ __What if you don't use the module name as the prefix before calling your functi
 
 <div class="fragment" markdown="block"> 
 <pre><code data-trim contenteditable>
->>> import math
->>> sqrt(4)
+&gt;&gt;&gt; import math
+&gt;&gt;&gt; sqrt(4)
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
 NameError: name 'sqrt' is not defined
->>> 
+&gt;&gt;&gt; 
 </code></pre>
 </div>
 </section>
@@ -370,9 +370,9 @@ To find help on these modules:
 		* help()
 
 <pre><code data-trim contenteditable>
->>> import math
->>> help(math)
->>> dir(math)
+&gt;&gt;&gt; import math
+&gt;&gt;&gt; help(math)
+&gt;&gt;&gt; dir(math)
 </code></pre>
 </section>
 

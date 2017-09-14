@@ -139,7 +139,3 @@ print("Hello %s" % (name))
 	* not enough arguments (more placeholders than values) &rarr;
 	* not all arguments converted (more values than placeholders) &rarr;
 </section>
-
-<section markdown="block">
-##  [Built-In Modules In Depth!](modules.html)
-</section>
