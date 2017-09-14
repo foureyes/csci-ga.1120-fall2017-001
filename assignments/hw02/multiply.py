@@ -1,5 +1,5 @@
 """
-multiply.py (3 points)
+multiply.py 
 =====
 Write a program that:
 

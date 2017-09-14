@@ -1,29 +1,54 @@
 	<td markdown="block">
-* [Design, Input, Processing, and Output](slides/01/design-input-output.html)
-* Coding Exercise!
-* [Formatting Output (Print and Format)](slides/01/formatting.html)
-* [Idioms and Style](slides/01/idioms-style.html)
-* [Variables Continued](slides/01/variables.html)
-* [Errors and Degugging](slides/01/debugging.html)
 
+
+* [Design, Input, Processing, and Output](slides/02/design-input-output.html) (Optional)
+* [Formatting Output (Print and Format)](slides/02/formatting.html)
+* [Idioms and Style](slides/02/idioms-style.html)
+* [Variables Continued](slides/02/variables.html)
+* [Errors and Degugging](slides/02/debugging.html)
+* Coding Exercise - itemized receipt!
+* [Conditionals](slides/02/review-conditionals.html)
+* [Boolean Logic](slides/02/boolean-logic.html)
+* [Types, Operators, Precedence](slides/02/types-operators-precedence.html)
+* [If Statements - Advanced](slides/02/if-statements-advanced.html)
+* [Built-In Modules](slides/02/modules.html)
+* [String Formatting with %](slides/02/string-formatting.html)
+* Maybe Turtle / Objects
+* Start Homework
+
+{% comment %}
 * [Functions](slides/02/functions.html)
 * [format Method](slides/02/format-method.html)
 * [Modules](slides/02/modules.html)
-* [turtle](slides/02/turtle.html)
+* [turtle](slides/02/turtle.html) (optional)
     * [collision detection example](resources/code/intersects.py)
     * [keyboard input example](resources/code/keys.py)
+
+{% endcomment %}
 </td>
 	<td markdown="block">
 
-Due Thursday, Feb 4th
+Homework Due __Wed, Sep 20th, 11pm__
 
-* [Assignment #1](assignments/hw01.html) 
-* The first quiz is postponed; will be posted next week instead
+Submit via NYU Classes
 
-* [multiply.py](assignments/hw01/multiply.py) (together?)
-* [change_puhleese.py](assignments/hw01/change_puhleese.py)
+* download each file below
+* instructions are in each file!
+* upload individual files
+* ...to NYU classes
+* (don't rename or zip files)
+
+* [multiply.py](assignments/hw02/multiply.py) 
+* [grade.py](assignments/hw02/grade.py) 
+* [adventure.py](assignments/hw02/adventure.py) 
+* [your_fancy_face.py](assignments/hw02/your_fancy_face.py) 
+
+{% comment %}
+Additional Practice (Optional)
+* [change_puhleese.py](assignments/hw02/change_puhleese.py) 
 * [grade_bot_3000.py](assignments/hw01/grade_bot_3000.py)
 * [foods.py](assignments/hw01/foods.py)
 * [exercises.py](assignments/hw01/exercises.py)
+{% endcomment %}
 
 </td>

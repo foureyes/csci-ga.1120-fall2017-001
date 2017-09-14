@@ -60,34 +60,24 @@ Additional Resources
 <tr><td>2</td><td><strong>Sep 14</strong><br>Thu</td>
 <td markdown="block">
 
-* Objects
-* Commandline
+* Conditionals
+* Boolean Logic
 * Built-In Modules (random, math, etc.)
-* Simple Functions
-* Objects and Methods
-* Turtle
-* Functions as Objects
-* Event Based Programming
+* Maybe...
+    * Objects 
+    * Objects and Methods
+    * Turtle
 
 </td>
 <td markdown="block">
 
-
 Think Python
 
-* 3 - Functions
-* 4 - Case study: Interface Design (Turtle)
+* 5 - Conditionals (ignore Recursion)
 
-Additional Resources
 
-* Event Based Programming
-* Objects and Methods
-* Graphical Input
-* Modules
 </td>
-<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/02.markdown %}
-{% endcomment %}
  </tr>
 
 
@@ -95,18 +85,30 @@ Additional Resources
 <tr><td>3</td><td><strong>Sep 21</strong><br>Thu</td>
 <td markdown="block">
 
-* Conditionals
-* Boolean Logic
+* Commandline
+* Simple Functions
+* Functions as Objects
+* Event Based Programming
 * Returning Values
 * Recursion
+
+
  
 </td>
 <td markdown="block">
 
 Think Python
 
-* 5 - Conditionals and Recursion
+* 3 - Functions
+* 4 - Case study: Interface Design (Turtle)
 * 6 - Fruitful Functions
+
+Additional Resources
+
+* Event Based Programming
+* Objects and Methods
+* Graphical Input
+* Modules
 
 </td>
 <td></td><td markdown="block"></td>{% comment %}

@@ -1,12 +1,14 @@
 ---
-* Tutoring
 layout: slides
 title: Boolean Logic 
 ---
 
-<section markdown="block" class="title-slide">
-#  Boolean Logic
-{% include title-slide-footer.html %}
+<section markdown="block" class="intro-slide">
+# {{ page.title }}
+
+### {{ site.course_number}}-{{ site.course_section }}
+
+<p><small></small></p>
 </section>
 
 <section markdown="block">
@@ -14,7 +16,7 @@ title: Boolean Logic
 </section>
 
 <section markdown="block">
-###  For Context - What's this Boolean Stuff About?
+##  For Context - What's this Boolean Stuff About?
 <aside>It's This Guy...</aside>
 
 <div class="img-container" markdown="block">
@@ -23,7 +25,7 @@ title: Boolean Logic
 </section>
 
 <section markdown="block">
-###  George Boole
+##  George Boole
 
 <aside markdown='block'>
 The _Father_ of Computer Science!  SCIENCE!
@@ -35,7 +37,7 @@ The _Father_ of Computer Science!  SCIENCE!
 </section>
 
 <section markdown="block">
-###  In Python...
+##  In Python...
 As we talked about in the review, Python has a __bool__ type to represent Boolean values
 
 * True or False
@@ -49,12 +51,12 @@ As we talked about in the review, Python has a __bool__ type to represent Boolea
 </section>
 
 <section markdown="block">
-###  Comparison Operators
+##  Comparison Operators
 __Can you guess what some of the comparison operators are?  Like I said, you already know one!__ 
 
 There are six comparison operators:
 
-<div class="incremental" markdown="block"> 
+<div class="fragment" markdown="block"> 
 * __==__ - equals (can be called logical equivalence or equality operator)
 * __!=__ - not equal
 * __>__ - greater than
@@ -65,7 +67,7 @@ There are six comparison operators:
 </section>
 
 <section markdown="block">
-###  Comparison Operators Continued
+##  Comparison Operators Continued
 * again - these operators always return a bool
 * these operators do what you would expect 
 	* __==__ - returns True if both sides are equal &rarr;
@@ -75,25 +77,25 @@ There are six comparison operators:
 </section>
 
 <section markdown="block">
-###  Comparison Operators Have Feelings Too
+##  Comparison Operators Have Feelings Too
 <aside>Just as Sensitive to Type Mismatches as Numeric or String Operators.  Well... At Least Some Are</aside>
 
 __What do you think will happen if we compare 8 >= "four"?__ &rarr;
 
-<div class="incremental" markdown="block"> 
+<div class="fragment" markdown="block"> 
 
-{% highlight pycon %}
->>> 8 >= "four"
+<pre><code data-trim contenteditable>
+&gt;&gt;&gt; 8 &gt;= "four"
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: unorderable types: int() >= str()
-{% endhighlight %}
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+TypeError: unorderable types: int() &gt;= str()
+</code></pre>
 </div>
 
 </section>
 
 <section markdown="block">
-###  Comparison Operators and Different Types
+##  Comparison Operators and Different Types
 * objects of different types, except different numeric types, are never equal
 	* equals (__==__) will always return False for different types &rarr;
 	* not equals (__!=__) will always return True for different types &rarr;
@@ -107,7 +109,7 @@ TypeError: unorderable types: int() >= str()
 </section>
 
 <section markdown="block">
-###  What are Logical Operators?
+##  What are Logical Operators?
 
 __Logical Operators are operators that combine Boolean values.__  
 
@@ -116,7 +118,7 @@ __Logical Operators are operators that combine Boolean values.__
 </section>
 
 <section markdown="block">
-###   Three Logical Operators:
+##   Three Logical Operators:
 1. __and__ - 
 	* takes two operands, one on each side 
 	* to return True, both sides of the operator must be True &rarr;
@@ -130,26 +132,26 @@ __Logical Operators are operators that combine Boolean values.__
 </section>
 
 <section markdown="block">
-###   Logical Operators _in Action_
+##   Logical Operators _in Action_
 
 Note that these are all expressions that result in a value that's of type __bool__:
 
-{% highlight pycon %}
->>> True and False
+<pre><code data-trim contenteditable>
+&gt;&gt;&gt; True and False
 False
->>> True and True
+&gt;&gt;&gt; True and True
 True
->>> True or False
+&gt;&gt;&gt; True or False
 True
->>> not True
+&gt;&gt;&gt; not True
 False
->>> not not True
+&gt;&gt;&gt; not not True
 True
-{% endhighlight %}
+</code></pre>
 </section>
 
 <section markdown="block">
-###  That Can Get Complicated!
+##  That Can Get Complicated!
 
 <aside>Is There a Way to Show All Operands and Results?</aside>
 
@@ -163,14 +165,14 @@ __Yes__.  We'll use __truth tables__ to show what each operator will return.
 </section>
 
 <section markdown="block">
-###  Truth Table - AND
+##  Truth Table - AND
 
 __and__ takes two operands.  Each operand can be True or False (or will evaluate to True or False!).  
 
 __Can you guess how many possible combinations there are for these two operands?__  __What will the Truth Table look like?__ &rarr;
 
-<div class="incremental" markdown="block"> 
-{% highlight python %}
+<div class="fragment" markdown="block"> 
+<pre><code data-trim contenteditable>
 """
 (using p and q to represent the operands
 ...and t and f for true and false)
@@ -181,17 +183,17 @@ __Can you guess how many possible combinations there are for these two operands?
  t | f | f
  t | t | t
 """
-{% endhighlight %}
+</code></pre>
 </div>
 </section>
 
 <section markdown="block">
-###  Truth Table - OR
+##  Truth Table - OR
 
 Let's fill out a truth table for __or__! &rarr;
 
-<div class="incremental" markdown="block"> 
-{% highlight python %}
+<div class="fragment" markdown="block"> 
+<pre><code data-trim contenteditable>
 """
 (using p and q to represent the operands
 ...and t and f for true and false)
@@ -202,17 +204,17 @@ Let's fill out a truth table for __or__! &rarr;
  t | f | t
  t | t | t
 """
-{% endhighlight %}
+</code></pre>
 </div>
 </section>
 
 <section markdown="block">
-###  Truth Table - NOT
+##  Truth Table - NOT
 
 Let's fill out a truth table for __not__! &rarr;
 
-<div class="incremental" markdown="block"> 
-{% highlight python %}
+<div class="fragment" markdown="block"> 
+<pre><code data-trim contenteditable>
 """
 (using p and q to represent the operands
 ...and t and f for true and false)
@@ -221,12 +223,12 @@ Let's fill out a truth table for __not__! &rarr;
  t | f 
  f | t 
 """
-{% endhighlight %}
+</code></pre>
 </div>
 </section>
 
 <section markdown="block">
-###  Let's Evaluate Some Simple Boolean Expressions
+##  Let's Evaluate Some Simple Boolean Expressions
 
 * True and False &rarr;
 * True and not False &rarr;
@@ -238,26 +240,26 @@ Let's fill out a truth table for __not__! &rarr;
 </section>
 
 <section markdown="block">
-###  Chaining Operators
+##  Chaining Operators
 
 Boolean, comparison and other operators can be combined to create complex Boolean expressions!  For example:
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 100 > 1 and -10 ** 2 <= -100 or "foo" == "foo" + "bar"
-{% endhighlight %}
+</code></pre>
 
 * what order will the operations be evaluated in?
 * there is an overall order of operations that exists; [a summary can be found in the official Python 3 documentation](http://docs.python.org/3/reference/expressions.html#operator-precedence)
 * __what does the expression above evaluate to?__ &rarr;
 
-<div class="incremental" markdown="block">
+<div class="fragment" markdown="block">
 True
 </div>
 </section>
 
 
 <section markdown="block">
-###  Order of Operations / Operator Precedence
+##  Order of Operations / Operator Precedence
 The previous summary, but even more _summar-ied_
 
 * parentheses are evaluated first (obv)
@@ -269,79 +271,93 @@ The previous summary, but even more _summar-ied_
 </section>
 
 <section markdown="block">
-###  A Quick Note About Boolean Operators and Style
+##  A Quick Note About Boolean Operators and Style
 <aside>Because This is Crazy...</aside>
-{% highlight python %}
+<pre><code data-trim contenteditable>
 True and True or False and True and 10 * 10 + 10 == 110 and not False
-{% endhighlight %}
+</code></pre>
 * it's usually a good idea to use parentheses, at the very least, for readability 
 * ...unless you're chaining the same operator (for example True and True and True)
 </section>
 
 <section markdown="block">
-###  An Exercise
+##  An Exercise
 
 __Evaluate the following boolean expression.__ &rarr;
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 not (8 != 8) or not True  
-{% endhighlight %}
-<div class="incremental" markdown="block">
-{% highlight python %}
+</code></pre>
+
+<pre><code data-trim contenteditable>
 not False or not True  
-{% endhighlight %}
-{% highlight python %}
+</code></pre>
+{:.fragment}
+
+<pre><code data-trim contenteditable>
 True or False
-{% endhighlight %}
-{% highlight python %}
+</code></pre>
+{:.fragment}
+
+<pre><code data-trim contenteditable>
 True
-{% endhighlight %}
-</div>
+</code></pre>
+{:.fragment}
 </section>
 
 <section markdown="block">
-###  Another One
+##  Another One
 
 __Evaluate the following boolean expression.__ &rarr;
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 "hello" == "world" or 5 + 5 > 8 and 4 * 3 < 16 and 28 != 0
-{% endhighlight %}
-<div class="incremental" markdown="block">
-{% highlight python %}
+</code></pre>
+
+<pre><code data-trim contenteditable>
 "hello" == "world" or 10 > 8 and 12 < 16 and 28 != 0
-{% endhighlight %}
-{% highlight python %}
+</code></pre>
+{:.fragment}
+
+<pre><code data-trim contenteditable>
 False or True and True and True
-{% endhighlight %}
-{% highlight python %}
+</code></pre>
+{:.fragment}
+
+<pre><code data-trim contenteditable>
 True
-{% endhighlight %}
-</div>
+</code></pre>
+{:.fragment}
+
 </section>
 
 <section markdown="block">
-###  One More Please?
+##  One More Please?
 
 __Evaluate the following boolean expression.__ &rarr;
-{% highlight python %}
+
+<pre><code data-trim contenteditable>
 ((True or False) and not True) and not (False and False)
-{% endhighlight %}
-<div class="incremental" markdown="block">
-{% highlight python %}
+</code></pre>
+
+<pre><code data-trim contenteditable>
 (True and not True) and not (False and False)
-{% endhighlight %}
-{% highlight python %}
+</code></pre>
+{:.fragment}
+
+<pre><code data-trim contenteditable>
 False and True
-{% endhighlight %}
-{% highlight python %}
+</code></pre>
+{:.fragment}
+
+<pre><code data-trim contenteditable>
 False
-{% endhighlight %}
-</div>
+</code></pre>
+{:.fragment}
 </section>
 
 <section markdown="block">
-###  Short Circuit Evaluation
+##  Short Circuit Evaluation
 * if left hand side of boolean decides the outcome, no need to deal with the remainder of expression
 	* saves some processin' time!
 	* for example: `(false and (true and true and true or false))`
@@ -353,17 +369,17 @@ False
 </section>
 
 <section markdown="block">
-###  Short Circuit Evaluation Continued
+##  Short Circuit Evaluation Continued
 __Can you think of some comparison or logical operators where short circuit evaluation wouldn't make sense?__
 
-<div class="incremental" markdown="block"> 
+<div class="fragment" markdown="block"> 
 * obv __not__ - nothing to short circuit!
 * == equivalence operations - both sides must be evaluated to test equality
 </div>
 </section>
 
 <section markdown="block">
-###  Review
+##  Review
 * comparison operators
 	* ==, !=, >, <, >=, <=
 	* comparing different types
@@ -373,6 +389,3 @@ __Can you think of some comparison or logical operators where short circuit eval
 * operator precedence
 </section>
 
-<section markdown="block">
-##  [If We Feel Like Continuing](if-statements.html)
-</section>
