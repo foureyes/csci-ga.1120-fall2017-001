@@ -316,7 +316,7 @@ hello
 
 
 <section markdown="block">
-##  Um... So Where Are All of Those Other Modules?
+##  Where Are All of Those Other Modules?
 <aside markdown="block">
 They're Definitely _Not_ in the Current Directory
 </aside>
