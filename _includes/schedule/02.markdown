@@ -19,8 +19,8 @@ Slides
 
 Class Notes
 
-* [format, variables, etc. notes](slides/02/class02_notes.py)
-* [if statements notes](slides/02/class02_if_notes.py)
+* [format, variables, etc. notes](resources/code/class02_notes.py)
+* [if statements notes](resources/code/class02_if_notes.py)
 * [modules notes](resources/code/class02_modules_notes.py)
 
 {% comment %}
