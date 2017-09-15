@@ -17,6 +17,7 @@ Slides
 * Maybe Turtle / Objects
 * Start Homework
 
+<a name="class02-notes"></a>
 Class Notes
 
 * [format, variables, etc. notes](resources/code/class02_notes.py)
