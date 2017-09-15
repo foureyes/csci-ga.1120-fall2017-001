@@ -1,5 +1,6 @@
 	<td markdown="block">
 
+Slides
 
 * [Design, Input, Processing, and Output](slides/02/design-input-output.html) (Optional)
 * [Formatting Output (Print and Format)](slides/02/formatting.html)
@@ -15,6 +16,12 @@
 * [String Formatting with %](slides/02/string-formatting.html)
 * Maybe Turtle / Objects
 * Start Homework
+
+Class Notes
+
+* [format, variables, etc. notes](slides/02/class02_notes.py)
+* [if statements notes](slides/02/class02_if_notes.py)
+* [modules notes](resources/code/class02_modules_notes.py)
 
 {% comment %}
 * [Functions](slides/02/functions.html)
