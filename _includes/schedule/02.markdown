@@ -28,6 +28,8 @@
 </td>
 	<td markdown="block">
 
+<a name="homework2" id="homework2"></a>
+
 Homework Due __Wed, Sep 20th, 11pm__
 
 Submit via NYU Classes
@@ -41,9 +43,9 @@ Submit via NYU Classes
 * [multiply.py](assignments/hw02/multiply.py) 
 * [grade.py](assignments/hw02/grade.py) 
 * [adventure.py](assignments/hw02/adventure.py) 
-* [your_fancy_face.py](assignments/hw02/your_fancy_face.py) 
 
 {% comment %}
+* [your_fancy_face.py](assignments/hw02/your_fancy_face.py) 
 Additional Practice (Optional)
 * [change_puhleese.py](assignments/hw02/change_puhleese.py) 
 * [grade_bot_3000.py](assignments/hw01/grade_bot_3000.py)
