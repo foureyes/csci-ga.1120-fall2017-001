@@ -1,5 +1,7 @@
 	<td markdown="block">
 
+<a name="class02-notes"></a>
+
 Slides
 
 * [Design, Input, Processing, and Output](slides/02/design-input-output.html) (Optional)
@@ -17,7 +19,6 @@ Slides
 * Maybe Turtle / Objects
 * Start Homework
 
-<a name="class02-notes"></a>
 Class Notes
 
 * [format, variables, etc. notes](resources/code/class02_notes.py)
