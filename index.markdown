@@ -73,7 +73,7 @@ Additional Resources
 
 Think Python
 
-* 5 - Conditionals (ignore Recursion)
+* 5 - [Conditionals](http://greenteapress.com/thinkpython2/html/thinkpython2006.html) (only go up through 5.7, ignore Recursion and everything after)
 
 
 </td>
@@ -99,9 +99,10 @@ Think Python
 
 Think Python
 
-* 3 - Functions
-* 4 - Case study: Interface Design (Turtle)
-* 6 - Fruitful Functions
+* 3 - [Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
+* 4 - [Case study: Interface Design (Turtle)](http://greenteapress.com/thinkpython2/html/thinkpython2005.html)
+* 6 - [Fruitful Functions](http://greenteapress.com/thinkpython2/html/thinkpython2007.html)
+* 5 - [Conditionals (Starting with Recursion)](http://greenteapress.com/thinkpython2/html/thinkpython2006.html#sec62) (Maybe!)
 
 Additional Resources
 

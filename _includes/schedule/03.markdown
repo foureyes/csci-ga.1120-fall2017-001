@@ -3,7 +3,7 @@
 * [Functions](slides/03/functions.html)
 * [Functions and Return Values](slides/03/functions-return.html)
 * [Turtle](slides/03/turtle.html)
-* [Turtle](slides/03/recursion.html)
+* [Recursion](slides/03/recursion.html) (Maybe!)
 
 {% comment %}
 * [About Class #03 / Homework Discussion](slides/03/meta.html)
