@@ -1,8 +1,16 @@
 	<td markdown="block">
+
+* [Functions](slides/03/functions.html)
+* [Functions and Return Values](slides/03/functions-return.html)
+* [Turtle](slides/03/turtle.html)
+* [Turtle](slides/03/recursion.html)
+
+{% comment %}
 * [About Class #03 / Homework Discussion](slides/03/meta.html)
 * [Style](slides/03/style.html)
 * [Approximating Pi, math module, Flow of control](slides/03/pi.html)
 * [Modules, matplotlib](slides/03/modules.html)
+{% endcomment %}
 
 
 {% comment %}

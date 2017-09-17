@@ -111,9 +111,7 @@ Additional Resources
 * Modules
 
 </td>
-<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/03.markdown %}
-{% endcomment %}
  </tr>
 
 
@@ -136,9 +134,7 @@ CS for All
 
 
 </td>
-<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/04.markdown %}
-{% endcomment %}
  </tr>
 
 
