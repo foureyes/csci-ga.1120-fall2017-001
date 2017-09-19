@@ -6,6 +6,8 @@ nav-state: schedule
 ....
 </script>
 <!-- It is part of the [Program in Digital Humanities and Social Science](http://dhss.nyu.edu/) at the [Computer Science Department](http://cs.nyu.edu/home/index.html) at NYU -->
+
+<span style="background-color:#ffff00">Tutoring: Mondays and Wednesdays from 4:30pm - 6:30pm at WWH 412</span>
 <table class="table table-striped table-hover">
 <thead>
 <tr>

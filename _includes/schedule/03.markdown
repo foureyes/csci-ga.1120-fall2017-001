@@ -2,8 +2,12 @@
 
 * [Functions](slides/03/functions.html)
 * [Functions and Return Values](slides/03/functions-return.html)
+* Stack Frames
+* Simple Count Based Repetition
 * [Turtle](slides/03/turtle.html)
+    * Ignore Lists
 * [Recursion](slides/03/recursion.html) (Maybe!)
+
 
 {% comment %}
 * [About Class #03 / Homework Discussion](slides/03/meta.html)
