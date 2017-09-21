@@ -1,13 +1,10 @@
 	<td markdown="block">
 
-* [Functions](slides/03/functions.html)
-* [Functions and Return Values](slides/03/functions-return.html)
-* Stack Frames
-* Simple Count Based Repetition
-* [Turtle](slides/03/turtle.html)
-    * Ignore Lists
-* [Recursion](slides/03/recursion.html) (Maybe!)
-
+* [While Loops](slides/03/while.html)
+* [For Loops](slides/03/for.html)
+* [While vs For](slides/03/vs.html)
+* [Loop Exercises](slides/03/loop-exercises.html)
+* [Nested Loops](slides/03/nested.html)
 
 {% comment %}
 * [About Class #03 / Homework Discussion](slides/03/meta.html)
@@ -83,7 +80,20 @@ From {{ site.book1 }}
 </td>
 {% endcomment %}
 	<td markdown="block">
-<!--
-* [](assignments/.html)
--->
+Homework Due __Wed, Sep 20th, 11pm__
+
+Submit via NYU Classes
+
+* download each file below
+* instructions are in each file!
+* upload individual files
+* ...to NYU classes
+* (don't rename or zip files)
+
+* (together) [counting.py](assignments/hw03/counting.py) 
+* (together) [many_words.py](assignments/hw03/many_words.py) 
+* (start together?) [sticky.py](assignments/hw03/sticky.py) 
+* [flagged.py](assignments/hw03/flagged.py) 
+* (maybe) [average_word.py](assignments/hw03/average_word.py) 
+
 </td>

@@ -1,5 +1,12 @@
 	<td markdown="block">
-* [While Loops](slides/04/while.html)
+* [Functions](slides/03/functions.html)
+* [Functions and Return Values](slides/03/functions-return.html)
+* Stack Frames
+* Simple Count Based Repetition
+* [Turtle](slides/03/turtle.html)
+    * Ignore Lists
+* [Recursion](slides/03/recursion.html) (Maybe!)
+
 
 {% comment %}
 * [Exception Handling](slides/04/exceptions.html)

@@ -31,6 +31,8 @@ print(n)
 n = n + delta
 print(n)
 </code></pre>
+{:.fragment}
+
 </section>
 
 <section markdown="block">
@@ -49,6 +51,7 @@ while n <= end:
 	print(n)
 	n = n + delta
 </code></pre>
+{:.fragment}
 </section>
 
 <section markdown="block">
@@ -78,8 +81,8 @@ Using a __while__ loop allows us to:
 A template:
 
 <pre><code data-trim contenteditable>
-# while <some sort of condition>:
-#	<do stuff here>
+# while &lt;some sort of condition&gt;:
+#	&lt;do stuff here&gt;
 </code></pre>
 
 Some _real_ code:

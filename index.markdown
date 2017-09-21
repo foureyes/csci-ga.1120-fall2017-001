@@ -87,6 +87,32 @@ Think Python
 <tr><td>3</td><td><strong>Sep 21</strong><br>Thu</td>
 <td markdown="block">
 
+
+* While Loops
+* For Loops
+
+
+ 
+</td>
+<td markdown="block">
+
+Think Python
+
+* 7 - Iteration
+
+CS for All
+
+* Imperative Programming
+
+</td>
+{% include schedule/03.markdown %}
+ </tr>
+
+
+<!-- ------------ --><a name="04"></a>
+<tr><td>4</td><td><strong>Sep 28</strong><br>Thu</td>
+<td markdown="block">
+
 * Commandline
 * Simple Functions
 * Functions as Objects
@@ -94,8 +120,6 @@ Think Python
 * Returning Values
 * Recursion
 
-
- 
 </td>
 <td markdown="block">
 
@@ -113,27 +137,6 @@ Additional Resources
 * Graphical Input
 * Modules
 
-</td>
-{% include schedule/03.markdown %}
- </tr>
-
-
-<!-- ------------ --><a name="04"></a>
-<tr><td>4</td><td><strong>Sep 28</strong><br>Thu</td>
-<td markdown="block">
-
-* While Loops
-* For Loops
-
-</td>
-<td markdown="block">
-Think Python
-
-* 7 - Iteration
-
-CS for All
-
-* Imperative Programming
 
 
 </td>
