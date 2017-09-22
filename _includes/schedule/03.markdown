@@ -6,6 +6,10 @@
 * [Loop Exercises](slides/03/loop-exercises.html)
 * [Nested Loops](slides/03/nested.html)
 
+Class Notes
+
+* [% for strings, boolean expressions, while and for](resources/code/class02_notes.py)
+
 {% comment %}
 * [About Class #03 / Homework Discussion](slides/03/meta.html)
 * [Style](slides/03/style.html)
@@ -90,10 +94,9 @@ Submit via NYU Classes
 * ...to NYU classes
 * (don't rename or zip files)
 
-* (together) [counting.py](assignments/hw03/counting.py) 
-* (together) [many_words.py](assignments/hw03/many_words.py) 
-* (start together?) [sticky.py](assignments/hw03/sticky.py) 
-* [flagged.py](assignments/hw03/flagged.py) 
-* (maybe) [average_word.py](assignments/hw03/average_word.py) 
+* [counting.py](assignments/hw03/counting.py) 
+* [many_words.py](assignments/hw03/many_words.py) 
+* [sticky.py](assignments/hw03/sticky.py) 
+* [average_word.py](assignments/hw03/average_word.py) 
 
 </td>
