@@ -8,7 +8,7 @@
 
 Class Notes
 
-* [% for strings, boolean expressions, while and for](resources/code/class02_notes.py)
+* [% for strings, boolean expressions, while and for](resources/code/class03_notes.py)
 
 {% comment %}
 * [About Class #03 / Homework Discussion](slides/03/meta.html)
