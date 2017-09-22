@@ -84,7 +84,7 @@ From {{ site.book1 }}
 </td>
 {% endcomment %}
 	<td markdown="block">
-Homework Due __Wed, Sep 20th, 11pm__
+Homework Due __Wed, Sep 27th, 11pm__
 
 Submit via NYU Classes
 
