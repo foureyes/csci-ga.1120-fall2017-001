@@ -113,6 +113,7 @@ CS for All
 <tr><td>4</td><td><strong>Sep 28</strong><br>Thu</td>
 <td markdown="block">
 
+* Probably Lists
 * Commandline
 * Simple Functions
 * Functions as Objects
@@ -125,17 +126,20 @@ CS for All
 
 Think Python
 
+* 10 - [Lists](http://greenteapress.com/thinkpython2/html/thinkpython2011.html) (up to list methods only)
 * 3 - [Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
-* 4 - [Case study: Interface Design (Turtle)](http://greenteapress.com/thinkpython2/html/thinkpython2005.html)
+* 4 - [Case study: Interface Design (Turtle)](http://greenteapress.com/thinkpython2/html/thinkpython2005.html) (Maybe)
 * 6 - [Fruitful Functions](http://greenteapress.com/thinkpython2/html/thinkpython2007.html)
 * 5 - [Conditionals (Starting with Recursion)](http://greenteapress.com/thinkpython2/html/thinkpython2006.html#sec62) (Maybe!)
 
 Additional Resources
 
-* Event Based Programming
-* Objects and Methods
-* Graphical Input
+* Commandline
 * Modules
+* the following will likely be pushed 'til next class
+    * Event Based Programming 
+    * Objects and Methods
+    * Graphical Input
 
 
 
