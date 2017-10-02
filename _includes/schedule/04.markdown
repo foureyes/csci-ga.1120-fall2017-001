@@ -5,6 +5,13 @@
 * [Lists](slides/04/lists.html)
 * [Lists Methods](slides/04/list-methods.html)
 
+Class Notes
+
+* [list methods](resources/code/class04_list_methods.py)
+* [experiment with the return statement](resources/code/class04_return.py)
+* [an example of using a module](resources/code/class04_modules.py)
+* [a module with an in_list implementation](resources/code/class04_myfunctions.py)
+* [miscellaneous (alternate module import, scope, strings)](resources/code/class04_module_scope_string.py)
 
 {% comment %}
 * [Exception Handling](slides/04/exceptions.html)
