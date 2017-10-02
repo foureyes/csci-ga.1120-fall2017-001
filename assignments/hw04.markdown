@@ -86,7 +86,7 @@ In this part, you'll be writing a few short functions that work with lists. Some
 
 Once you're done with this file, you can use it as a module! This means that you may be able to reuse some the functions that you create here in the next part(s).
 
-1. __Start off by downloading__ [listutils.py](/csci-ga.1120-fall2017-001/hw04/listutils.py) by right-clicking and choosing `Save As`
+1. __Start off by downloading__ [listutils.py](/csci-ga.1120-fall2017-001/assignments/hw04/listutils.py) by right-clicking and choosing `Save As`
 2. Then write the following functions...
 
 <hr>
@@ -308,7 +308,7 @@ Assuming that the variable that contains this list of lists is called `available
 
 To write this program: 
 
-1. __Download__ [syllabic_poetry.py](/csci-ga.1120-fall2017-001/hw04/syllabic_poetry.py) by right-clicking and choosing `Save As`
+1. __Download__ [syllabic_poetry.py](/csci-ga.1120-fall2017-001/assignments/hw04/syllabic_poetry.py) by right-clicking and choosing `Save As`
 2. Write the following functions to help with your program
     * `generate_word`
     * `generate_line`
@@ -553,7 +553,7 @@ You'll be doing this in two parts:
 1. write a bunch of functions to help with creating dates
 2. create an interactive program that allows you to run the simulation multiple times 
 
-1. __Download__ [mydate.py](/csci-ga.1120-fall2017-001/hw04/mydate.py) and [birthday.py](/csci-ga.1120-fall2017-001/hw04/birthday.py) by right-clicking and choosing `Save As`
+1. __Download__ [mydate.py](/csci-ga.1120-fall2017-001/assignments/hw04/mydate.py) and [birthday.py](/csci-ga.1120-fall2017-001/assignments/hw04/birthday.py) by right-clicking and choosing `Save As`
 2. Write the following functions in `mydate.py` to help implement your program:
     * `is_valid_month_num(n)`
     * `month_num_to_string(month_num)`
@@ -796,7 +796,7 @@ print(date) # a random 3 element list, like: [2017, 9, 5]
 Once you've finished your functions, write an interactive program that simulates creating a group of people, each with a random birthday. To do this:
 
 
-1. __Download__ [birthday.py](/csci-ga.1120-fall2017-001/hw04/birthday.py) if you haven't done so already
+1. __Download__ [birthday.py](/csci-ga.1120-fall2017-001/assignments/hw04/birthday.py) if you haven't done so already
 2. `import` your `mydate` module (also `import` `listutils` if you find any of those functions useful)
 3. First, ask how many times the simulation should be run
     <pre><code data-trim contenteditable>How many times should I run the simulation?
