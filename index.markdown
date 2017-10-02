@@ -113,13 +113,10 @@ CS for All
 <tr><td>4</td><td><strong>Sep 28</strong><br>Thu</td>
 <td markdown="block">
 
-* Probably Lists
 * Commandline
-* Simple Functions
-* Functions as Objects
-* Event Based Programming
-* Returning Values
-* Recursion
+* Modules
+* Functions
+* Lists
 
 </td>
 <td markdown="block">
@@ -128,18 +125,12 @@ Think Python
 
 * 10 - [Lists](http://greenteapress.com/thinkpython2/html/thinkpython2011.html) (up to list methods only)
 * 3 - [Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
-* 4 - [Case study: Interface Design (Turtle)](http://greenteapress.com/thinkpython2/html/thinkpython2005.html) (Maybe)
 * 6 - [Fruitful Functions](http://greenteapress.com/thinkpython2/html/thinkpython2007.html)
-* 5 - [Conditionals (Starting with Recursion)](http://greenteapress.com/thinkpython2/html/thinkpython2006.html#sec62) (Maybe!)
 
 Additional Resources
 
 * Commandline
 * Modules
-* the following will likely be pushed 'til next class
-    * Event Based Programming 
-    * Objects and Methods
-    * Graphical Input
 
 
 
@@ -151,14 +142,31 @@ Additional Resources
 <!-- ------------ --><a name="05"></a>
 <tr><td>5</td><td><strong>Oct 5</strong><br>Thu</td>
 <td markdown="block">
+* Review Lists, Functions
 * Strings
-* Lists Preview (maybe)
+
+Maybe
+
+* Functions as Objects
+* Event Based Programming
+* Recursion
 </td>
 <td markdown="block">
 Think Python
 
 * 8 - Strings
 * 9 - Case study: word play
+
+Maybe...
+
+* 4 - [Case study: Interface Design (Turtle)](http://greenteapress.com/thinkpython2/html/thinkpython2005.html) (Maybe)
+* 5 - [Conditionals (Starting with Recursion)](http://greenteapress.com/thinkpython2/html/thinkpython2006.html#sec62) (Maybe!)
+
+Additional Resources
+
+* Event Based Programming 
+* Objects and Methods
+* Graphical Input
 
 
 </td>

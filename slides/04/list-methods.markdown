@@ -123,7 +123,7 @@ Usage notes:
 
 <pre><code data-trim contenteditable>
 {% include classes/19/last_to_first.py %}
-{% endhighlight  %}
+</code></pre>
 </section>
 
 <section markdown="block">
@@ -131,7 +131,7 @@ Usage notes:
 
 <pre><code data-trim contenteditable>
 {% include classes/19/last_to_first_pop_insert.py %}
-{% endhighlight  %}
+</code></pre>
 </section>
 
 
