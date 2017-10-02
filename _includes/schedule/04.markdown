@@ -1,15 +1,9 @@
 	<td markdown="block">
-* Nested Loops (previous slides)
-* Commandline
 * Modules
+* [Functions](slides/04/functions-return.html)
+* [Functions and Scope](slides/04/scope.html)
 * [Lists](slides/04/lists.html)
-* [Functions](slides/04/functions.html)
-* [Functions and Return Values](slides/04/functions-return.html)
-* Stack Frames
-* Simple Count Based Repetition
-* [Turtle](slides/04/turtle.html)
-    * Ignore Lists
-* [Recursion](slides/04/recursion.html) (Maybe!)
+* [Lists Methods](slides/04/list-methods.html)
 
 
 {% comment %}
@@ -27,6 +21,10 @@ From {{ site.book1 }}
 </td>
 {% endcomment %}
 	<td markdown="block">
+
+Due Monday, Oct 9th at 11pm
+
+* [Homework #04](assignments/hw04.html)
 	{% comment %}
 Today, in-class...
 

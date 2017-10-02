@@ -8,4 +8,6 @@ body #slides section {
 	width: 40em;
 }
 
-
+.fragment {
+	visibility: visible !important;
+}

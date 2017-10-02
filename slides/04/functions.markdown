@@ -4,7 +4,7 @@ title: Functions
 ---
 
 <section markdown="block" class="title-slide">
-#  A (Not So) Quick Peek at Making Our Own Functions
+#  Making Our Own Functions
 {% include title-slide-footer.html %}
 </section>
 
@@ -13,7 +13,7 @@ title: Functions
 
 __What's a function (again)?__ &rarr;
 
-<div class="incremental" markdown="block">
+<div class="fragment" markdown="block">
 A __function__ is a named sequence of statements that performs a specific task or useful operation
 </div>
 </section>
@@ -23,7 +23,7 @@ A __function__ is a named sequence of statements that performs a specific task o
 
 __What are some built-in functions that we just learned about?__ &rarr;
 
-<div class="incremental" markdown="block">
+<div class="fragment" markdown="block">
 * print
 * type
 * int
@@ -48,7 +48,7 @@ __What are some built-in functions that we just learned about?__ &rarr;
 
 __Why would the ability to create our own functions be useful?__ &rarr;
 
-<div class="incremental" markdown="block">
+<div class="fragment" markdown="block">
 * reduce repetitive code (instead of typing in the group of statements multiple times, just call function)
 * break down programming problem into discrete tasks
 	* complexity of each sub-task or function is more manageable than dealing with program in its entirity
@@ -68,7 +68,7 @@ __Why would the ability to create our own functions be useful?__ &rarr;
 <section markdown="block">
 ###  Defining a Function
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 #  without parameters (inputs)
 def the_name_of_your_function():
 	# some code
@@ -78,7 +78,7 @@ def the_name_of_your_function():
 def the_name_of_your_function(parameter_1, paramter_2):
 	# some code
 	print("do some useful stuff with parameter_1 and parameter_2")
-{% endhighlight %}
+</code></pre>
 </section>
 
 <section markdown="block">
@@ -107,7 +107,7 @@ def the_name_of_your_function(parameter_1, paramter_2):
 <section markdown="block">
 ###  An Indented Block for the Function Body
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def the_name_of_your_function(parameter_1, paramter_2):
 	# inside the function
 	print("something")
@@ -115,7 +115,7 @@ def the_name_of_your_function(parameter_1, paramter_2):
 
 #  outside of the function
 print("and another thing")
-{% endhighlight %}
+</code></pre>
 </section>
 
 <section markdown="block">
@@ -128,14 +128,14 @@ __Write a function called say_multilingual_meow:__ &rarr;
 * one line with "meow", the other line with "nyan"
 * use variables to represent the two types of meow ...
 
-<div class="incremental" markdown="block">
-{% highlight python %}
+<div class="fragment" markdown="block">
+<pre><code data-trim contenteditable>
 def say_multilingual_meow():
 	japanese_meow = "nyan"
 	english_meow = "meow"
 	print(japanese_meow)
 	print(english_meow)
-{% endhighlight %}
+</code></pre>
 </div>
 </section>
 
@@ -151,13 +151,13 @@ __function body__ - the code that gets executed when a function is called..
 
 __What is the defintion, header and body of the function we defined below?__ &rarr;
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def say_multilingual_meow():
 	japanese_meow = "nyan"
 	english_meow = "meow"
 	print(japanese_meow)
 	print(english_meow)
-{% endhighlight %}
+</code></pre>
 </section>
 
 <section markdown="block">
@@ -165,22 +165,22 @@ def say_multilingual_meow():
 
 So... now that you have a shiny new function, __how would you call it?__ &rarr;
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def say_multilingual_meow():
 	japanese_meow = "nyan"
 	english_meow = "meow"
 	print(japanese_meow)
 	print(english_meow)
-{% endhighlight %}
+</code></pre>
 
-<div class="incremental" markdown="block">
-{% highlight python %}
+<div class="fragment" markdown="block">
+<pre><code data-trim contenteditable>
 """
 Once the function is defined in your file, you can call it!
 """
 
 say_multilingual_meow()
-{% endhighlight %}
+</code></pre>
 </div>
 </section>
 
@@ -194,7 +194,7 @@ In one file, write the function definition and function call from the previous s
 * print out "done" after your function call
 * __what do you think the output will be?__ &rarr;
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def say_multilingual_meow():
 	japanese_meow = "nyan"
 	english_meow = "meow"
@@ -203,14 +203,14 @@ def say_multilingual_meow():
 
 say_multilingual_meow()
 print("done!")
-{% endhighlight %}
+</code></pre>
 
-<div class="incremental" markdown="block">
-{% highlight python %}
+<div class="fragment" markdown="block">
+<pre><code data-trim contenteditable>
 nyan
 meow
 done!
-{% endhighlight %}
+</code></pre>
 </div>
 </section>
 
@@ -219,7 +219,7 @@ done!
 
 So... [what actually happened there](http://www.pythontutor.com/visualize.html#code=def+say_multilingual_meow()%3A%0A%09japanese_meow+%3D+%22nyan%22%0A%09english_meow+%3D+%22meow%22%0A%09print(japanese_meow)%0A%09print(english_meow)%0A%0Asay_multilingual_meow()%0Aprint(%22done!%22)&mode=display&cumulative=false&heapPrimitives=false&drawParentPointers=false&textReferences=false&showOnlyOutputs=false&py=3&curInstr=0)? &rarr;
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def say_multilingual_meow():
 	japanese_meow = "nyan"
 	english_meow = "meow"
@@ -228,7 +228,7 @@ def say_multilingual_meow():
 
 say_multilingual_meow()
 print("done!")
-{% endhighlight %}
+</code></pre>
 
 * when you call your function...
 * imagine that you're jumping back to your function definition
@@ -241,7 +241,7 @@ print("done!")
 
 __What does this program output?__ &rarr;
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def say_multilingual_meow():
 	japanese_meow = "nyan"
 	english_meow = "meow"
@@ -252,38 +252,38 @@ print('cat sounds:')
 say_multilingual_meow()
 print('dog sounds:')
 print('woof')
-{% endhighlight %}
+</code></pre>
 
 </section>
 
 <section markdown="block">
 ###  Before and After the Function Call... Output
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 cat sounds:
 nyan
 meow
 dog sounds:
 woof
-{% endhighlight %}
+</code></pre>
 </section>
 
 <section markdown="block">
 ###  Just the Definitions, Please!
 
 Let's look at the same program, but without the function __call__.  __What do you think the output of this program will be if the function definition is the only code present in your program?__ &rarr;
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def say_multilingual_meow():
 	japanese_meow = "nyan"
 	english_meow = "meow"
 	print(japanese_meow)
 	print(english_meow)
-{% endhighlight %}
+</code></pre>
 
-<div class="incremental" markdown="block">
-{% highlight python %}
+<div class="fragment" markdown="block">
+<pre><code data-trim contenteditable>
  
-{% endhighlight %}
+</code></pre>
 
 (That's supposed to be nothing!  A function definition alone won't execute the code in a function.)
 </div>
@@ -294,19 +294,19 @@ def say_multilingual_meow():
 
 What about this version of the program (again, this is the only code in the program)? __What do you think the output will be?__ &rarr;
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 say_multilingual_meow()
-{% endhighlight %}
+</code></pre>
 
-<div class="incremental" markdown="block">
+<div class="fragment" markdown="block">
 We get a NameError!
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 Traceback (most recent call last):
-  File "/tmp/foo.py", line 1, in <module>
+  File "/tmp/foo.py", line 1, in &lt;module&gt;
     say_multilingual_meow()
 NameError: name 'say_multilingual_meow' is not defined
-{% endhighlight %}
+</code></pre>
 
 __A function has to be defined before it can be used.__
 </div>
@@ -317,13 +317,13 @@ __A function has to be defined before it can be used.__
 
 You can define more than one function in your program!
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def my_first_function():
 	print("first")
 
 def my_second_function():
 	print("second")
-{% endhighlight %}
+</code></pre>
 </section>
 
 <section markdown="block">
@@ -331,7 +331,7 @@ def my_second_function():
 
 In fact, you can use a function that you've already defined in another function that you're creating.  __What do you think the output of this program will be?__ &rarr;
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def say_moo():
 	print("moo")
 
@@ -340,13 +340,13 @@ def main():
 	say_moo()
 
 main()
-{% endhighlight %}
+</code></pre>
 
-<div class="incremental" markdown="block">
-{% highlight python %}
+<div class="fragment" markdown="block">
+<pre><code data-trim contenteditable>
 moo
 moo
-{% endhighlight %}
+</code></pre>
 </div>
 </section>
 
@@ -355,7 +355,7 @@ moo
 
 Notice that in the previous code...
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def say_moo():
 	print("moo")
 
@@ -364,7 +364,7 @@ def main():
 	say_moo()
 
 main()
-{% endhighlight %}
+</code></pre>
 
 * we defined a function called __say_moo__
 * we defined another function called __main__ that uses __say_moo__
@@ -386,7 +386,7 @@ main()
 ###  "Local" Variables Continued
 
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def my_first_function():
 	a = 1
 	print(a)
@@ -394,7 +394,7 @@ def my_first_function():
 def my_second_function():
 	b = 2
 	print(b)
-{% endhighlight %}
+</code></pre>
 
 The variables __a__ and __b__ are __local__ to __my\_first\_function__ and __my\_second\_function__ respectively.
 
@@ -407,7 +407,7 @@ __a__ is within the __scope__ of my\_first\_function and __b__ is within the __s
 
 In fact... because variables defined within a function are local, using the variable name in two different functions doesn't cause any errors, and nothing gets overwritten. __What will this program output?__ &rarr;
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def my_first_function():
 	a = 1
 	print(a)
@@ -419,8 +419,8 @@ def my_second_function():
 my_first_function()
 my_second_function()
 my_first_function()
-{% endhighlight %}
-<div class="incremental" markdown="block">
+</code></pre>
+<div class="fragment" markdown="block">
 1, 200, and then 1 again
 </div>
 </section>
@@ -439,12 +439,12 @@ my_first_function()
 * the examples in {{ site.bookq }} use this pattern often
 * here's a template:
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def main():
 	print("in main function")
 
 main()
-{% endhighlight %}
+</code></pre>
 </section>
 
 <section markdown="block">
@@ -452,14 +452,14 @@ main()
 
 For example, these two programs are equivalent:
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 #  version 1
 print("About to do stuff")
 print("Doing stuff")
 print("Done")
-{% endhighlight %}
+</code></pre>
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 #  version 2
 def main():
 	print("About to do stuff")
@@ -467,7 +467,7 @@ def main():
 	print("Done")
 
 main()
-{% endhighlight %}
+</code></pre>
 </section>
 
 <section markdown="block">
@@ -475,11 +475,11 @@ main()
 
 All of the built-in functions that we've seen so far have values passed in to them:
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 print("some stuff")
 type("some stuff")
 input("enter some stuff\n>> ")
-{% endhighlight %}
+</code></pre>
 
 So far, the functions that we've created __don't take any input__...
 
@@ -490,13 +490,13 @@ So far, the functions that we've created __don't take any input__...
 
 Inputs to a function are defined by specifying the expected inputs between the parentheses 
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 
 #  this function expects 2 inputs when called:
 #  parameter_1 and parameter_2
 def name_of_function(parameter_1, parameter_2):
 	# do stuff with parameter_1 and parameter_2
-{% endhighlight %}
+</code></pre>
 
 Note: parameters, just like __local__ variables, can only be accessed within the function's body.
 
@@ -516,7 +516,7 @@ Note: parameters, just like __local__ variables, can only be accessed within the
 * the arguments that you pass into a function can be referenced within that function's body using the parameter's name 
 * this is __based on the position of the parameter__ and the __order that the arguments are passed in__ to the function call
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 #  this function has two parameters: greeting and num
 def greet_more_input(greeting, num):
 	# that are used in the body
@@ -524,7 +524,7 @@ def greet_more_input(greeting, num):
 	print(s)
 
 greet_more_input("hello", 5)
-{% endhighlight %}
+</code></pre>
 </section>
 
 <section markdown="block">
@@ -537,7 +537,7 @@ The __position of the arguments__ in a function call __determine which parameter
 
 ("hello" was passed in first, 5 was passed in second)
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 #                       arguments
 #                     "hello"    5
 #                       |        |
@@ -546,7 +546,7 @@ def greet_more_input(greeting, num):
 	s = greeting * num
 	print(s)
 greet_more_input("hello", 5)
-{% endhighlight %}
+</code></pre>
 <!--* -->
 </section>
 
@@ -555,15 +555,15 @@ greet_more_input("hello", 5)
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def greet_more_input(greeting, num):
 	s = greeting * num
 	print(s)
 
 greet_more_input("hola", 23)
-{% endhighlight %}
+</code></pre>
 
-<div class="incremental" markdown="block">
+<div class="fragment" markdown="block">
 * greeting &rarr; "hola"
 * num &rarr; 23
 </div>
@@ -574,16 +574,16 @@ greet_more_input("hola", 23)
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def greet_more_input(greeting, num):
 	s = greeting * num
 	print(s)
 
 s = "2"
 greet_more_input("hey " + "there", int(s))
-{% endhighlight %}
+</code></pre>
 
-<div class="incremental" markdown="block">
+<div class="fragment" markdown="block">
 * greeting &rarr; "hey there"
 * num &rarr; 2
 </div>
@@ -594,7 +594,7 @@ greet_more_input("hey " + "there", int(s))
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 def greet_more_input(greeting, num):
 	s = greeting * num
 	print(s)
@@ -602,9 +602,9 @@ def greet_more_input(greeting, num):
 num = "hi"
 greeting = 20
 greet_more_input(num, greeting)
-{% endhighlight %}
+</code></pre>
 
-<div class="incremental" markdown="block">
+<div class="fragment" markdown="block">
 * greeting &rarr; "hi"
 * num &rarr; 20
 </div>
@@ -613,7 +613,7 @@ greet_more_input(num, greeting)
 <section markdown="block">
 ###  Let's Take a Closer Look
 
-{% highlight python %}
+<pre><code data-trim contenteditable>
 #                     num       greeting
 #                       |        |
 #                     "hi"      20
@@ -625,7 +625,7 @@ def greet_more_input(greeting, num):
 num = "hi"
 greeting = 20
 greet_more_input(num, greeting)
-{% endhighlight %}
+</code></pre>
 </section>
 
 
@@ -637,8 +637,8 @@ Create a function called __half\_the\_number__:
 * it should take a single argument
 * it will print out 1/2 of the value passed in
 
-<div class="incremental" markdown="block">
-{% highlight python %}
+<div class="fragment" markdown="block">
+<pre><code data-trim contenteditable>
 def half_the_number(n):
 	half = n / 2
 	print(half)
@@ -648,7 +648,7 @@ def main():
 	half_the_number(20)
 
 main()
-{% endhighlight %}
+</code></pre>
 </div>
 </section>
 
@@ -661,12 +661,12 @@ Create a function called __compute\_area\_square__()
 * it will calculate the square's area
 * ...and print out the resulting area
 
-<div class="incremental" markdown="block">
-{% highlight python %}
+<div class="fragment" markdown="block">
+<pre><code data-trim contenteditable>
 def compute_area_square(length_of_side):
 	area = length_of_side ** 2
 	print(area)
-{% endhighlight %}
+</code></pre>
 </div>
 </section>
 
@@ -679,12 +679,12 @@ Create a function called __compute\_area\_rectangle__()
 * it will calculate the rectangle's area
 * ...and print out the resulting area
 
-<div class="incremental" markdown="block">
-{% highlight python %}
+<div class="fragment" markdown="block">
+<pre><code data-trim contenteditable>
 def compute_area_rectangle(length, width):
 	area = length * width
 	print(area)
-{% endhighlight %}
+</code></pre>
 </div>
 </section>
 
@@ -697,8 +697,8 @@ Use the previous function to __write a program that__: &rarr;
 2. asks the user for a height
 3. prints out the resulting area
 
-<div class="incremental" markdown="block">
-{% highlight python %}
+<div class="fragment" markdown="block">
+<pre><code data-trim contenteditable>
 def compute_area_rectangle(length, width):
 	area = length * width
 	print(area)
@@ -709,7 +709,7 @@ def main():
 	compute_area_rectangle(length_rectangle, width_rectangle)
 
 main()
-{% endhighlight %}
+</code></pre>
 </div>
 
 </section>
@@ -760,8 +760,4 @@ Define the following terms:
 
 <section markdown="block">
 ##  BTW - the functions that we've created so far don't return anything ...
-</section>
-
-<section markdown="block">
-##  [If That Was Fun, Let's Try Conditionals](if-statements.html)
 </section>

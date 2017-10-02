@@ -1,9 +1,24 @@
 	<td markdown="block">
+* main function
+* review importing (specifically with as)
+* review scope again (or at least go over practice slides)
+* nested loops
+* nested loops and nested lists
+* review list methods, list operators, etc.
+* keyword args
+* \*\*args
+* list comprehensions
 * [About Class #05 / Homework Discussion](slides/05/meta.html)
 * [Strings and Mutability](slides/05/strings-mutability.html)
 * [Substitution Cipher, Vigenère Cipher](slides/05/simple-cipher.html)
 * [Lists - Methods, Constructor, Comprehensions](slides/05/lists-methods-constructor-comprehension.html)
-
+* Stack Frames
+* Simple Count Based Repetition
+* [Turtle](slides/04/turtle.html)
+    * Ignore Lists
+* [Recursion](slides/04/recursion.html) (Maybe!)
+* Nested Loops (previous slides)
+* Commandline
 {% comment %}
 
 <section markdown="block">
