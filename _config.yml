@@ -1,3 +1,8 @@
+relative_links:
+  enabled: false
+baseurl: ""
+
+
 title: CSCI-GA.1120 Fall 2017, Section 001
 email: jversoza at cs dot nyu dot edu
 
@@ -30,7 +35,6 @@ final_date: "N/A"
 final_time: "N/A"
 final_room: "N/A"
 
-baseurl: ""
 resource_prefix: "resources/"
 github_username: jversoza
 slides_lib: "../../resources/lib"
@@ -51,6 +55,3 @@ book2: Python Cookbook
 book2_link: http://chimera.labs.oreilly.com/books/1230000000393/index.html
 book2_author: David Beazley and Brian K. Jones
 
-relative_links:
-    enabled: false
-    collections: false

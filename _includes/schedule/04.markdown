@@ -2,6 +2,7 @@
 * Modules
 * [Functions](slides/04/functions-return.html)
 * [Functions and Scope](slides/04/scope.html)
+* [Testing Functions / Assertions](slides/04/functions-testing.html)
 * [Lists](slides/04/lists.html)
 * [Lists Methods](slides/04/list-methods.html)
 

@@ -1,13 +1,30 @@
 	<td markdown="block">
-* main function
-* review importing (specifically with as)
-* review scope again (or at least go over practice slides)
+
+* Review Functions / Extras
+    * assertions (see previous slides)
+    * scope practice (see previous slides)
+    * main function
+    * keyword arguments
+    * \*\* and \*
+* Review Modules / Extras
+    * using `as`
+    * `from` ... `import`
+* [List Review / Extras](slides/05/lists-methods-constructor-comprehension.html)
+    * methods
+    * list operators, etc.
+    * list comprehensions
+    * enumerate
+    * iterating with indexes
+* [More List Review and Extras](slides/05/lists-references-map.html)
+    * warning, [everything beyond built-in functions is intermediate level](slides/05/lists-references-map.html#32)
+* [String Basics](slides/05/strings.html)
+* [Strings as Characters](slides/05/strings_as_list.html)
+* [Strings as Objects](slides/05/strings_as_objects.html)
+* [Strings and Built-In Functions](slides/05/strings_built_in_functions.html) 
+
+{% comment %}
 * nested loops
 * nested loops and nested lists
-* review list methods, list operators, etc.
-* keyword args
-* \*\*args
-* list comprehensions
 * [About Class #05 / Homework Discussion](slides/05/meta.html)
 * [Strings and Mutability](slides/05/strings-mutability.html)
 * [Substitution Cipher, Vigenère Cipher](slides/05/simple-cipher.html)
@@ -18,26 +35,10 @@
     * Ignore Lists
 * [Recursion](slides/04/recursion.html) (Maybe!)
 * Nested Loops (previous slides)
-* Commandline
-{% comment %}
-
-<section markdown="block">
-## dictionaries
-
-</section>
 {% endcomment %}
+
 
 </td>
-{% comment %}
-	<td markdown="block">
-From {{ site.book1 }}
-
-* Start Ch 4 - A Nest of Snakes
-</td>
-{% endcomment %}
 	<td markdown="block">
 
-{% comment %}
-* Submit [Assignment #03](assignments/hw03.html)
-{% endcomment %}
 </td>

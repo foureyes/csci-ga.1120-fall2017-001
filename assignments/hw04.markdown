@@ -2,7 +2,6 @@
 layout: homework
 title: "Assignment #4"
 ---
-
 <style>
 img {
     border: 1px solid #000;

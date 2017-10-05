@@ -216,13 +216,13 @@ True
 </section>
 
 <section markdown="block">
-## Handling an Exception from Index
+## An Error with Index!
 
 Ack. __index__ is tricky because it could cause a runtime error. __How do we get around it?__ &rarr;
 
 * {:.fragment} defensive programming... <code>if my_element in my_list: # then use index</code>
 * {:.fragment} exception handling... <code>try: # use index in try body</code>
-* {:.fragment} exception handling is _usually_ preferred (easier to ask for forgiveness than permission)
+* {:.fragment} exception handling is _usually_ preferred (easier to ask for forgiveness than permission), __and we'll see this later__
 
 </section>
 

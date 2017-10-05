@@ -16,10 +16,10 @@ title: "Lists - References, Comprehensions, Built-in Functions"
 __What are some ways to create new lists?__ '&rarr;
 
 1. {:.fragment} list literals
-2. {:.fragment} <code>list</code> function / constructor
-3. {:.fragment} list comprehensions
-4. {:.fragment} slicing and concatenation (both produce an entirely new list)
-5. {:.fragment} various methods and functions (<code>sorted()</code>, <code>str.split()</code>)
+2. {:.fragment} list comprehensions
+3. {:.fragment} slicing and concatenation (both produce an entirely new list)
+4. {:.fragment} <code>list</code> function / constructor (we sort of saw this briefly when talking about range)
+5. {:.fragment} various methods and functions  that we haven't gone over yet(<code>sorted()</code>, <code>str.split()</code>)
 
 Check out [the documentation on constructing lists](https://docs.python.org/3.5/library/stdtypes.html#list)
 {:.fragment}
@@ -30,10 +30,8 @@ Check out [the documentation on constructing lists](https://docs.python.org/3.5/
 
 You can create __list literals__ by using square brackets: <code>[]</code>  &rarr;
 
-An empty list:
-
 <pre><code data-trim contenteditable>
-[]
+[] # an empty list
 </code></pre>
 
 A list with values (note that the values don't have to be the same type)
@@ -50,11 +48,13 @@ You can even nest lists within lists, and index into the inner list:
 7
 </code></pre>
 
+{% comment %}
 You can even nest other compound data types (like <code>tuples</code> or <code>dicts</code>):
 
 <pre><code data-trim contenteditable>
 [(1, 2, 3), {"number": 4}, "five"]
 </code></pre>
+{% endcomment %}
 
 </section>
 
@@ -75,6 +75,7 @@ Nested lists
 >>> stuff[1][2]
 3
 </code></pre>
+{:.fragment}
 
 </section>
 
@@ -91,6 +92,7 @@ Strings in lists
 'z'
 </code></pre>
 
+{% comment %}
 Tuples in lists
 
 <pre><code data-trim contenteditable>
@@ -100,6 +102,7 @@ Tuples in lists
 >>> points[0][0]
 1
 </code></pre>
+{% endcomment %}
 
 </section>
 
@@ -108,10 +111,8 @@ Tuples in lists
 
 As with other types and their corresponding constructors, __you can call <code>list()</code> to create a new (of course) list__ &rarr; 
 
-An empty list:
-
 <pre><code data-trim contenteditable>
->>> list() # ----> []
+>>> list() # ----> [] an empty list
 </code></pre>
 
 Or, create a list from an __iterable object__ (an object that's capable of returning its items one at a time... like a string, range, tuple, etc.):
@@ -119,41 +120,44 @@ Or, create a list from an __iterable object__ (an object that's capable of retur
 <pre><code data-trim contenteditable>
 >>> list('hello')
 ['h', 'e', 'l', 'l', 'o']
->>> list((1, 2, 3)) # a tuple
-[1, 2, 3]
 >>> list(range(1, 4)) # range gives back a range object, which can be converted to a list
 [1, 2, 3]
 </code></pre>
 
-For now, think of an _iterable object_  as anything that can be looped over (like sequences, files, ranges, etc.).
+{% comment %}
+>>> list((1, 2, 3)) # a tuple
+[1, 2, 3]
+{% endcomment %}
+
+For now, think of an _iterable object_  as anything that can be looped over 
+
+{% comment %}
+(like sequences, files, ranges, etc.).
+{% endcomment %}
 </section>
 
 
 <section markdown="block">
 ## An Aside on Strings
 
-
-__When converted to a list with the list constructor, each character of a string becomes an individual element in the new list.__ &rarr;
+__Using the list function on a string, each character of a string becomes an individual element in the new list.__ &rarr;
 
 <pre><code data-trim contenteditable>
 >>> list('hello')
 ['h', 'e', 'l', 'l', 'o']
 </code></pre>
 
-Note that the <code>split</code> method on strings also converts strings to lists:
+There's also a <code>split</code> method on strings (we'll see this later in full detail): 
 
 <pre><code data-trim contenteditable>
 >>> "hw01,hw02,hw03".split(",")
 ['hw01', 'hw02', 'hw03']
->>> "hw01,hw02,hw03".split("0")
-['hw', '1,hw', '2,hw', '3']
 </code></pre>
 
 However, you <code>split</code> can't mimic the behavior of <code>list</code>:
 
 <pre><code data-trim contenteditable>
-'hello'.split() # causes an error!
-# (instead of a list of characters)
+'hello'.split() # causes an error instead of a list of characters)
 </code></pre>
 
 </section>
@@ -283,7 +287,7 @@ __Only do this for the names that don't start with 'c'__ &rarr;
 
 (Or, to fulfill a compulsion to put things into one line).
 
-__There's a one line if/else statement (think _ternary_ operator in JavaScript or Java)__ &rarr;
+__There's a one line if/else statement (someimtes called _ternary_ operator in other languages)__ &rarr;
 
 <pre><code data-trim contenteditable>
 value1 if condition else value2
@@ -313,7 +317,7 @@ __Stuffing more logic into our list comprehension, we can choose to include name
 ['ALICE', 'BOB', 'carol']
 </code></pre>
 
-Probably avoid this, as readability counts more than minimizing number of lines (but... someone asked if something like this is possible, ... _aaaaand it is_).
+Probably avoid this, as readability counts more than minimizing number of lines (but... interesting to see it all work together).
 </section>
 
 <section markdown="block">
@@ -591,10 +595,9 @@ Parameters in function definitions reference the original object passed in as an
 
 <pre><code data-trim contenteditable>
 def make_first_none(some_list):
-    try:
+    if len(some_list) >= 1:
         some_list[0] = None
-    except IndexError:
-        pass
+    # else don't do anything
 </code></pre>
 
 <pre><code data-trim contenteditable>
@@ -609,7 +612,7 @@ print(words)
 <section markdown="block">
 ## Globals that are Mutable Objects
 
-You can't change what object a global variable name refers to (without the <code>global</code> keyword, of course), but you __can change mutable global objects from within a function__!
+You can't change what object a global variable name refers to (without the <code>global</code> keyword, which you may encounter in other code), but you __can change mutable global objects from within a function__!
 
 __What's the output of this code?__ &rarr;
 
