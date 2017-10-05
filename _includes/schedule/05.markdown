@@ -40,5 +40,17 @@
 
 </td>
 	<td markdown="block">
+Potential Homework
+
+(to be posted in full Friday evening)
+
+Choose some number of files from this list:
+
+* [string_practice.py](assignments/hw05/string_practice.py)
+* [is_palindrome](assignments/hw05/is_palindrome.py)
+* [pig_latin.py](assignments/hw05/pig_latin.py)
+* [translate_passage](assignments/hw05/translate_passage.py)
+* [secret_messages.py](assignments/hw05/secret_messages.py)
+* [barcode generator](assignments/hw05.html) (instructions on web page)
 
 </td>
