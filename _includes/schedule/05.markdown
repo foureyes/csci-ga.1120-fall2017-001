@@ -40,10 +40,15 @@
 
 </td>
 	<td markdown="block">
-Potential Homework
 
-(to be posted in full Friday evening)
+Due Friday, October 13th at 11pm
 
+* [wordsy.py](assignments/hw05/wordsy.py)
+* [scramble.py](assignments/hw05/scramble.py)
+* the instructions are in the comments of the file
+* both of these have an extra optional part
+
+{% comment %}
 Choose some number of files from this list:
 
 * [string_practice.py](assignments/hw05/string_practice.py)
@@ -52,5 +57,6 @@ Choose some number of files from this list:
 * [translate_passage](assignments/hw05/translate_passage.py)
 * [secret_messages.py](assignments/hw05/secret_messages.py)
 * [barcode generator](assignments/hw05.html) (instructions on web page)
+{% endcomment %}
 
 </td>
