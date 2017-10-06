@@ -22,6 +22,12 @@
 * [Strings as Objects](slides/05/strings_as_objects.html)
 * [Strings and Built-In Functions](slides/05/strings_built_in_functions.html) 
 
+Class Notes
+
+* [Scope, main function, testing with assertions](resources/code/class05.py) (slides are in previous class)
+* [List Methods, Looping](resources/code/class05_list_methods.py)
+* [More Lists and Looping, Iterating with Indexes](resources/code/class05_index.py)
+
 {% comment %}
 * nested loops
 * nested loops and nested lists
