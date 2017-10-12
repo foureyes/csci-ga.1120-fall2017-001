@@ -17,10 +17,6 @@
     * iterating with indexes
 * [More List Review and Extras](slides/05/lists-references-map.html)
     * warning, [everything beyond built-in functions is intermediate level](slides/05/lists-references-map.html#32)
-* [String Basics](slides/05/strings.html)
-* [Strings as Characters](slides/05/strings_as_list.html)
-* [Strings as Objects](slides/05/strings_as_objects.html)
-* [Strings and Built-In Functions](slides/05/strings_built_in_functions.html) 
 
 Class Notes
 
@@ -55,14 +51,6 @@ Due Friday, October 13th at 11pm
 * both of these have an extra optional part
 
 {% comment %}
-Choose some number of files from this list:
-
-* [string_practice.py](assignments/hw05/string_practice.py)
-* [is_palindrome](assignments/hw05/is_palindrome.py)
-* [pig_latin.py](assignments/hw05/pig_latin.py)
-* [translate_passage](assignments/hw05/translate_passage.py)
-* [secret_messages.py](assignments/hw05/secret_messages.py)
-* [barcode generator](assignments/hw05.html) (instructions on web page)
 {% endcomment %}
 
 </td>

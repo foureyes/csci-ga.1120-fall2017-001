@@ -142,7 +142,34 @@ Additional Resources
 <!-- ------------ --><a name="05"></a>
 <tr><td>5</td><td><strong>Oct 5</strong><br>Thu</td>
 <td markdown="block">
-* Review Lists, Functions
+* Lists
+* List Algorithms
+* Objects Revisited / References
+* map, reduce, filter, etc.
+</td>
+<td markdown="block">
+Think Python
+
+* 10 - Lists
+
+Additional Resources
+
+* Objects and References
+* List Algorithms
+* map, reduce and filter
+
+
+</td>
+
+{% include schedule/05.markdown %}
+<td></td><td></td><td></td>
+ </tr>
+
+
+<!-- ------------ --><a name="06"></a>
+<tr><td>6</td><td><strong>Oct 12</strong><br>Thu</td>
+<td markdown="block">
+* Review Lists
 * Strings
 
 Maybe
@@ -150,6 +177,8 @@ Maybe
 * Functions as Objects
 * Event Based Programming
 * Recursion
+
+
 </td>
 <td markdown="block">
 Think Python
@@ -167,35 +196,6 @@ Additional Resources
 * Event Based Programming 
 * Objects and Methods
 * Graphical Input
-
-
-</td>
-
-{% include schedule/05.markdown %}
-<td></td><td></td><td></td>
- </tr>
-
-
-<!-- ------------ --><a name="06"></a>
-<tr><td>6</td><td><strong>Oct 12</strong><br>Thu</td>
-<td markdown="block">
-
-* Lists
-* List Algorithms
-* Objects Revisited / References
-* map, reduce, filter, etc.
-
-</td>
-<td markdown="block">
-Think Python
-
-* 10 - Lists
-
-Additional Resources
-
-* Objects and References
-* List Algorithms
-* map, reduce and filter
 </td>
 <td></td><td markdown="block"></td>{% comment %}
 {% include schedule/06.markdown %}

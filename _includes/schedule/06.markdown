@@ -1,6 +1,14 @@
 	<td markdown="block">
+* Homework #4 Solutions
+* [String Basics](slides/05/strings.html)
+* [Strings as Characters](slides/05/strings_as_list.html)
+* [Strings as Objects](slides/05/strings_as_objects.html)
+* [Strings and Built-In Functions](slides/05/strings_built_in_functions.html) 
+
+{% comment %}
 * [Lists - references, comprehensions, built-in functions](slides/06/lists-references-map.html)
 * [Dictionaries](slides/06/dictionaries.html)
+{% endcomment %}
 
 </td>
 {% comment %}
@@ -11,11 +19,24 @@ From {{ site.book1 }}
 </td>
 {% endcomment %}
 	<td markdown="block">
+    {% comment %}
 Today, in-class…
+    {% endcomment %}
 
 * [Lists and Dictionaries in-class programming assignment](https://docs.google.com/a/nyu.edu/forms/d/17TW2NwN2guGO8vf7zSj4Lwp_kRIiOcFWouuXnhPN158/viewform)
 
 <!--
 * [](assignments/.html)
 -->
+Standard
+
+* [string_practice.py](assignments/hw05/string_practice.py) 
+* [is_palindrome](assignments/hw05/is_palindrome.py)
+* [pig_latin.py](assignments/hw05/pig_latin.py)
+* [translate_passage](assignments/hw05/translate_passage.py) \* this one may be tricky!
+
+Optional Challenges
+
+* [secret_messages.py](assignments/hw05/secret_messages.py)
+* [barcode generator](assignments/hw05.html) (instructions on web page)
 </td>
