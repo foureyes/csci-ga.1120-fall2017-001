@@ -1,9 +1,9 @@
 	<td markdown="block">
 * Homework #4 Solutions
-* [String Basics](slides/05/strings.html)
-* [Strings as Characters](slides/05/strings_as_list.html)
-* [Strings as Objects](slides/05/strings_as_objects.html)
-* [Strings and Built-In Functions](slides/05/strings_built_in_functions.html) 
+* [String Basics](slides/06/strings.html)
+* [Strings as Characters](slides/06/strings_as_list.html)
+* [Strings as Objects](slides/06/strings_as_objects.html)
+* [Strings and Built-In Functions](slides/06/strings_built_in_functions.html) 
 
 {% comment %}
 * [Lists - references, comprehensions, built-in functions](slides/06/lists-references-map.html)
