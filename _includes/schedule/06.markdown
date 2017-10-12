@@ -28,15 +28,18 @@ Today, in-class…
 <!--
 * [](assignments/.html)
 -->
+Minimum
+
+* [string_practice.py](assignments/hw06/string_practice.py) 
+* [is_palindrome](assignments/hw06/is_palindrome.py)
+* [pig_latin.py](assignments/hw06/pig_latin.py)
+
 Standard
 
-* [string_practice.py](assignments/hw05/string_practice.py) 
-* [is_palindrome](assignments/hw05/is_palindrome.py)
-* [pig_latin.py](assignments/hw05/pig_latin.py)
-* [translate_passage](assignments/hw05/translate_passage.py) \* this one may be tricky!
+* [translate_passage](assignments/hw06/translate_passage.py) \* this one may be tricky!
 
-Optional Challenges
+Optional Challenge
 
-* [secret_messages.py](assignments/hw05/secret_messages.py)
-* [barcode generator](assignments/hw05.html) (instructions on web page)
+* [secret_messages.py](assignments/hw06/secret_messages.py) 
+* [barcode generator](assignments/hw06.html) (instructions on web page)
 </td>
