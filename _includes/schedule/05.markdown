@@ -43,7 +43,7 @@ Class Notes
 </td>
 	<td markdown="block">
 
-Due Friday, October 13th at 11pm
+Homework #5 - Due Friday, October 13th at 11pm
 
 * [wordsy.py](assignments/hw05/wordsy.py)
 * [scramble.py](assignments/hw05/scramble.py)

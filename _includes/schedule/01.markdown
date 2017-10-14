@@ -47,7 +47,7 @@ From the Official Python Documentation
 
 <a name="homework1" id="homework1"></a>
 
-Homework Due __Wed, Sep 13th, 11pm__
+Homework #1 - Due __Wed, Sep 13th, 11pm__
 
 Submit via NYU Classes
 

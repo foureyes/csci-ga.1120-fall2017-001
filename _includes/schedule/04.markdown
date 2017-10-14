@@ -30,9 +30,9 @@ From {{ site.book1 }}
 {% endcomment %}
 	<td markdown="block">
 
-Due Monday, Oct 9th at 11pm
+Homework #4 - Due Monday, Oct 9th at 11pm
 
-* [Homework #04](assignments/hw04.html)
+* [Homework #04 description](assignments/hw04.html)
 	{% comment %}
 Today, in-class...
 
