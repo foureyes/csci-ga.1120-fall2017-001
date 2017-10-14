@@ -104,9 +104,6 @@ abc
 > q
 Bye!
 
-As always, comment your code, including your name, date and section at the top
-of the file.
-
 (Optional)
 Your encrypt functions probably look very similar. Try moving out the common
 code into another function that both encrypt and decrypt call.
