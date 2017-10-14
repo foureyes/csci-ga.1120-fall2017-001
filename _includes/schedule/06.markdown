@@ -28,18 +28,24 @@ Today, in-class…
 <!--
 * [](assignments/.html)
 -->
+
+Due Friday, Oct 20th at 11pm
+
 Minimum
 
 * [string_practice.py](assignments/hw06/string_practice.py) 
 * [is_palindrome](assignments/hw06/is_palindrome.py)
 * [pig_latin.py](assignments/hw06/pig_latin.py)
-
-Standard
-
 * [translate_passage](assignments/hw06/translate_passage.py) \* this one may be tricky!
+    * there are two versions of this, easy and medium
+    * they are outlined in the instructions
 
 Optional Challenge
 
 * [secret_messages.py](assignments/hw06/secret_messages.py) 
+
+{% comment %}
 * [barcode generator](assignments/hw06.html) (instructions on web page)
+{% endcomment %}
+
 </td>
