@@ -233,7 +233,7 @@ __Let's use assertions to test an incorrect implementation of our function - one
 <pre><code data-trim contenteditable>
 #  output shows line number and error...
 Traceback (most recent call last):
-  File "foo.py", line 4, in <module>
+  File "foo.py", line 4, in &lt;module&gt;
     assert "ha ha ha" == join_three_strings("ha", "ha", "ha"), "should have spaces"
 AssertionError: joined string should have spaces
 </code></pre>
