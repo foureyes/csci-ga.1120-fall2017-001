@@ -25,11 +25,11 @@ title: Functions
 Example Usage:
 
 <pre><code data-trim contenteditable>
->>> print(join_three_strings('one', 'two', 'three'))
+&gt;&gt;&gt; print(join_three_strings('one', 'two', 'three'))
 one two three
->>> print(join_three_strings('1', '2', '3'))
+&gt;&gt;&gt; print(join_three_strings('1', '2', '3'))
 1 2 3
->>> print(join_three_strings(1, 2, 3))
+&gt;&gt;&gt; print(join_three_strings(1, 2, 3))
 1 2 3
 </code></pre>
 
