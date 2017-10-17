@@ -46,13 +46,13 @@ __Let's write this function together &rarr;__
 <section markdown="block">
 ##  Syntax
 A quick summary on syntax:
-<pre><code data-trim contenteditable>
-def <function_name>(<zero_or_more_parameters>):
-	<statement #1>
-	<statement #2>
+&lt;pre&gt;&lt;code data-trim contenteditable&gt;
+def &lt;function_name&gt;(&lt;zero_or_more_parameters&gt;):
+	&lt;statement #1&gt;
+	&lt;statement #2&gt;
 	.
 	.
-	<etc.>
+	&lt;etc.&gt;
 </code></pre>
 </section>
 
