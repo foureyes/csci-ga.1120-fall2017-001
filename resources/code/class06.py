@@ -69,6 +69,7 @@ print(letter_in_word('a', 'cat')) # true
 print(letter_in_word('x', 'cat')) # false
 """
 
+
 def remove_vowels(s):
     new_s = ''
     #vowels = ['A', 'E', ....]
@@ -84,12 +85,14 @@ def remove_vowels(s):
     
 remove_vowels('Picard') """ Pcrd """
 
+"""
 remove_vowels
 accepts a string as a parameter
 returns a string without any vowels in it
 hint: build a string by accumulating characters
 hint: we just looked in and not in 
-
+"""
+"""
 >>> title.
 KeyboardInterrupt
 >>> title.index("e")
@@ -140,7 +143,7 @@ KeyError: 'greeting'
 >>> template.format(greeting=t * 3, name='joe')
 'holaholahola holaholahola my name is joe'
 >>>
-
+"""
 
 
 

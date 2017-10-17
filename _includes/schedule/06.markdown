@@ -5,6 +5,10 @@
 * [Strings as Objects](slides/06/strings_as_objects.html)
 * [Strings and Built-In Functions](slides/06/strings_built_in_functions.html) 
 
+Class Notes
+
+* [Strings!](resources/code/class06.py) (slides are in previous class)
+
 {% comment %}
 * [Lists - references, comprehensions, built-in functions](slides/06/lists-references-map.html)
 * [Dictionaries](slides/06/dictionaries.html)
