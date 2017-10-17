@@ -211,7 +211,7 @@ Let's get the computer to test it for us!  Assertions are a way to systematicall
 ##  Assert Syntax
 
 <pre><code data-trim contenteditable>
-assert <some condition>, "a string representing a test"
+assert &lt;some condition&gt;, "a string representing a test"
 </code></pre>
 
 1. the keyword __assert__
