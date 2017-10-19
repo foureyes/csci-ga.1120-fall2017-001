@@ -112,9 +112,9 @@ __Let's try these.__ &rarr;
 
 Some methods for drawing shapes:
 
-* {:.fragment} <code>ellipse(x, y, width, height)</code>
-* {:.fragment} <code>rect(x, y, width, height)</code>
-* {:.fragment} <code>triangle(x1, y1, x2, y2, x3, y3)</code>
+* <code>ellipse(x, y, width, height)</code>
+* <code>rect(x, y, width, height)</code>
+* <code>triangle(x1, y1, x2, y2, x3, y3)</code>
 * <code>stroke() // all subsequent shapes have an outline</code>
 * <code>noStroke() // all subsequent shapes don't have an outline</code>
 * <code>strokeWeight(width) // set line and outline width</code>
