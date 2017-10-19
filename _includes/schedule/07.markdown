@@ -11,6 +11,13 @@ From {{ site.book1 }}
 </td>
 {% endcomment %}
 	<td markdown="block">
+
+* [your_fancy_face.py](assignments/hw07/your_fancy_face.py) 
+* starry starry night
+    * [starry_starry_night.py](assignments/hw07/starry_starry_night.py) 
+    * [instructions](assignments/hw07.html) 
+
+
 {% comment %}
 Due Thursday, Feb 25th 
 
