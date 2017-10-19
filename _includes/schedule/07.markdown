@@ -1,5 +1,7 @@
 	<td markdown="block">
-* [File I/O](slides/07/files.html)
+* Quiz
+* [Turtle](slides/07/turtle.html) 
+* [Processing](slides/07/processing.html) 
 </td>
 {% comment %}
 	<td markdown="block">
@@ -9,6 +11,7 @@ From {{ site.book1 }}
 </td>
 {% endcomment %}
 	<td markdown="block">
+{% comment %}
 Due Thursday, Feb 25th 
 
 * [Assignment #03 posted](assignments/hw03.html)
@@ -16,4 +19,5 @@ Due Thursday, Feb 25th
 Survey results csv (with names removed, of course!)
 
 * [survey-results.csv](resources/txt/survey-results.csv)
+{% endcomment %}
 </td>

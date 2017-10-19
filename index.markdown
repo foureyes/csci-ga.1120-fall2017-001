@@ -206,21 +206,20 @@ Additional Resources
 <tr><td>7</td><td><strong>Oct 19</strong><br>Thu</td>
 <td markdown="block">
 
-* More About Lists
 * Midterm Quiz
+* Reading Documentation
+* Turtle
+* Processing
 
 </td>
 <td markdown="block">
 
-Think Python
-
-* 10 - Lists
+* [Python 3 Turtle](https://docs.python.org/3.6/library/turtle.html)
+* [Processing Reference](https://processing.org/reference/)
 </td>
 
 
-<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/07.markdown %}
-{% endcomment %}
  </tr>
 
 
