@@ -503,19 +503,43 @@ You can actually edit each pixel of the window!
 
 (these methods and variables are all part of processing)
 
-1. <code>loadPixels()</code>
-2. use <code>pixels[] // an int array of colors </code>
+1. <code>loadPixels()</code> - begin working with pixels
+2. use <code>pixels[] // a list of colors </code>
 3. <code>color(r, g, b) // gives back an int representation of a color</code>
-4. <code>updatePixels();</code>
+4. <code>updatePixels();</code> - update screen with new pixels
 </section>
 
 <section markdown="block">
-## Um. An Array of Pixels?
+## Um. An List of Pixels?
 
 Wait... how does a single array of pixels represent a two-dimensional window?
 
 * {:.fragment} each row is represented end-to-end in the single array
 * {:.fragment} sooo... pixels / height = rows
+* {:.fragment} row # = index // width (quotient)
+* {:.fragment} col # = index % width (remainder)
+* {:.fragment} index = row # * width + col #
+
+</section>
+
+<section markdown="block">
+## Um What!?
+
+<pre><code data-trim contenteditable>
+"""
+[0, 1, 2, 3, ....14, 15]
+
+    0  1  2  3
+  +------------
+0 | 0  1  2  3
+1 | 4  5  6  7
+2 | 8  9  10 11
+3 | 12 13 14 15
+
+i = row * width + col
+2 * 4 + 1 = 9
+"""
+</code></pre>
 
 </section>
 
