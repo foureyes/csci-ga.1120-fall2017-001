@@ -12,6 +12,11 @@ From {{ site.book1 }}
 {% endcomment %}
 	<td markdown="block">
 
+Due Wednesday, 10/25, 11pm
+
+(You can turn in either turtle or processing programs for any of these; even if the instructions are turtle specific)
+
+* [in_the_style_of.py](assignments/hw07/in_the_style_of.py) 
 * [your_fancy_face.py](assignments/hw07/your_fancy_face.py) 
 * starry starry night
     * [starry_starry_night.py](assignments/hw07/starry_starry_night.py) 
