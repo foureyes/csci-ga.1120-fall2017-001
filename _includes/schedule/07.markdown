@@ -5,7 +5,7 @@
 
 Class Notes
 
-* [redact, dna, join/split](resources/code/class07_react_dna.py)
+* [redact, dna, join/split](resources/code/class07_redact_dna.py)
 * [turtle examples](resources/code/class07_squares.py)
 * [processing basics](resources/code/class07_processing_basics.zip)
 
