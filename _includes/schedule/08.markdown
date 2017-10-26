@@ -6,13 +6,18 @@
 * [Dictionary Exercises](slides/08/exercises.html)
 
 </td>
+
+
 {% comment %}
 	<td markdown="block">
+
 From {{ site.book1 }}
 
 * Ch 5 - Earthquakes ...
 <!--* [Debugging](lynda.com?)-->
 </td>
+{% endcomment %}
+	<td markdown="block">
 Potential Homework
 
 * a secret message
@@ -22,8 +27,4 @@ Potential Homework
     2. make a visualization of letter frequency in turtle or processing!
 * create a scene where multiple "objects" exist and each have their own independent attributes using dictionaries
 * switching based on a dictionary
-{% endcomment %}
-	<td markdown="block">
-{% comment %}
-{% endcomment %}
 </td>

@@ -1,5 +1,5 @@
 ---
-layout: hw
+layout: homework
 title: lousy_plasma.py
 ---
 <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic' rel='stylesheet' type='text/css'>

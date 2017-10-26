@@ -1,6 +1,6 @@
 ---
 layout: homework
-title: "Assignment #2"
+title: "starry_starry_night.py"
 ---
 
 starry_starry_night.py 
