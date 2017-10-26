@@ -1,5 +1,14 @@
 	<td markdown="block">
+
+* [Paths](slides/08/paths.html)
+* [File I/O](slides/08/files.html)
+* [More File I/O](slides/08/files-review.html)
+* [Paths, More File I/O, Data Formats and Sources](slides/08/data-files-advanced.html)
+
+{% comment %}
 * [Image Processing](slides/09/image-processing.html)
+{% endcomment %}
+
 <a name="midterm1"></a>
 </td>
 
@@ -22,9 +31,11 @@ From {{ site.book1 }}
 {% endcomment %}
 	<td markdown="block">
 
+    {% comment %}
 Links / Downloads
 
 * Download [this image of a wallaby](resources/img/wallaby.jpg) to your project folder.
 * <strike><a href="https://docs.google.com/a/nyu.edu/forms/d/1zkCnVU_26wtBy6ZCMynyX0u2xwHT8fySuG8OzutAZZM/viewform">In-class programming activity</a></strike>
 
+    {% endcomment %}
 </td>

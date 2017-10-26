@@ -227,7 +227,11 @@ Additional Resources
 <tr><td>8</td><td><strong>Oct 26</strong><br>Thu</td>
 <td markdown="block">
 
+* Tuples Revisited
+* Handling Errors
 * Dictionaries
+* Processing Continued (Maybe?)
+* Functions as Objects
 
 </td>
 <td markdown="block">
@@ -235,49 +239,26 @@ Additional Resources
 Think Python
 
 11 - Dictionaries
+12 - Tuples
+13 - Case study: data structure selection
+
+Additional Resources
+
+* Exceptions
+* Functions as Objects
 
 
 </td>
 
-<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/08.markdown %}
-{% endcomment %}
  </tr>
 
 <!-- ------------ --><a name="09"></a>
 <tr><td>9</td><td><strong>Nov 02</strong><br>Thu</td>
 <td markdown="block">
-* Tuples
-* Using a Different Text Editor
-* Downloading Modules
-* Data Visualization with matplotlib
-
-</td>
-<td markdown="block">
-Think Python
-
-* 12 - Tuples
-* 13 - Case study: data structure selection
-
-Additional Resources
-
-* Text Editor
-* pip, virtualenv, etc.
-* matplotlib
-</td>
-
-<td></td><td markdown="block"></td>{% comment %}
-{% include schedule/09.markdown %}
-{% endcomment %}
- </tr>
-
-<!-- ------------ --><a name="10"></a>
-<tr><td>10</td><td><strong>Nov 09</strong><br>Thu</td>
-<td markdown="block">
 * File I/O
 * Retrieving Data from the Web
 * Text Processing with textblob
-
 
 </td>
 <td markdown="block">
@@ -290,6 +271,26 @@ Additional Resources
 * web
 * text blob
 </td>
+
+{% include schedule/09.markdown %}
+ </tr>
+
+<!-- ------------ --><a name="10"></a>
+<tr><td>10</td><td><strong>Nov 09</strong><br>Thu</td>
+<td markdown="block">
+
+* Using a Different Text Editor
+* Downloading Modules
+* Data Visualization with matplotlib
+
+</td>
+<td markdown="block">
+</td>
+Additional Resources
+
+* Text Editor
+* pip, virtualenv, etc.
+* matplotlib
 
 <td></td><td markdown="block"></td>{% comment %}
 {% include schedule/10.markdown %}

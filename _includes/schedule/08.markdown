@@ -1,5 +1,9 @@
 	<td markdown="block">
-* [Paths, More File I/O, Data Formats and Sources](slides/08/data-files-advanced.html)
+
+* [Exceptions](slides/08/exceptions.html)
+* [Tuples](slides/08/tuples.html)
+* [Dictionaries](slides/08/dictionaries.html)
+* [Dictionary Exercises](slides/08/exercises.html)
 
 </td>
 {% comment %}
@@ -11,5 +15,13 @@ From {{ site.book1 }}
 </td>
 {% endcomment %}
 	<td markdown="block">
-
+{% comment %}
+* a coded message
+    1. find the frequency of letters in the English language
+        * easy
+        * difficult
+    2. try reading the text and making some visualization in turtle or processing!
+* create a scene where multiple "objects" exist and each have their own independent attributes using dictionaries
+* switch based on a dictionary
+{% endcomment %}
 </td>
