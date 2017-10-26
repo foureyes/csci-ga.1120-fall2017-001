@@ -3,7 +3,7 @@
 * [Paths](slides/08/paths.html)
 * [File I/O](slides/08/files.html)
 * [More File I/O](slides/08/files-review.html)
-* [Paths, More File I/O, Data Formats and Sources](slides/08/data-files-advanced.html)
+* [File Formats and Sources, Extra File I/O](slides/08/data-files-advanced.html)
 
 {% comment %}
 * [Image Processing](slides/09/image-processing.html)
@@ -28,6 +28,8 @@ From {{ site.book1 }}
     * [PixelAccess Object](https://pillow.readthedocs.org/en/3.1.x/reference/PixelAccess.html)
 
 </td>
+
+
 {% endcomment %}
 	<td markdown="block">
 
