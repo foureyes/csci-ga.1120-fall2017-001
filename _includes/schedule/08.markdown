@@ -5,6 +5,15 @@
 * [Dictionaries](slides/08/dictionaries.html)
 * [Dictionary Exercises](slides/08/exercises.html)
 
+Class Notes
+
+* [exceptions, tuples](resources/code/class08.py)
+* [dictionaries, dice](resources/code/class08_dice.py)
+* [turtle animation, stars](resources/code/class08_stars.py)
+* [turtle animation and dictionaries](resources/code/class08_more_stars.py)
+
+
+
 </td>
 
 
@@ -18,13 +27,11 @@ From {{ site.book1 }}
 </td>
 {% endcomment %}
 	<td markdown="block">
-Potential Homework
+Due Friday, 11/3, at 11pm
 
-* a secret message
-    1. find letter frequency to break
-        * simple shift
-        * substitution
-    2. make a visualization of letter frequency in turtle or processing!
-* create a scene where multiple "objects" exist and each have their own independent attributes using dictionaries
-* switching based on a dictionary
+* [mystery_solved.py](assignments/hw08/mystery_solved.py) 
+    * encoded text as a variable in a module: [secret.py](assignments/hw08/secret.py) 
+    * sorting using `sorted`: [test_ordering.py](assignments/hw08/test_ordering.py) 
+* [many_things.py](assignments/hw08/many_things.py) 
+
 </td>
