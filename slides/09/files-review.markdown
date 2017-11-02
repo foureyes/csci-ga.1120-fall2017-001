@@ -10,35 +10,6 @@ title: File I/O
 <p><small></small></p>
 </section>
 
-{% comment %}
-<section markdown="block">
-##  Storing Data
-
-__What's the difference between volatile and non-volatile memory, and what are some examples of each?__ &rarr;
-
-
-<div class="fragment" markdown="block">
-* __volatile memory__ - memory that requires an electrical current to maintain state; for example, your computer's main memory/RAM
-* __non-volatile memory__ - memory that can maintain state without power; for example, SSDs, hard drives, DVDs, etc.
-</div>
-</section>
-
-<section markdown="block">
-##  Storing Data in Main Memory
-
-__What are the consequences of your data being stored in your computer's main memory?__ &rarr;
-
-<div class="fragment" markdown="block">
-* data may go away at the end of the program, or when the computer gets turned off
-* if you're working with large amounts of data, you may run out of RAM (which is typically less than the amount of non-volatile memory that you have)!
-
-__So, if you want to persist data beyond the lifetime of your running program or through on-off cycles...__ &rarr;
-
-Store data as a file on non-volatile memory.
-</div>
-</section>
-{% comment %}
-
 <section markdown="block">
 ##  Review Files!
 
