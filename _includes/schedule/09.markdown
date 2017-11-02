@@ -11,7 +11,7 @@
     * `key`
 * [Practice Dictionaries](resources/code/class09/roommate.py)
 * [Practice File I/O](resources/code/class09/nba.py)
-    * [data file (stats-clean.txt)](resources/code/class09/stats-clean.py)
+    * [data file (stats-clean.txt)](resources/code/class09/stats-clean.txt)
 
 {% comment %}
 * [Image Processing](slides/09/image-processing.html)
@@ -40,6 +40,13 @@ From {{ site.book1 }}
 
 {% endcomment %}
 	<td markdown="block">
+
+To be posted Friday..
+
+* maybe choose 1 of 2 
+* (or both!)
+* which character is mentioned the most in your favorite book
+* use a thesaurus to substitute certain words in a text of your choice (a book, song lyrics, a script, etc.)
 
     {% comment %}
 Links / Downloads
