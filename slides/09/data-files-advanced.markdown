@@ -12,26 +12,21 @@ title: "Paths, More File I/O, Data Formats and Sources"
 
 
 <section markdown="block">
-## Paths and open
+## Review Paths and open
 
 Using __open__, if you just pass in a file name as the first argument, Python will look in the directory that _the program is running from_. 
 
 The directory that your program is running from is the __current working directory__.
 
-* in PyCharm, your project folder is your current working directory
+* in IDLE, the current working directory is where your file is located
 * if you're running from the __commandline__, __whatever directory you're in__ is the current working directory
 
-For example, in PyCharm, and your project is in:
-
-<pre><code data-trim contenteditable>
-/Users/myusername/PycharmProjects/my_amazing_project/
-</code></pre>
+For example, if your file is in `/Users/myusername/my_amazing_project/`
 
 <pre><code data-trim contenteditable>
 f = open("data.txt", 'r')
-
 # attempts to open this file:
-# /Users/myusername/PycharmProjects/my_amazing_project/data.txt
+# /Users/myusername/my_amazing_project/data.txt
 </code></pre>
 
 </section>
@@ -111,23 +106,6 @@ So you can do something like:
 f = open('/projects/cool_stuff/foo.txt', 'r')
 </code></pre>
 
-</section>
-
-<section markdown="block">
-## File I/O Review
-
-__(See slides from previous class for details)__
-
-* __opening__ and __closing__
-* reading a file
-* methods for reading
-    * iterate
-    * read
-    * readlines
-    * readline (call consecutively)
-* writing to a file
-
-__One thing to note about closing your files though...__ &rarr;
 </section>
 
 <section markdown="block">
@@ -372,6 +350,7 @@ __So... how do you decide whether or not to download and save from a remote serv
 Using the requests module to __retrieve data from a url__ &rarr;
 
 <pre><code data-trim contenteditable>
+# easy_intstall or pip install requests first...
 import requests
 res = requests.get("http://cs.nyu.edu")
 print(res.status_code) # http response status code (you want a 200)

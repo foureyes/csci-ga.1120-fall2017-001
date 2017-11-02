@@ -10,6 +10,7 @@ title: File I/O
 <p><small></small></p>
 </section>
 
+{% comment %}
 <section markdown="block">
 ##  Storing Data
 
@@ -36,9 +37,10 @@ __So, if you want to persist data beyond the lifetime of your running program or
 Store data as a file on non-volatile memory.
 </div>
 </section>
+{% comment %}
 
 <section markdown="block">
-##  open
+##  Review Files!
 
 __In Python, what built-in function do we use to interact with files?  How many parameters does it have, and what does it return?__ &rarr;
 
@@ -113,17 +115,17 @@ __What are the steps for opening a file and retrieving data from it?  What file 
 <section markdown="block">
 ##  Reading a File
 
-1. Get a file object using open with read mode: __open('filename', 'r')__
+__What about reading?__ &rarr;
+
+1. {:.fragment} Get a file object using open with read mode: __open('filename', 'r')__
 	* filename is the file to be opened
 	* __'r'__ means that the file will be opened for reading
-2. To read data...
+2. {:.fragment} To read data...
 	* iterate over the file object itself (reads one line at a time)
-	* use one of the following methods:
-		* __iterate__ over the __file object__ itself (use a for loop with the file object)
-		* __readline()__
-		* __read()__
-		* __readlines()__
-3. Use the __close__ method on the file object when you're done
+	* or use __readline()__
+    * or... __read()__
+	* or lastly, __readlines()__
+3. {:.fragment} Use the __close__ method on the file object when you're done
 </section>
 
 <section markdown="block">
@@ -492,6 +494,8 @@ def translate_passage(passage):
             word = ""
         else:
             word += c
+    if len(word) > 0:
+        translation += to_pig_latin(word)
     return translation
 </code></pre>
 </section>

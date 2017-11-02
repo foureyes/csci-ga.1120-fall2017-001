@@ -1,9 +1,17 @@
 	<td markdown="block">
 
-* [Paths](slides/08/paths.html)
-* [File I/O](slides/08/files.html)
-* [More File I/O](slides/08/files-review.html)
-* [File Formats and Sources, Extra File I/O](slides/08/data-files-advanced.html)
+* Review Dictionaries
+* [Paths](slides/09/paths.html)
+* [File I/O](slides/09/files.html)
+* [File I/O Review](slides/09/files-review.html)
+* (optional) [File Formats and Sources, Extra File I/O](slides/09/data-files-advanced.html)
+
+* `sorted`?
+    * `reverse`
+    * `key`
+* [Practice Dictionaries](resources/code/class09/roommate.py)
+* [Practice File I/O](resources/code/class09/nba.py)
+    * [data file (stats-clean.txt)](resources/code/class09/stats-clean.py)
 
 {% comment %}
 * [Image Processing](slides/09/image-processing.html)

@@ -127,6 +127,21 @@ __write(s)__
 * takes a string as an argument (non-string arguments result in an error)
 </section>
 
+
+
+<section markdown="block">
+## Remember to Close It!!!
+
+Once you're done working with your file, __remember to close it by__:
+
+<pre><code data-trim contenteditable>
+file_obj.close()
+</code></pre>
+
+* if you don't do this, the file may not be written to!
+* (if you're interested in a better way to deal with this, look for context managers in the python docs... or the `extra file i/i` slides)
+
+</section>
 <section markdown="block">
 ##  Lottery Ticket
 
