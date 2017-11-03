@@ -6,12 +6,21 @@
 * [File I/O Review](slides/09/files-review.html)
 * (optional) [File Formats and Sources, Extra File I/O](slides/09/data-files-advanced.html)
 
+Demos / In-Class Exercises
+
 * `sorted`?
     * `reverse`
     * `key`
 * [Practice Dictionaries](resources/code/class09/roommate.py)
 * [Practice File I/O](resources/code/class09/nba.py)
     * [data file (stats-clean.txt)](resources/code/class09/stats-clean.txt)
+
+Class Notes
+
+* [About Dictionaries](resources/code/class09.py)
+* [More Dictionary Review (Interactive Shell)](resources/code/class09_dictionary_review.py)
+* [Terminal Commands](resources/code/class09_terminal_commands.md)
+* [Reading / Writing Files](resources/code/class09_files.py)
 
 {% comment %}
 * [Image Processing](slides/09/image-processing.html)
