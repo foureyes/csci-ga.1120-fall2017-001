@@ -50,12 +50,13 @@ From {{ site.book1 }}
 {% endcomment %}
 	<td markdown="block">
 
-To be posted Friday..
+Homework Due Friday, 11/10:
 
-* maybe choose 1 of 2 
-* (or both!)
-* which character is mentioned the most in your favorite book
-* use a thesaurus to substitute certain words in a text of your choice (a book, song lyrics, a script, etc.)
+(since we didn't get a chance to do this in class)
+
+* [Calculating Shooting %, NBA Data](resources/code/class09/nba.py)
+    * [data file (stats-clean.txt)](resources/code/class09/stats-clean.txt)
+* [Using Report Generated Above](resources/code/class09/nba_interactive.py)
 
     {% comment %}
 Links / Downloads
