@@ -257,8 +257,6 @@ Additional Resources
 <tr><td>9</td><td><strong>Nov 02</strong><br>Thu</td>
 <td markdown="block">
 * File I/O
-* Retrieving Data from the Web
-* Text Processing with textblob
 
 </td>
 <td markdown="block">
@@ -266,10 +264,6 @@ Think Python
 
 * 14 - Files
 
-Additional Resources
-
-* web
-* text blob
 </td>
 
 {% include schedule/09.markdown %}
@@ -279,49 +273,59 @@ Additional Resources
 <tr><td>10</td><td><strong>Nov 09</strong><br>Thu</td>
 <td markdown="block">
 
-* Using a Different Text Editor
+* Intro to Object Oriented Programming
+* More File I/O
+* Tools / Text Editor
 * Downloading Modules
-* Data Visualization with matplotlib
+* Retrieving Data from the Web
 
 </td>
+
 <td markdown="block">
-</td>
+Think Python
+
+* 14 - Files
+* 15 - Classes and objects
+* 16 - Classes and functions
+* 17 - Classes and methods
+
 Additional Resources
 
-* Text Editor
 * pip, virtualenv, etc.
-* matplotlib
+* requests, web
 
-<td></td><td markdown="block"></td>{% comment %}
+</td>
+
 {% include schedule/10.markdown %}
-{% endcomment %}
  </tr>
 
 <!-- ------------ --><a name="11"></a>
 <tr><td>11</td><td><strong>Nov 16</strong><br>Thu</td>
 <td markdown="block">
-* Object Oriented Programming
-* Inheritance
 
+* More Object Oriented Programming
+* Inheritance
+* Data Visualization
+* Text Processing
 
 </td>
 <td markdown="block">
 Think Python
 
-* 15 - Classes and objects
-* 16 - Classes and functions
-* 17 - Classes and methods
 * 18 - Inheritance
 
 CS for All
 
 * 6 - Fun and Games with OOPs
 
+Additional Resources
+
+* matplotlib
+* text blob
+
 </td>
 
-<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/11.markdown %}
-{% endcomment %}
  </tr>
 
 <!-- ------------ --><a name="12"></a>

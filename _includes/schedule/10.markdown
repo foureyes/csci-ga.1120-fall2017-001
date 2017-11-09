@@ -1,5 +1,26 @@
 	<td markdown="block">
+
+* Some Advertisements:
+    * [CSCI-GA.1122 Web Development (4 points)](http://dhss.hosting.nyu.edu/wp-content/uploads/2017/03/CSCI_GA_1122_WebDevelopment_Description-1.pdf)
+    * Programming and Working with NYC Historical Data
+* [Classes and Objects](slides/10/classes-objects.html)
+* [A New Editor, Tools](slides/10/editor.html)
+* Break for Exercises / Review
+    * A quick look at `turtle` + classes!
+    * [Lousy Plasma](resources/code/class10/lousy_plasma.html)
+* [File Formats and Sources, Extra File I/O](slides/10/data-files-advanced.html)
+
+Demos / In-Class Exercises
+
+{% comment %}
+* [PIL, IO, Requests, DOM/HTML/CSS, BS4](slides/10/pil-bs4.html)
+{% endcomment %}
+
+
+{% comment %}
 * [More (Advanced?) Image Processing](slides/10/advanced-image-processing.html)
+{% endcomment %}
+
 </td>
 {% comment %}
 	<td markdown="block">
@@ -12,6 +33,7 @@ From {{ site.book1 }}
 {% endcomment %}
 	<td markdown="block">
 
+{% comment %}
 Due Sunday, March 6th
 
 * [Assignment #04 posted](assignments/hw04.html)
@@ -23,4 +45,5 @@ Links / Downloads
     * [quokka (med)](resources/img/quokka.jpg), wait - [a what?](https://en.wikipedia.org/wiki/Quokka)
     * [acorn (small)](resources/img/acorn-small.png) 
 * In-class programming activity [image processing](https://docs.google.com/a/nyu.edu/forms/d/1zkCnVU_26wtBy6ZCMynyX0u2xwHT8fySuG8OzutAZZM/viewform)
+{% endcomment %}
 </td>

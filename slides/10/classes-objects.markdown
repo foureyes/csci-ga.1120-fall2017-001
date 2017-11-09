@@ -12,47 +12,21 @@ title: "Named Tuples, Classes, and Objects"
 
 
 
-
 </section>
 
 <section markdown="block">
 ## Storing a 2-Dimensional Point
 
-__What are some options for storing the x and y coordinates of a point on a 2D plane?__ (Imagine we had a point, (4, 2)... how would we represent it in our program?) &rarr;
+__What are some options for storing point on a 2D plane?__ (Imagine we had a point, (4, 2)... how would we represent it in our program?) &rarr;
 
-two separate ints 
-{:.fragment}
-
-<pre><code data-trim contenteditable>
-x = 4
-y = 2
-</code></pre>
-{:.fragment}
-
-
-a 2-element list
-{:.fragment}
-
-<pre><code data-trim contenteditable>
-p = [4, 2]
-</code></pre>
-{:.fragment}
-
-a 2-element tuple
-{:.fragment}
-
-<pre><code data-trim contenteditable>
+* {:.fragment} two separate ints: 
+    <pre><code data-trim contenteditable>x, y = 4, 2</code></pre>
+* {:.fragment} a 2-element list or a 2-element tuple: 
+    <pre><code data-trim contenteditable>p = [4, 2] 
 p = (4, 2)
 </code></pre>
-{:.fragment}
-
-a dictionary
-{:.fragment}
-
-<pre><code data-trim contenteditable>
-p = {'x':4, 'y':2]
-</code></pre>
-{:.fragment}
+* {:.fragment} a dictionary:
+    <pre><code data-trim contenteditable> p = {'x':4, 'y':2] </code></pre>
 
 
 </section>
@@ -262,7 +236,7 @@ print(type(obj))
 
 As you can see, using the class name as we were calling a function creates a new _Cat_ object.
 
-The creation of new objects from a class is __instantition__. (We're creating an instance of class <code>Cat</code>)
+The creation of new objects from a class is __instantiation__. (We're creating an instance of class <code>Cat</code>)
 </section>
 
 <section markdown="block">
@@ -412,7 +386,7 @@ What? How did this happen? <code>Paw Newman's</code> name is <code>"Paw Newman</
 ## String Representation of Objects
 
 
-In Python, by default, __an object's string representation is its class name followed by its id (for some impelemntation, this is just the object's address in memory)__.
+In Python, by default, __an object's string representation is its class name followed by its id (for some implementations, this is just the object's address in memory)__.
 
 If we want to override this string representation, we can create a _special method_ called <code>__str__</code>. The value that <code>__str__</code> returns will be used as the string representation of objects created from your class.
 

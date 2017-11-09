@@ -4,7 +4,6 @@
 * [Paths](slides/09/paths.html)
 * [File I/O](slides/09/files.html)
 * [File I/O Review](slides/09/files-review.html)
-* (optional) [File Formats and Sources, Extra File I/O](slides/09/data-files-advanced.html)
 
 Demos / In-Class Exercises
 
@@ -12,7 +11,7 @@ Demos / In-Class Exercises
     * `reverse`
     * `key`
 * [Practice Dictionaries](resources/code/class09/roommate.py)
-* [Practice File I/O](resources/code/class09/nba.py)
+* (converted to homework) [Practice File I/O](resources/code/class09/nba.py)
     * [data file (stats-clean.txt)](resources/code/class09/stats-clean.txt)
 
 Class Notes
