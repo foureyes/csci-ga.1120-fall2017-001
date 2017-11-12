@@ -11,7 +11,16 @@
     * [Lousy Plasma](resources/code/class10/lousy_plasma.html)
 * [File Formats and Sources, Extra File I/O](slides/10/data-files-advanced.html)
 
-Demos / In-Class Exercises
+Class Notes
+
+* [Classes Part 1](resources/code/classes.py)
+* [Classes Part 2](resources/code/classes2.py)
+* [File I/O Example - Doubling Ingredients](resources/code/class10/cook.py)
+    * [ingredients.txt](resources/code/class10/ingredients.txt)
+* [lousy_plasma.py 0](resources/code/class10/lousy_plasma.py)
+* [lousy_plasma.py 1](resources/code/class10/lousy_plasma_01.py)
+* [lousy_plasma.py 2](resources/code/class10/lousy_plasma_02.py)
+* [lousy_plasma.py 3](resources/code/class10/lousy_plasma_03.py)
 
 {% comment %}
 * [PIL, IO, Requests, DOM/HTML/CSS, BS4](slides/10/pil-bs4.html)
@@ -34,17 +43,7 @@ From {{ site.book1 }}
 {% endcomment %}
 	<td markdown="block">
 
-{% comment %}
-Due Sunday, March 6th
+Due Saturday, 11/18 at 11pm:
 
-* [Assignment #04 posted](assignments/hw04.html)
-
-Links / Downloads
-
-* Download the following images to your project folder (right-click, save as):
-    * [wallaby (large)](resources/img/wallaby.jpg) 
-    * [quokka (med)](resources/img/quokka.jpg), wait - [a what?](https://en.wikipedia.org/wiki/Quokka)
-    * [acorn (small)](resources/img/acorn-small.png) 
-* In-class programming activity [image processing](https://docs.google.com/a/nyu.edu/forms/d/1zkCnVU_26wtBy6ZCMynyX0u2xwHT8fySuG8OzutAZZM/viewform)
-{% endcomment %}
+* [Quizzical](assignments/hw10.html)
 </td>

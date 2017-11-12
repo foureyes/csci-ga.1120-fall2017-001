@@ -12,8 +12,6 @@ Class Notes
 * [turtle animation, stars](resources/code/class08_stars.py)
 * [turtle animation and dictionaries](resources/code/class08_more_stars.py)
 
-
-
 </td>
 
 

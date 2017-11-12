@@ -49,7 +49,7 @@ From {{ site.book1 }}
 {% endcomment %}
 	<td markdown="block">
 
-Homework Due Friday, 11/10:
+Due Friday, 11/10 at 11pm:
 
 (since we didn't get a chance to do this in class)
 

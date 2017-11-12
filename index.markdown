@@ -22,8 +22,7 @@ nav-state: schedule
 <tbody>
 
 
-<!-- ------------ --><a name="01"></a>
-<tr><td>1</td><td><strong>Sep 07</strong><br>Thu</td>
+<tr><td id="class01">1</td><td><strong>Sep 07</strong><br>Thu</td>
 <td markdown="block">
 
 * Computers Overview
@@ -58,8 +57,7 @@ Additional Resources
  </tr>
 
 
-<!-- ------------ --><a name="02"></a>
-<tr><td>2</td><td><strong>Sep 14</strong><br>Thu</td>
+<tr><td id="class02">2</td><td><strong>Sep 14</strong><br>Thu</td>
 <td markdown="block">
 
 * Conditionals
@@ -83,8 +81,7 @@ Think Python
  </tr>
 
 
-<!-- ------------ --><a name="03"></a>
-<tr><td>3</td><td><strong>Sep 21</strong><br>Thu</td>
+<tr><td id="class03">3</td><td><strong>Sep 21</strong><br>Thu</td>
 <td markdown="block">
 
 
@@ -109,8 +106,7 @@ CS for All
  </tr>
 
 
-<!-- ------------ --><a name="04"></a>
-<tr><td>4</td><td><strong>Sep 28</strong><br>Thu</td>
+<tr><td id="class04">4</td><td><strong>Sep 28</strong><br>Thu</td>
 <td markdown="block">
 
 * Commandline
@@ -139,8 +135,7 @@ Additional Resources
  </tr>
 
 
-<!-- ------------ --><a name="05"></a>
-<tr><td>5</td><td><strong>Oct 5</strong><br>Thu</td>
+<tr><td id="class05">5</td><td><strong>Oct 5</strong><br>Thu</td>
 <td markdown="block">
 * Lists
 * List Algorithms
@@ -166,8 +161,7 @@ Additional Resources
  </tr>
 
 
-<!-- ------------ --><a name="06"></a>
-<tr><td>6</td><td><strong>Oct 12</strong><br>Thu</td>
+<tr><td id="class06">6</td><td><strong>Oct 12</strong><br>Thu</td>
 <td markdown="block">
 * Review Lists
 * Strings
@@ -202,8 +196,7 @@ Additional Resources
 
 
 
-<!-- ------------ --><a name="07"></a>
-<tr><td>7</td><td><strong>Oct 19</strong><br>Thu</td>
+<tr><td id="class07">7</td><td><strong>Oct 19</strong><br>Thu</td>
 <td markdown="block">
 
 * Midterm Quiz
@@ -223,8 +216,7 @@ Additional Resources
  </tr>
 
 
-<!-- ------------ --><a name="08"></a>
-<tr><td>8</td><td><strong>Oct 26</strong><br>Thu</td>
+<tr><td id="class08">8</td><td><strong>Oct 26</strong><br>Thu</td>
 <td markdown="block">
 
 * Tuples Revisited
@@ -253,8 +245,7 @@ Additional Resources
 {% include schedule/08.markdown %}
  </tr>
 
-<!-- ------------ --><a name="09"></a>
-<tr><td>9</td><td><strong>Nov 02</strong><br>Thu</td>
+<tr><td id="class09">9</td><td><strong>Nov 02</strong><br>Thu</td>
 <td markdown="block">
 * File I/O
 
@@ -269,8 +260,7 @@ Think Python
 {% include schedule/09.markdown %}
  </tr>
 
-<!-- ------------ --><a name="10"></a>
-<tr><td>10</td><td><strong>Nov 09</strong><br>Thu</td>
+<tr><td id="class10">10</td><td><strong>Nov 09</strong><br>Thu</td>
 <td markdown="block">
 
 * Intro to Object Oriented Programming
@@ -299,8 +289,7 @@ Additional Resources
 {% include schedule/10.markdown %}
  </tr>
 
-<!-- ------------ --><a name="11"></a>
-<tr><td>11</td><td><strong>Nov 16</strong><br>Thu</td>
+<tr><td id="class11">11</td><td><strong>Nov 16</strong><br>Thu</td>
 <td markdown="block">
 
 * More Object Oriented Programming
@@ -328,8 +317,7 @@ Additional Resources
 {% include schedule/11.markdown %}
  </tr>
 
-<!-- ------------ --><a name="12"></a>
-<tr><td>12</td><td><strong>Nov 30</strong><br>Thu</td>
+<tr><td id="class12">12</td><td><strong>Nov 30</strong><br>Thu</td>
 <td markdown="block">
 * Functional Programming 
 
@@ -346,8 +334,7 @@ CS for All
 {% endcomment %}
  </tr>
 
-<!-- ------------ --><a name="13"></a>
-<tr><td>13</td><td><strong>Dec 07</strong><br>Thu</td>
+<tr><td id="class13">13</td><td><strong>Dec 07</strong><br>Thu</td>
 <td markdown="block">
 * How Computers Work
 
@@ -363,8 +350,7 @@ CS for All
 {% endcomment %}
  </tr>
 
-<!-- ------------ --><a name="14"></a>
-<tr><td>14</td><td><strong>Dec 14</strong><br>Thu</td>
+<tr><td id="class14">14</td><td><strong>Dec 14</strong><br>Thu</td>
 <td markdown="block">
 * Special Topic (Image Processing or Audio)
 
