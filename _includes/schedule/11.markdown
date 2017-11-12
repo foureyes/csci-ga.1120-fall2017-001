@@ -1,5 +1,6 @@
 	<td markdown="block">
 
+* [A New Editor, Tools](slides/11/editor.html)
 
 </td>
 {% comment %}

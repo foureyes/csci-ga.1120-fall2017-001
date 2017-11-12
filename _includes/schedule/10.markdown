@@ -5,7 +5,6 @@
     * [CSCI-GA.1122 Web Development (4 points)](http://dhss.hosting.nyu.edu/wp-content/uploads/2017/03/CSCI_GA_1122_WebDevelopment_Description-1.pdf)
     * Programming and Working with NYC Historical Data
 * [Classes and Objects](slides/10/classes-objects.html)
-* [A New Editor, Tools](slides/10/editor.html)
 * Break for Exercises / Review
     * A quick look at `turtle` + classes!
     * [Lousy Plasma](resources/code/class10/lousy_plasma.html)
