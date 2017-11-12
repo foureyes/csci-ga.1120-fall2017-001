@@ -24,6 +24,7 @@ img {
 * __Part 4__ The Part Where I Answer Questions
 * __Part 5__ (optional challenge) An Egregious Error
 * __Part 6__ (optional challenge) Compose if You Dare!
+* __Part 7__ (optional challenge) More!? (Some Polish)
 
 
 ## Part 0 - Readings
