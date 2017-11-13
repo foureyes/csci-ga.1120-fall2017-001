@@ -15,7 +15,7 @@ img {
 }
 </style>
 
-# Assignment #10 - Due Friday, Saturday Nov 18th
+# Assignment #10 - Due Saturday, Nov 18th
 
 * __Part 0__ Readings
 * __Part 1__ A Class-ic Question
