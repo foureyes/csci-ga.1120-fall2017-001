@@ -8,12 +8,11 @@
 * Break for Exercises / Review
     * A quick look at `turtle` + classes!
     * [Lousy Plasma](resources/code/class10/lousy_plasma.html)
-* [File Formats and Sources, Extra File I/O](slides/10/data-files-advanced.html)
 
 Class Notes
 
-* [Classes Part 1](resources/code/classes.py)
-* [Classes Part 2](resources/code/classes2.py)
+* [Classes Part 1](resources/code/class10/classes.py)
+* [Classes Part 2](resources/code/class10/classes2.py)
 * [File I/O Example - Doubling Ingredients](resources/code/class10/cook.py)
     * [ingredients.txt](resources/code/class10/ingredients.txt)
 * [lousy_plasma.py 0](resources/code/class10/lousy_plasma.py)

@@ -1,5 +1,15 @@
 	<td markdown="block">
 
+* Review Slides on Classes from Previous Class
+    * static methods
+    * class variables
+    * demo: fraction class
+    * exercise: person class
+    * demo: rectangle class
+    * inheritance
+        * person &rarr; student
+        * other shapes
+* [File Formats and Sources, Extra File I/O](slides/10/data-files-advanced.html)
 * [A New Editor, Tools](slides/11/editor.html)
 
 </td>
