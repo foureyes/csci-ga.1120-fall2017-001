@@ -1,16 +1,6 @@
 	<td markdown="block">
 
-* Review Slides on Classes from Previous Class
-    * creating a class
-    * instance variables
-    * constructor
-    * methods
-    * as a string
-    * exercise: person class
-        * title, first, and last name
-        * method: full name including title
-        * when converted to a string, should display full name 
-        * say hello method (takes argument, greeting)
+* [Classes and Objects](slides/11/classes-review.html)
 * Aaaand... More With Classes
     * instances as arguments
     * composition
