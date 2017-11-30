@@ -1,36 +1,11 @@
 	<td markdown="block">
 
-* [Classes and Objects](slides/11/classes-review.html)
-* Aaaand... More With Classes
-    * instances as arguments
-    * composition
-    * calling methods from methods
-    * static methods
-    * class variables
-    * \_\_eq\_\_, \_\_gt\_\_, \_\_lt\_\_
-    * \_\_add\_\_
-    * \_\_repr\_\_
-    * demo: fraction class
-    * exercise: rectangle class
-        * equal if dimensions are same
-        * compare with area
-    * using with turtle
-* Inheritance
-    * super 
-    * person &rarr; student
-    * other shapes 
+* [Quick Classes and Objects Review](slides/11/classes-review.html)
+* [Magic Methods, Static Methods, Inheritance](slides/11/more-classes.html)
+* in class notes to be posted
 * [A New Editor, Tools](slides/11/editor.html)
 * [File Formats and Sources, Extra File I/O](slides/10/data-files-advanced.html)
-* maybe matplotlib
-    * plt.plot(x, y)
-    * plt.bar(x, y)
-    * plt.show
-    * plt.xticks(vals, labels)
-* optional: functional programming
-    * args, kwargs
-    * decorators
-    * lambda
-    * map, reduce, filter
+* demo matplotlib
 
 </td>
 {% comment %}

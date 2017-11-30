@@ -1,22 +1,31 @@
 	<td colspan="3" markdown="block">
+* Review tooling
+* [A Quick Tour of Graphing with Matplotlib](slides/12/matplotlib.html)
+* Exercise or Demo: bar chart and [Pride and Prejudice](http://www.gutenberg.org/files/1342/1342-0.txt)
+* [A Detour on the Web](slides/12/web.html)
+* [File Formats and Sources, Extra File I/O](slides/10/data-files-advanced.html) (again)
+* Exercise or Demo [population by country, 1980 to 2010](https://catalog.data.gov/dataset/population-by-country-1980-2010)
+* optional: functional programming
+    * args, kwargs
+    * decorators
+    * lambda
+    * map, reduce, filter
 
-Materials / Readings
+{% comment %}
+* TODO: create csv, student grades???
+* discuss csvs
+    * csv module
+    * DEMO / TOGETHER: student grades?
+    * DEMO / TOGETHER: found csv data and line graph?
+{% endcomment %}
+</td>
 
-* chapters 1 - 6, 10 
-* slides from classes 1 through 11
+	<td markdown="block">
 
-Notes
+Homework (to be posted in full on Friday):
 
-* if material is in book only...
-* i'll give you adequate context / info in exam
-* there will be a reference with methods, objs for turtle, PIL, file io, etc.
-* ... just names and parameters though, not full description
-
-Not on Exam or Extra Credit Only
-
-* beautiful soup and dom manipulation
-* built-in PIL functions for resizing, thumbnailing, etc
-* lambda expressions
-
+* find a module relevant to your area of study
+* write a description of why it's useful to you
+* write a small demonstration of how it works
 
 </td>

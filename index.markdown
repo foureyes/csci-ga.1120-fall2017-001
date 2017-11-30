@@ -319,19 +319,16 @@ Additional Resources
 
 <tr><td id="class12">12</td><td><strong>Nov 30</strong><br>Thu</td>
 <td markdown="block">
-* Functional Programming 
+
+* requests
+* matplotlib
 
 
 </td>
 <td markdown="block">
-CS for All
-
-* 3 - Functional Programming, Part Deux
 </td>
 
-<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/12.markdown %}
-{% endcomment %}
  </tr>
 
 <tr><td id="class13">13</td><td><strong>Dec 07</strong><br>Thu</td>

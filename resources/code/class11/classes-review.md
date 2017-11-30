@@ -49,81 +49,114 @@ class ClassName:
 
 
 <section markdown="block">
-## Constructor
+## Creating and Initializing an Object
 
-This is the function that's called when an entirely object is created from your class.
-
-To create an object from your class, call it as if it were a function:
+Use the name of the class to create a new object. The method, `__init__`, is the function that's automatically called when an entirely new object is created from your class. In other languages, this is called a __constructor__. &rarr; 
 
 <pre><code data-trim contenteditable>
 class Widget:
-    pass
+    def __init__(self):
+        print("doing what init does") 
 
 w = Widget()
 </code></pre>
 
-<pre><code data-trim contenteditable>
-__init__ # contains the code that will be run when you create a new obj
-</code></pre>
-
+1. To create an object from your class, call your class by name; use it as if it were a function
+2. The code in `__init__` is executed when a new _instance_ is created
+ 
+ <!-- _wat_ _-->
 
 </section>
 
 <section markdown="block">
 ## __init__
 
-Typically within init... what we'll do is create / set some properties on our new instance.
+The code in `__init__` is usually used to create or initialize properties on the new instance.
 
-We do this by using the 1st parameter passed in, which always the instance
+1. The first parameter for `__init__` should be `self` which represents the newly created instance
+2. The remaining number of parameters declared in `__init__` determine the number of arguments passed in when creating a new object
+3. Again, within `__init__`, `self` will refer to the new object that will be returned
 
 <pre><code data-trim contenteditable>
-__init__(self, arg1) #<-- first thing is always self
+class SomeFancyClass:
+    def __init__(self, arg1, arg2): # <-- first param is self
 
-# self is passed in implicitly
-
-ClassName(arg1)
+SomeFancyClass(arg1, arg2) # <-- 2 arguments passed
 </code></pre>
+
 
 </section>
 
 <section markdown="block">
-## Blank Instances, Setting Properties
+## Setting Properties on Instances
+
+__Instance variables (properties) can be added to an instance__ &rarr;
+
+First note that the property, `bar` does not exist on the instance, `f`
 
 <pre><code data-trim contenteditable>
 >>> class Foo:
 ...   pass
 ...
 >>> f = Foo()
->>> f
-<__main__.Foo object at 0x10c5e2d68>
->>> f.bar
+>>> f.baz
 Traceback (most recent call last):
 File "<stdin>", line 1, in <module>
 AttributeError: 'Foo' object has no attribute 'bar'
->>> f
-<__main__.Foo object at 0x10c5e2d68>
->>> f
-<__main__.Foo object at 0x10c5e2d68>
+</code></pre>
+
+However, a property can be added to an existing instance using dot and the new property name along with assignment:
+
+<pre><code data-trim contenteditable>
 >>> f.baz = 'baz'
 >>> f.baz
 'baz'
+</code></pre>
+</section>
+
+<section markdown="block">
+## Setting Properties Continued
+
+
+__Setting a property on an instance does not affect other instances created from the same class__ &rarr;
+
+
+If we look for `baz` in a new instance, it will not be present (it only exists in the instance `f` from the previous slide).
+
+<pre><code data-trim contenteditable>
 >>> f2 = Foo()
 >>> f2.baz
 Traceback (most recent call last):
 File "<stdin>", line 1, in <module>
 AttributeError: 'Foo' object has no attribute 'baz'
+</code></pre>
+
+
+</section>
+
+<section markdown="block">
+## Back to __init__
+
+So... __if you want to have a property initialized to a value for every instance, you can do it within the constructor (init) method__ &rarr;
+
+<pre><code data-trim contenteditable>
 >>> class Foo:
 ...   def __init__(self):
-  ...     self.bar = "bar"
+  ...     self.baz = "baz"
 ...
 >>> f = Foo()
->>> f.bar
-     'bar'
-          >>> f.bar = 'what'
-          >>> f.bar
-          'what'
-          >>>
+>>> f.baz
+'baz'
 </code></pre>
+
+Not that you can still override an instance variable set by `__init__`:
+
+<pre><code data-trim contenteditable>
+>>> f.baz = 'what'
+>>> f.baz
+'what'
+</code></pre>
+
 </section>
 
 <section markdown="block">
