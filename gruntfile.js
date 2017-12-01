@@ -12,12 +12,17 @@ module.exports = function(grunt) {
 			}
 		},
 
-		jekyll: {
-			build: {
-				serve: false,
+    jekyll: {
+      build: {
+        serve: false,
         incremental: true
-			}
-		},
+      },
+      
+      options: {                          
+        bundleExec: true,
+        incremental: true
+      },
+    },
 
 		less: {
 			dev: {

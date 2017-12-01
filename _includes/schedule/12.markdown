@@ -1,10 +1,13 @@
-	<td colspan="3" markdown="block">
+	<td markdown="block">
+
 * Review tooling
-* [A Quick Tour of Graphing with Matplotlib](slides/12/matplotlib.html)
-* Exercise or Demo: bar chart and [Pride and Prejudice](http://www.gutenberg.org/files/1342/1342-0.txt)
+* [Matplotlib Basics](slides/12/matplotlib.html)
+* Demo: bar chart 
+	* [Pride and Prejudice](http://www.gutenberg.org/files/1342/1342-0.txt)
 * [A Detour on the Web](slides/12/web.html)
 * [File Formats and Sources, Extra File I/O](slides/10/data-files-advanced.html) (again)
-* Exercise or Demo [population by country, 1980 to 2010](https://catalog.data.gov/dataset/population-by-country-1980-2010)
+* Demo: 
+	* [Population by Country, 1980 to 2010](https://catalog.data.gov/dataset/population-by-country-1980-2010)
 * optional: functional programming
     * args, kwargs
     * decorators
@@ -22,10 +25,11 @@
 
 	<td markdown="block">
 
-Homework (to be posted in full on Friday):
+Due __Wednesday, 12/6, at 11pm__
 
-* find a module relevant to your area of study
-* write a description of why it's useful to you
-* write a small demonstration of how it works
+A small research project...
+
+* [hw11.py](assignments/hw11/hw11.py) 
+* [requirements.txt](assignments/hw11/requirements.txt) 
 
 </td>

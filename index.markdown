@@ -307,10 +307,6 @@ CS for All
 
 * 6 - Fun and Games with OOPs
 
-Additional Resources
-
-* matplotlib
-* text blob
 
 </td>
 
@@ -320,12 +316,19 @@ Additional Resources
 <tr><td id="class12">12</td><td><strong>Nov 30</strong><br>Thu</td>
 <td markdown="block">
 
-* requests
 * matplotlib
-
+* requests
 
 </td>
 <td markdown="block">
+
+* [Installing Packages with PyCharm](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html#install_package)
+* [Matplotlib Official Tutorial](https://matplotlib.org/tutorials/index.html)
+* [Matplotlib Gallery](https://matplotlib.org/gallery/index.html)
+* [Matplotlib Documentation](https://matplotlib.org/contents.html)
+* [Networking Zine (How Getting a Web Page Works)](https://jvns.ca/networking-zine.pdf)
+* [Python Requests Documentation](http://docs.python-requests.org/en/master/)
+
 </td>
 
 {% include schedule/12.markdown %}
@@ -333,14 +336,16 @@ Additional Resources
 
 <tr><td id="class13">13</td><td><strong>Dec 07</strong><br>Thu</td>
 <td markdown="block">
-* How Computers Work
+
+* more web / requests
+* Special Topic (Image Processing or Audio)
+* text blob
 
 
 </td>
 <td markdown="block">
-CS for All
 
-* 4 - Computer Organization
+
 </td>
 <td></td><td markdown="block"></td>{% comment %}
 {% include schedule/13.markdown %}
