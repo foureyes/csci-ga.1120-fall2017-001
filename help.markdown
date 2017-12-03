@@ -6,9 +6,6 @@ nav-state: help
 ## General Help
 
 * {{site.office_hours}}
-* Tutoring Hours (link to be added)
-* Piazza (link to be added)
-* [Lab Information](http://www.nyu.edu/life/information-technology/locations-and-facilities/student-technology-centers.html)
 
 ## Installing Packages / Modules
 
