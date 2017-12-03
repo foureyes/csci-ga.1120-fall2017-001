@@ -1,6 +1,6 @@
 	<td markdown="block">
 
-* Review tooling
+* Review tooling (see [help for installing packages](help.html))
 * [Matplotlib Basics](slides/12/matplotlib.html)
 * Demo: bar chart 
 	* [Pride and Prejudice](http://www.gutenberg.org/files/1342/1342-0.txt)
