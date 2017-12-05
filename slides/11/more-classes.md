@@ -53,15 +53,12 @@ print(obj.some_var) # I am static
 <section markdown="block">
 ## Static Methods
 
-__"Static" methods__ ... are methods that you can call __with or without an instance__.
-
-Defining a __static method__ &rarr;
+__"Static" methods__ ... are methods that you can call __with or without an instance__.  To define a __static method__ &rarr;
 {:.fragment}
 
 <pre><code data-trim contenteditable>
 class Example:
-    # prefix with @staticmethod
-    # and don't create a self parameter
+    # prefix with @staticmethod and don't use self parameter
     @staticmethod
     def say_hello():
         return 'hello'
@@ -128,10 +125,10 @@ class Fraction:
 
 `gcf` is __defined as a static method__ because it's possible that we want to call this outside of the context of a fraction object (for example, just passing it two numbers): &rarr;
 <pre><code data-trim contenteditable>
-    # this means that this method can be called with/without instance
-    # and consequently, no self is needed
-    # you call it on an instance or the actual class itself: 
-    Fraction.gcf()
+    # this means that this method can be called 
+    # with/without instance # and consequently, no 
+    # self is needed you call it on an instance or 
+    # the actual class itself: Fraction.gcf()
 
     @staticmethod 
     def gcf(a, b):
@@ -145,11 +142,20 @@ class Fraction:
         return cur_gcf
 </code></pre>
 
+
+</section>
+
+<section markdown="block">
+## Comparison with Regular Methods
+
+__Let's compare with a regular method__ (one that's called on an instance) &rarr;
+
 Compare to a regular method...
 
 <pre><code data-trim contenteditable>
+    # regular method, must be called with instance
     def reduce(self):
-        # note how gcf is called / used!
+        # note how gcf is called / used (no instance needed)!
         gcf = Fraction.gcf(self.n, self.d)
         return Fraction(self.n // gcf, self.d // gcf)
 </code></pre>
@@ -175,7 +181,7 @@ __Using \_\_str\_\_ and \_\_repr\_\_ for string representation__ &rarr;
 <section markdown="block">
 ## More Magic Methods
 
-In addition to `str` and `repr` there are many more __magic methods__ that add functionality to your object: `__add__` allows the `__+__` operator, `__eq__` allows `__==__`, etc.
+In addition to `str` and `repr` there are many more __magic methods__ that add functionality to your object: `__add__` allows the `+` operator, `__eq__` allows `==` &rarr;
 <pre><code data-trim contenteditable>
     def __add__(self, other):
         return self.add(other)
