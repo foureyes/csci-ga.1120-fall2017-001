@@ -165,7 +165,26 @@ Compare to a regular method...
 <section markdown="block">
 ## Magic Methods for String Representation
 
-__Using \_\_str\_\_ and \_\_repr\_\_ for string representation__ &rarr;
+Sometimes, it's __useful to have a string version of an instance of your class__. For example &rarr;
+
+1. {:.fragment} calling `str` on your instance: `str(some_variable)`
+2. {:.fragment} passing your instance to print: `print(some_variable)
+
+To define what happens in these cases: 
+{:.fragment}
+
+* implement `__str__` and `__repr__`
+* both should return a string
+* `__str__` is for the human readable string, `__repr__` is a string representation of all of the data in the instance:
+{:.fragment}
+
+
+</section>
+
+<section markdown="block">
+## Fraction class, __str__ and __repr__
+
+__Using \_\_str\_\_ and \_\_repr\_\_ for string representation__ for our fraction class... &rarr;
 
 <pre><code data-trim contenteditable>
     def __str__(self):
@@ -176,24 +195,49 @@ __Using \_\_str\_\_ and \_\_repr\_\_ for string representation__ &rarr;
         return self.__str__()
 </code></pre>
 
+Which allows us to...
+
+<pre><code data-trim contenteditable>
+amt_of_pie = Fraction(1, 2)
+print(amt_of_pie) # prints out 1/2
+</code></pre>
+{:.fragment}
+
+
 </section>
 
 <section markdown="block">
 ## More Magic Methods
 
 In addition to `str` and `repr` there are many more __magic methods__ that add functionality to your object: `__add__` allows the `+` operator, `__eq__` allows `==` &rarr;
+
+__Implementing the above methods gives us the following functionality__ &rarr;
+
 <pre><code data-trim contenteditable>
+a = Fraction(1, 2)
+b = Fraction(1, 3)
+print(fractions)
+print(a + b)
+print(a == b)
+</code></pre>
+{:.fragment}
+
+
+</section>
+
+<section markdown="block">
+## Equals and Addition
+
+__Here's how == and + can be implemented in the Fraction class__ &rarr;
+
+<pre><code data-trim contenteditable>
+    # note the parameters and return values
+
     def __add__(self, other):
         return self.add(other)
 
     def __eq__(self, other):
         return self.n == other.n and self.d == other.d
-
-    def __str__(self):
-        result = ''
-        for thing in self.iterable:
-            result += thing + '\n'
-        return result
 
     def add(self, other):
         new_n = (self.n * other.d) + (other.n * self.d)
@@ -206,21 +250,23 @@ In addition to `str` and `repr` there are many more __magic methods__ that add f
 <section markdown="block">
 ## Usage
 
-__Here's how we may use the Fraction class__ &rarr;
+__Some example usage of the Fraction class__ &rarr;
 
 <pre><code data-trim contenteditable>
 a = Fraction(1, 2)
 b = Fraction(6, 8)
 c = Fraction(1, 3)
 fractions = [a, b, c]
-print(fractions)
-print(a.add(c))
-print(a + c)
-print(a == c)
-print(a == Fraction(1, 2))
-print(Fraction.gcf(9, 12))
-print(Fraction(4, 8).reduce())
-print(Fraction.foo)
+</code></pre>
+
+<pre><code data-trim contenteditable>
+print(fractions) # [1/2, 6/8, 1/3]
+print(a.add(c)) # 5/6
+print(a + c) # 5/6
+print(a == c) # False
+print(a == Fraction(1, 2)) # True
+print(Fraction.gcf(9, 12)) # 3
+print(Fraction(4, 8).reduce()) # 1/2
 </code></pre>
 
 </section>
@@ -233,7 +279,7 @@ __A class can be created based off of another existing class__ &rarr;
 * {:.fragment} that is...
 * {:.fragment} __methods__ and __instance variables__ from the original (or base/parent class)...
 * {:.fragment} will exist in the sub class (or child class)
-* {:.fragment} _withou_t those methods and instances having to be explicitly defined
+* {:.fragment} _without_ those methods and instances having to be explicitly defined
 
 For example...
 {:.fragment}
@@ -271,9 +317,7 @@ class Person:
 <section markdown="block">
 ## Inheriting from Person
 
-__Now... `Student` can inherit from `Person`__:
-
-`class Student(Person):`
+__Now... `Student` can inherit from `Person`__ using the following syntax: `class Student(Person)` &rarr;
 
 <pre><code data-trim contenteditable>
 class Student(Person):
@@ -284,7 +328,8 @@ class Student(Person):
         self.netid = netid
 
     def full_name(self):
-        return 'STUDENT ' + self.first + ' ' + self.last
+        s = 'STUDENT ' 
+        return s + self.first + ' ' + self.last
     
     # this method is called only on student objects
     # person objects don't have this
@@ -296,7 +341,8 @@ class Student(Person):
 <section markdown="block">
 ## Using Student
 
-__Note that `s` still has the `full_name` method even though it was not defined in `Student`.
+__Note that `s` still has the `full_name` method even though it was not defined in `Student`__.
+
 <pre><code data-trim contenteditable>
 s = Student('Mr', 'Joe', 'Versoza', 'jjv222')
 print(s)

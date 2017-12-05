@@ -1,8 +1,3 @@
-
-
-# add
-# reduce
-
 class Fraction:
 
 
@@ -46,14 +41,6 @@ class Fraction:
     def __eq__(self, other):
         return self.n == other.n and self.d == other.d
 
-    def __str__(self):
-        result = ''
-        for thing in self.iterable:
-            result += thing + '\n'
-        return result
-
-
-
 a = Fraction(1, 2)
 b = Fraction(6, 8)
 c = Fraction(1, 3)
@@ -65,7 +52,6 @@ print(a == c)
 print(a == Fraction(1, 2))
 print(Fraction.gcf(9, 12))
 print(Fraction(4, 8).reduce())
-print(Fraction.foo)
 
 
 

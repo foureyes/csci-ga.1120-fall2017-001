@@ -1,8 +1,12 @@
 	<td markdown="block">
 
 * [Quick Classes and Objects Review](slides/11/classes-review.html)
+    * [Dog class example](resources/code/class11/class_review.py) (full code from slides above)
 * [Magic Methods, Static Methods, Inheritance](slides/11/more-classes.html)
-* in class notes to be posted
+    * [Demo Shapes Class and Inheritance](resources/code/class11/shapes.py)
+    * [Demo Using turtle and classes defined above](resources/code/class11/drawing.py)
+    * [Person and Student classes](resources/code/class11/person_student.py) (full code from slides above)
+    * [Fraction](resources/code/class11/fraction.py) (full code from slides above)
 * [A New Editor, Tools](slides/11/editor.html)
 * [File Formats and Sources, Extra File I/O](slides/10/data-files-advanced.html)
 * demo matplotlib
