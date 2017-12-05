@@ -3,10 +3,8 @@
 # add
 # reduce
 
-
 class Fraction:
 
-    foo = 'whatever'
 
     def __init__(self, n, d):
         self.n = n

@@ -37,7 +37,8 @@ class Person:
 p = Person('Mr.', 'Joe', 'Versoza') # creates new Person
 print(p) # Mr. Versoza
 print(p.full_name) # Joe Versoza
-#print(p.full_name()) # Joe Versoza
+# can be done with method
+# print(p.full_name()) # Joe Versoza
 
 #p.first = 'the artist'
 p.set_first('the artist')

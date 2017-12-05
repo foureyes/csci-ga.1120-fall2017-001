@@ -92,6 +92,38 @@ SomeFancyClass('one', 'two')
 </section>
 
 <section markdown="block">
+## Creating Objects 
+
+__Another perspective: your class name is essentially going to be a function... so the class name and function call to create a new object from class must match:__ &rarr;
+
+<pre><code data-trim contenteditable>
+class Thingamajig:
+    def __init__(self):
+        print('making a thing')
+
+t = Thingamajig()
+</code></pre>
+{:.fragment}
+
+<pre><code data-trim contenteditable>
+# when function is called, the thing
+# that's actually called is 
+# __init__
+</code></pre>
+{:.fragment}
+</section>
+
+<section markdown="block">
+## We've Seen This in Turtle
+
+<pre><code data-trim contenteditable>
+import turtle
+t = turtle.Turtle() # Turtle is a constructor
+</code></pre>
+
+</section>
+
+<section markdown="block">
 ## Setting Properties on Instances
 
 __Instance variables (properties) can be added to an instance__ &rarr;
@@ -175,6 +207,49 @@ Now that you can still override an instance variable set by `__init__`:
 </code></pre>
 
 </section>
+<section markdown="block">
+## Methods
+
+__You can attach behaviors or functions to every instance by adding a method to the class__ &rarr;
+
+<pre><code data-trim contenteditable>
+class Foo:
+    def __init__(self):
+        print('constructor')
+
+    def some_method(self, val1, val2):
+        print('method with', val1, val2)
+</code></pre>
+
+__some_method__ can be called on any instance of `Foo`:
+
+<pre><code data-trim contenteditable>
+f = Foo()
+f.some_method('one', 'two')
+</code></pre>
+
+</section>
+
+<section markdown="block">
+## Methods Continued
+
+To create a __method__:
+
+1. {:.fragment} create a function within the class
+2. {:.fragment} the function will have self as the first argument
+3. {:.fragment} __self__ represents the instance that the method is called on
+4. {:.fragment} methods can return values and / or modify the instance
+
+<pre><code data-trim contenteditable>
+    def some_method(self, val1, val2):
+        # can change an instance variable
+        self.var = 1 
+       
+        # can return a value
+        return True # can return a value
+</code></pre>
+{:.fragment}
+</section>
 
 <section markdown="block">
 ## __str__
@@ -188,37 +263,29 @@ The __str__ should have one argument, self, and it should give back a string
 </section>
 
 <section markdown="block">
-## Creating a new Object With Your Class 
+## Create a Class...
 
-Your class name is essentially going to be a function... so class name and function call to create new object from class must match:
+__Write a class that allows the following functionality__ &rarr;
 
 <pre><code data-trim contenteditable>
-class Thingamajig:
-    def __init__(self):
-        print('making a thing')
-
-t = Thingamajig()
+d1 = Dog('Bark Twain', 'woof')
+print(d1.name) # Bark Twain
+d1.toys.extend(['chew toy', 'pig\'s ear'])
+print(d1) # A dog named Bark Twain that has chew toy, pig's ear
+print(d1.make_noise()) # WOOF
 </code></pre>
 
 <pre><code data-trim contenteditable>
-# when function is called, the thing
-# that's actually called is 
-# __init__
-</code></pre>
-</section>
-
-<section markdown="block">
-## We've Seen This in Turtle
-
-<pre><code data-trim contenteditable>
-import turtle
-t = turtle.Turtle() # Turtle is a constructor
+d2 = Dog('Jane Clawsten', 'arf')
+print(d2.name) # Jane Clawsten
+print(d2) # A dog named Jane Clawsten that has
+print(d2.make_noise()) # arf
 </code></pre>
 
 </section>
 
 <section markdown="block">
-## 
+## A Potential Solution
 
 <pre><code data-trim contenteditable>
 class Dog:
@@ -238,28 +305,58 @@ class Dog:
 
     def make_noise(self):
         return self.sound.upper()
-
-d1 = Dog('Bark Twain', 'woof')
-print(d1.name)
-d1.toys.extend(['chew toy', 'pig\'s ear'])
-print(d1)
-print(d1.make_noise())
-d2 = Dog('Jane Clawsten', 'arf')
-print(d2.name)
-print(d2)
-print(d2.make_noise())
-
-"""
-print will cause the __str__ method of an object to be called??????
-"""
-
 </code></pre>
 </section>
 
 <section markdown="block">
-## An Exercise
+## A Person Class
+
+__That implements the following functionality__ &rarr;
+
+<pre><code data-trim contenteditable>
+p = Person('Mr.', 'Joe', 'Versoza') # creates new Person
+print(p) # Mr. Versoza (the string version of the object)
+
+# one of these:
+print(p.full_name) # Joe Versoza as instance variable
+print(p.full_name()) # Joe Versoza as result of method call
+print(p.say_greeting('hello')) # hello, my name is Joe
+</code></pre>
+
+Be careful though... if implemented as instance variable:
+... then p.full_name won't be automatically changed
+
+You'll have to use a setter...
+
+<pre><code data-trim contenteditable>
+p.set_first('the artist') # an example of a setter
+# setter will update full_name as well
+</code></pre>
+</section>
+
+<section markdown="block">
+## A Potential Solution
+
+<pre><code data-trim contenteditable>
+class Person:
+    def __init__(self, title, first, last):
+        self.title = title
+        self.first = first
+        self.last = last
+        # self.full_name = first + ' ' + last
+
+    def __str__(self):
+        return self.title + ' ' + self.last
+
+    def full_name(self):
+        return self.first + ' ' + self.last
+
+    def say_greeting(self, greeting):
+        return greeting + self.first
+</code></pre>
 
 </section>
+
 {% comment %}
 <section markdown="block">
 ## File Formats
