@@ -1,4 +1,3 @@
-
 ---
 layout: slides
 title: "Image Processing"
