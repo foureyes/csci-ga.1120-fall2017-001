@@ -52,22 +52,12 @@ The __Python Imaging Module__, or __PIL__ is a popular module for working with i
 * when you install via PyCharm, look for the __Pillow__ module rather than PIL
 * (however, you'll still need to import PIL)
 
-(__The book uses a called cImage for working with digital images, but PIL/Pillow is more likely what you'll encounter in _real world_ programming__)
 </section>
 
-<section markdown="block">
-## cImage vs PIL/Pillow
-
-__Again, we'll be using PIL/Pillow__ &rarr;
-
-* so... for the readings, ignore the part about <code>cImage</code>
-* however, the algorithms outlined in the book still work, of course!
-
-</section>
 <section markdown="block">
 ## PIL Concepts
 
-To represent a digital image, __PIL works with the follwoing concepts__ &rarr;
+To represent a digital image, __PIL works with the following concepts__ &rarr;
 
 * bands
 * image mode
