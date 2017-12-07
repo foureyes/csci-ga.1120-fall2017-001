@@ -261,16 +261,18 @@ Ok... now we're getting into some formats that aren't really column based. HTML,
 <section markdown="block">
 ## So How Do We Even?
 
-Find someone that already went through the pain of doing it, and use their library.
+__Find someone that already went through the pain of doing it, and use their library__.
 
-For HTML, a commonly use library is beautiful soup 4:
-
-[bs4](http://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* {:.fragment} again, html is difficult to parse
+* {:.fragment} find an html parser already built for you
+* {:.fragment} a commonly used library is beautiful soup 4: [bs4](http://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* {:.fragment} you can easily find elements within an html document with some simple methods
 
 
 </section>
 
 
+{% comment %}
 <section markdown="block">
 ## Beautiful Soup 4
 
@@ -294,6 +296,69 @@ dom = BeautifulSoup("""
 print(dom.select('h1'))
 print(dom.select('.even-headier'))
 </code></pre>
+</section>
+{% endcomment %}
+
+<section markdown="block">
+## Beautiful Soup 4
+
+__Here's a quick demonstration of how BeautifulSoup works...__ &rarr;
+
+1. {:.fragment} First, start off with installation:
+    * use PyCharm to install `beautifulsoup4`
+2. {:.fragment} Then... the usual import
+    * `from bs4 import BeautifulSoup`
+
+This gives you a __constructor__ that you can use to create an object that represents an __html document__. Just pass an html string to it...
+{:.fragment}
+
+
+
+
+
+
+
+</section>
+
+<section markdown="block">
+## BeautifulSoup Constructor
+
+__Note the 2nd argument determines what you'll use to _parse_ the html__ (html.parser should be fine) &rarr;
+
+<pre><code data-trim contenteditable>
+dom = BeautifulSoup("""
+&lt;html&gt;
+    &lt;body&gt;
+        &lt;h1&gt;foo&lt;/h1&gt;
+        &lt;p&gt;bar
+        &lt;h1 class='even-headier'&gt;baz&lt;/h1&gt;
+        &lt;a href='http://cs.nyu.edu'&gt;cs!&lt;/a&gt;
+        &lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+""", "html.parser")
+</code></pre>
+
+
+</section>
+
+<section markdown="block">
+## Beautiful Soup Continued
+
+Now... __you can use css selectors to retrieve specific html elements... by using the `select` method!__ &rarr;
+
+<pre><code data-trim contenteditable>
+# get the elements with class .even-headier
+print(dom.select('.even-headier'))
+
+# get all h1's ... show the text of the first one
+print(dom.select('h1')[0].get_text())
+
+# show the href attribute of the first link
+print(dom.select('a')[0]['href'])
+</code></pre>
+{:.fragment}
+
 </section>
 
 
@@ -332,30 +397,49 @@ Now that we're set with file formats, __let's figure out where we source data fr
 <section markdown="block">
 ## Which One to Use???
 
-__So... how do you decide whether or not to download and save from a remote server or read and process immediately?__ &rarr;
+__How do you decide whether to download and save from a remote server or process immediately?__ &rarr;
 
-* {:.fragment} too big to fit in memory? save first
+* {:.fragment} __too big to fit in memory__? save first
 * {:.fragment} ...or stream the data (requests allows this)
-* {:.fragment} if the data changes often:
+* {:.fragment} __if the data changes often__:
     * {:.fragment} and you need _live_ data, then read from server and process
-    * {:.fragment} but if you need consistent data across a set of all data, maybe download and save first?
+    * {:.fragment} if you need consistent data across a set of all data, download and save first?
 * {:.fragment} also, you may want to limit how often you request data (some sites have limits on this)
 * {:.fragment} if it's processor intensive, or large batches of data... maybe it makes sens architecturally to separate downloading from processing
-
 </section>
 
 <section markdown="block">
 ## Getting Data from a URL
 
-Using the requests module to __retrieve data from a url__ &rarr;
+Using `urllib` to __retrieve data from a url__
 
-<pre><code data-trim contenteditable>
-# easy_intstall or pip install requests first...
+* {:.fragment} `urllib` is built-in to Python3; no need to install
+* {:.fragment} to use:
+    <pre><code data-trim contenteditable>
+import urllib.request
+with urllib.request.urlopen('http://cs.nyu.edu') as response:
+   res = response.read()
+   # ooh... now we can parse res with
+   # Beautiful Soup or json depending on
+   # what we get back
+</code></pre>
+* {:.fragment} note that in some use cases (such as sending a username and password, or sending additional request data), you'll have to write some boilerplate code
+</section>
+
+<section markdown="block">
+## Another Option: `requests`
+
+Using the `requests` module to __retrieve data from a url__ &rarr;
+
+* {:.fragment} Pycharm, easy_install, or pip install `requests` first...
+* {:.fragment} Then:
+    <pre><code data-trim contenteditable>
 import requests
 res = requests.get("http://cs.nyu.edu")
 print(res.status_code) # http response status code (you want a 200)
 print(res.text) # the contents / body of the response
 </code></pre>
+
 </section>
 
 <section markdown="block">

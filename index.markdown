@@ -347,9 +347,7 @@ CS for All
 
 
 </td>
-<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/13.markdown %}
-{% endcomment %}
  </tr>
 
 <tr><td id="class14">14</td><td><strong>Dec 14</strong><br>Thu</td>
