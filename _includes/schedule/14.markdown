@@ -1,11 +1,7 @@
 	<td markdown="block">
-* Exam Review
-* Classes and Objects
-* Evaluations
+
+* [Image Processing](slides/13/images.html)
+
 </td>
 	<td markdown="block">
-Solutions
-
-* [Midterm #1 (Coffee) Solutions](resources/handouts/midterm/midterm_coffee_solutions.pdf)
-* [Midterm #1 (Ramen) Solutions ](resources/handouts/midterm/midterm_ramen_solutions.pdf)
 </td>

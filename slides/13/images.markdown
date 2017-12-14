@@ -11,75 +11,88 @@ title: "Image Processing"
 <p><small></small></p>
 </section>
 
+<section markdown="block">
+# Enough Numbers and Letters. How About Some Pictures!?
+
+</section>
 
 <section markdown="block">
 ## Digital Images
 
-A __digital image__ is just a collection of pixels:
+__What's a digital image? What is it made of?__ &rarr;
 
-* pixels are arranged in a 2-dimensional grid
-* theses _rectangles of pixel data_ are also called __raster images__
-* more pixels means more detail / higher resolution
-* each pixel has a color... typically represented by some combination of red, green and blue
+A __digital image__ is just a collection of pixels:
+{:.fragment}
+
+* {:.fragment} pixels are arranged in a 2-dimensional grid
+* {:.fragment} theses _rectangles of pixel data_ are also called __raster images__
+* {:.fragment} more pixels means more detail / higher resolution
+* {:.fragment} each pixel has a color... typically represented by some combination of red, green and blue
 
 </section>
 
 <section markdown="block">
 ## RGB Color Model
 
-__A pixel's color is determined by the amounts of primary colors (red, green, and blue) that its composed of.__ &rarr;
+A pixel's __color is determined by the amounts of primary colors__ (<span style="color: red">red</span>, <span style="color: green">green</span>, and <span style="color: blue">blue</span>) that its composed of. &rarr;
 
-* __intensity__ is the amount of a particular primary color component
-* this value can range from 0 to 255
-* the primary color values are arranged as: red first, green second, and blue last
-* a pixel that has 0 intensity for all primary colors is black... and 255 for each is white
-* some additional examples of rgb combinations:
-    * __red__ - 255, 0, 0 
-    * __green__ - 0, 255, 0 
-    * __blue__ - 0, 0, 255 
-    * __yellow__ - 255, 255, 0 
+* {:.fragment} __intensity__ is the amount of a particular primary color component
+* {:.fragment} this value can range from 0 to 255
+* {:.fragment} the primary color values are arranged as: red first, green second, and blue last
+* {:.fragment} a pixel that has 0 intensity for all primary colors is black... and 255 for each is white
+* {:.fragment} some additional examples of rgb combinations:
+    * __red__ <span class="fragment">- 255, 0, 0</span>
+    * __green__ - <span class="fragment">0, 255, 0 </span>
+    * __blue__ - <span class="fragment">0, 0, 255 </span>
+    * __yellow__ - <span class="fragment">255, 255, 0 </span>
 </section>
 
 
 <section markdown="block">
 ## Python and Digital Images
 
-The __Python Imaging Module__, or __PIL__ is a popular module for working with images in Python.
+The __Python Imaging Module__, or __PIL__ is a popular module for working with images in Python. It allows... &rarr;
 
-* allows creating, loading, and saving of images
-* ... as well as many image processing features such as filters, transforms, etc.
-* the current version of PIL is _actually_ called __Pillow__
-* when you install via PyCharm, look for the __Pillow__ module rather than PIL
-* (however, you'll still need to import PIL)
+* {:.fragment} creating, loading, and saving of images
+* {:.fragment} ... as well as many image processing features such as filters, transforms, etc.
+
+Unfortunately, installing it can be a bit confusing...
+{:.fragment}
+
+* {:.fragment} the current version of PIL is _actually_ called __Pillow__
+* {:.fragment} when you install via PyCharm, look for the __Pillow__ module rather than PIL
+* {:.fragment} (however, in your code, the `import` will still read as if you were importing PIL!? 😬 )
 
 </section>
 
 <section markdown="block">
 ## PIL Concepts
 
-To represent a digital image, __PIL works with the following concepts__ &rarr;
+To represent a digital image, __PIL works with the three following concepts__ &rarr;
 
-* bands
-* image mode
-* size and coordinate system
+1. {:.fragment} bands
+2. {:.fragment} image mode
+3. {:.fragment} size and coordinate system
 
+The concepts above describe a digital image in PIL and its attributes.
+{:.fragment}
 </section>
+
 <section markdown="block">
 ## Bands
 
-In PIL, images consist of one or more bands of data. 
+In PIL, images consist of one or more __bands__ of data. 
 
-* an image can be made up of multiple bands as long as each band has the same dimensions and _depth_
-* it's sometimes useful to think of a pixel as having one value per band
-* __an example is a png image that has 4 different bands, each representing one of the following:__ &rarr;
-    1. red
-    2. green
-    3. blue
-    4. transparency
-* a pixel would then be composed of 4 values
-* operations can act on all bands simultaneously or just single bands.
+* {:.fragment} an image can be made up of multiple bands as long as each band has the same dimensions and _depth_
+* {:.fragment} it's sometimes useful to think of a pixel as having one value per band
+* {:.fragment} __an example is a png image that has 4 different bands, each representing one of the following:__ &rarr;
+    * red, green, blue
+    * transparency
+* {:.fragment} a pixel would then be composed of 4 values
+* {:.fragment} operations can act on all bands simultaneously or just single bands.
 
 __But wait, didn't we say that pixels are just made up of RGB colors?__ &rarr;
+{:.fragment}
 </section>
 
 <section markdown="block">
@@ -89,12 +102,13 @@ It turns out that there are many many other ways to represent color. We'll prima
 
 An __image mode__ defines the type and depth of a pixel in an image. Some modes include:
 
-* __<code>L</code>__ (8-bit pixels, grayscale)
-* __<code>RGB</code>__ (3x8-bit pixels, _true color_)
-* __<code>RGBA</code>__ (4x8-bit pixels, _true color_ with transparency mask)
-* __<code>CMYK</code>__ (4x8-bit pixels, color separation)
+* {:.fragment} __<code>L</code>__ (8-bit pixels, grayscale)
+* {:.fragment} __<code>RGB</code>__ (3x8-bit pixels, _true color_)
+* {:.fragment} __<code>RGBA</code>__ (4x8-bit pixels, _true color_ with transparency mask)
+* {:.fragment} __<code>CMYK</code>__ (4x8-bit pixels, color separation)
 
-Again, we'll be focusing on RGB mode images.
+Again, we'll be focusing on __RGB__ mode images.
+{:.fragment}
 
 
 
@@ -128,11 +142,11 @@ For our work with the PIL API, we'll mostly be using these modules and objects:
 
 __The <code>Image</code> module allows us to create objects of the same name.__ It provides a few methods for creating __Image objects__. The two that we'll be using are:
 
-* __<code>new(mode, size, color)</code>__ - creates an entirely new image
+* <code>new(mode, size, color)</code> - creates an entirely new image
     * mode - sets the new image's mode (we'll use RGB)
     * size - the image's dimensions as a 2-tuple (width, height)
     * color - the initial color of the image as an int or as a tuple (default is black)
-* __<code>open(fp)</code>__ - loads an existing image
+* <code>open(fp)</code> - loads an existing image
     * fp - file object or string representing path to file
 
 [Check out the full documentation on the Image Module](https://pillow.readthedocs.org/en/3.1.x/reference/Image.html#PIL.Image.Image)
@@ -143,38 +157,45 @@ __The <code>Image</code> module allows us to create objects of the same name.__ 
 
 __Image objects contain the following _properties_ / _member_ variables and methods:__ &rarr;
 
-* __size__ - the image size in pixels as a 2-tuple, (width, height)
-* __show(title, command)__ - display the image represented by the Image object
+* `size` - the image size in pixels as a 2-tuple, (width, height)
+* `show(title, command)` - display the image represented by the Image object
     * title - title to be shown in display
     * command - command used to start display application / viewer
     * usually results in the image being shown as a <code>.bmp</code> using your default system viewer for bmps (like preview on OSX or paint on windows)
-* __save(fp)__ 
+</section>
+
+<section markdown="block">
+## More Image Object Methods
+
+__Methods for saving an image or opening / loading an image__ &rarr;
+
+* `save(fp)` 
     * fp - file object or string representing path to file
     * format used based on extension!
-* __load()__ - loads an images pixels and gives back a PixelAccess object so that individual pixels can be manipulated
+* `load()` - loads an image's pixels and gives back a PixelAccess object so that individual pixels can be manipulated
 
 [For all of the methods that an Image object supports, see the docs.](https://pillow.readthedocs.org/en/3.1.x/reference/Image.html#PIL.Image.Image)
 </section>
-
 <section markdown="block">
 ## PixelAccess Objects
 
 __A <code>PixelAccess</code> object is a dictionary-like object that allows read and write access to every pixel in an <code>Image</code> object.__ &rarr;
 
-* _dictionary like?_ ... under the hood it's actually just a dictionary, but it provides additional methods that a dictionary doesn't have
-* you can get and set a pixel by using square brackets (like a dictionary) and a 2-tuple representing the x and y coordinate of the tuple
-* a pixel itself will also be a tuple (we'll mostly be working with RGB mode images, so we'll be dealing with 3-tuples)
-* <code>PixelAccess</code> objects also have the following methods:
+* {:.fragment} _dictionary like?_ ... under the hood it's actually just a dictionary, but it provides additional methods that a dictionary doesn't have
+* {:.fragment} you can get and set a pixel by using square brackets (like a dictionary) and a 2-tuple representing the x and y coordinate of the tuple
+* {:.fragment} a pixel will also be a tuple (since we're working with RGB mode images, we'll be dealing with 3-tuples)
+* {:.fragment} <code>PixelAccess</code> objects also have the following methods:
     * putpixel(xy, color)
     * getpixel(xy)
 
 [Check out the documentation for <code>PixelAccess</code> objects](https://pillow.readthedocs.org/en/3.1.x/reference/PixelAccess.html)
+{:.fragment}
 </section>
 
 <section markdown="block">
 ## Creating a New Image
 
-__Let's use what we know to create and display a  new image - a 400 pixel wide and 300 pixel tall image of the color black.__ &rarr;
+__Let's use what we know to create and display a new all black 400 pixel wide and 300 pixell tall image.__ &rarr;
 
 <pre><code data-trim contenteditable>
 from PIL import Image
@@ -183,7 +204,7 @@ img.show()
 </code></pre>
 {:.fragment}
 
-Hm... maybe we want red to be the default color instead. __Without using a PixelAccess object, change the color to red.__ &rarr;
+Maybe we want red to be the default color instead. __Without using a PixelAccess object, change the color to red.__ &rarr;
 {:.fragment}
 
 <pre><code data-trim contenteditable>
@@ -220,6 +241,24 @@ __What's the pseudocode for this?__ &rarr;
 6. {:.fragment} set pixel at coordinate x, y to green
 7. {:.fragment} show it!
 
+
+</section>
+
+<section markdown="block">
+## Green!
+
+All green everything. __Using individual pixels__ &rarr;
+<pre><code data-trim contenteditable>
+from PIL import Image
+img = Image.new('RGB', (400, 300))
+pixels = img.load()
+width, height = img.size
+for x in range(width):
+    for y in range(height):
+        pixels[(x, y)] = (0, 255, 0)
+img.show()
+</code></pre>
+{:.fragment}
 
 </section>
 
@@ -287,14 +326,17 @@ img.show()
 <section markdown="block">
 ## Vertical Lines
 
-__Create a new image with:__ &rarr;
+__Create a new image:__ &rarr;
 
-* a background color of white
-* a vertical line very 10th pixel
-* try moving  your code into a function that takes an image object adds vertical lines to it
-* modify your function so that you can specify
-    * how much spacing there is between lines
-    * the color of the lines
+1. {:.fragment} make a new image with...
+    * a background color of white
+    * a black vertical line very 10th pixel
+2. {:.fragment} try moving  your code into a function that takes an image object adds vertical lines to it
+    * modify your function so that you can specify
+        * how much spacing there is between lines
+        * the color of the lines
+    * no return value needed
+    * (a `PixelAccess` object is mutable)
 
 
 </section>
@@ -327,6 +369,9 @@ new_img.show()
 
 __Let's try changing our previous function so that it accepts a stroke width.__ (lines are no longer just 1 pixel) &rarr;
 
+Hint: one way to do this is to change the interval to space + stroke width... and either move forwards or backwards making 1 pixel vertical lines until the desired width is reached (3 loops!)
+{:.fragment}
+
 <pre><code data-trim contenteditable>
 def vertical_lines(img, stroke, width_between, color):
     pixels = img.load()
@@ -336,6 +381,7 @@ def vertical_lines(img, stroke, width_between, color):
                 if x - s >= 0:
                     pixels[x - s, y] = color
 </code></pre>
+{:.fragment}
 
 </section>
 <section markdown="block">
@@ -384,11 +430,13 @@ def hot(img):
             colors = pixels[i,j]
             pixels[i,j] = (255, colors[1], colors[2])
 </code></pre>
+{:.fragment}
 <pre><code data-trim contenteditable>
 new_img = Image.open('/tmp/wallaby.jpg')
 hot(new_img)
 new_img.show()
 </code></pre>
+{:.fragment}
 </section>
 <section markdown="block">
 ## Making Our Image Grayscale
@@ -409,7 +457,7 @@ __How did we do it?__ &rarr;
 <section markdown="block">
 ## Grayscale Implementation
 
-__Here's an implementation of the above as a function (there's a tiny tricky bit for multiplying a tuple on the 2nd to laste line.__ &rarr;
+__Here's an implementation of the above as a function__ &rarr;
 
 <pre><code data-trim contenteditable>
 from PIL import Image
@@ -420,12 +468,20 @@ def grayscale(img):
             avg = sum(pixels[i,j]) // 3
             pixels[i,j] = (avg,) * 3
 </code></pre>
+{:.fragment}
 
 <pre><code data-trim contenteditable>
 new_img = Image.open('wallaby.jpg')
 grayscale(new_img)
 new_img.show()
 </code></pre>
+{:.fragment}
+
+There are some tiny tricks above:
+{:.fragment}
+
+* multiplying a tuple to repeat an element
+* using the built in function, `sum`
 {:.fragment}
 </section>
 
@@ -467,15 +523,25 @@ def inverse(img):
     for i in range(img.size[0]):
         for j in range(img.size[1]):
             colors = pixels[i,j]
-            pixels[i,j] = tuple([255 - c for c in pixels[i, j]])
+            new_c = [255 - c for c in pixels[i, j]]
+            pixels[i,j] = tuple(new_c)
 
 </code></pre>
+{:.fragment}
+
 <pre><code data-trim contenteditable>
 new_img = Image.open('wallaby.jpg')
 inverse(new_img)
 new_img.show()
 </code></pre>
+{:.fragment}
+
+Oh hey - remember __list comprehensions__?
+{:.fragment}
+
+
 </section>
+
 <section markdown="block">
 ## Wait, Wait, Wait
 
@@ -495,8 +561,8 @@ __Let's look at all of those functions again: hot, grayscale, bw, and inverse. S
 __Make a generic pixel mapper function that transforms all of the pixels in an image according to a function passed in as an argument.__ &rarr;
 
 * {:.fragment} what should the arguments be?
-* {:.fragment} the image and the _callback_ or _transform_ function
-* {:.fragment} what arguments should the transform function expect, and what should it return
+* {:.fragment} the image and a _transform_ function
+* {:.fragment} what arguments should the transform function expect, and what should it return?
 * {:.fragment} a 3-element tuple
 </section>
 
@@ -549,13 +615,22 @@ function anonymous(x):
 lambda x: x * 2
 </code></pre>
 
-Let's try this for grayscale, hot and inverse:
+Let's try this for hot, inverse, and grayscale:
 
 <pre><code data-trim contenteditable>
 pixel_map(new_img, lambda t: (255, t[1], t[2]))
+</code></pre>
+{:.fragment}
+
+<pre><code data-trim contenteditable>
 pixel_map(new_img, lambda t: tuple([255 - c for c in t]))
+</code></pre>
+{:.fragment}
+
+<pre><code data-trim contenteditable>
 pixel_map(new_img, lambda t: (sum(t) // 3, ) * 3)
 </code></pre>
+{:.fragment}
 </section>
 <section markdown="block">
 ## I Think We Lost Something
@@ -580,14 +655,12 @@ __Use <code>partial</code> to bind the first parameter of to_bw_pixel to a parti
 
 <pre><code data-trim contenteditable>
 from functools import partial
-
 def to_bw_pixel(thresh, t):
     avg = sum(t) // 3
     if avg > 255 // 2:
         return (255, ) * 3
     else:
         return (0, ) * 3
-
 bound_to_bw = partial(to_bw_pixel, 255 // 2)
 </code></pre>
 
@@ -599,13 +672,49 @@ pixel_map(new_img, lambda t: bound_to_bw(t))
 </section>
 
 <section markdown="block">
+## Don't Do This, But Let's Do This
+
+__We can actually make the to-black-and-white function a one liner using special syntax__ &rarr;
+
+<pre><code data-trim contenteditable>
+res = None
+if cond:
+    res = val1
+else:
+    res = val2
+</code></pre>
+{:.fragment}
+
+Can be rewritten as:
+{:.fragment}
+
+<pre><code data-trim contenteditable>
+res = val1 if cond else val2
+</code></pre>
+{:.fragment}
+
+Which bring us to this terrible thing:
+{:.fragment}
+
+<pre><code data-trim contenteditable>
+pixel_map(img, lambda color: (255,) * 3 if sum(color) // len(color) < 150 else (0, ) * 3)
+</code></pre>
+{:.fragment}
+
+</section>
+
+<section markdown="block">
 ## Some Fun: Combining Images
 
 Let's use our PIL skills to try different ways of combining images:
 
-* weighted average of colors of 2 images
+* weighted average of colors of multiple images
 * [Chromakey](https://en.wikipedia.org/wiki/Chroma_key) - remove background of an image based on color
 
+Some images:
+
+* [space](https://cdn.vox-cdn.com/thumbor/qjjqhTOzgsEW8UsOvVJRZLrD234=/0x0:7700x5800/1200x800/filters:focal(3234x2284:4466x3516)/cdn.vox-cdn.com/uploads/chorus_image/image/56042817/2016_01_30_The_Andromeda_Galaxy_M31_T2HM_Peter_Ilas.0.jpg)
+* [grumpy cat](https://cdn.vox-cdn.com/thumbor/tQKD0HljTpEr5pl_3EtUA6yb1dw=/0x52:3000x2052/1200x800/filters:focal(0x52:3000x2052)/cdn.vox-cdn.com/uploads/chorus_image/image/44294754/grumpy_cat.0.0.jpg)
 </section>
 
 <section markdown="block">
@@ -656,9 +765,6 @@ def chromakey(src, dest, thresh=220):
 <section markdown="block">
 ## Now... Your Turn
 
-Some activities [from the previous class](https://docs.google.com/a/nyu.edu/forms/d/1zkCnVU_26wtBy6ZCMynyX0u2xwHT8fySuG8OzutAZZM/viewform):
-
-(just copy and paste your code)
 
 1. __drawing rectangles__
 2. __flip vertically__ (over the horizontal axis)
@@ -709,7 +815,7 @@ def rectangle(img, ul_x, ul_y, width, height, color):
 <section markdown="block">
 ## Flip Vertically
 
-__Create a function called <code>flip_vertical(orig_img)</code>__ that takes an image and returns a new image flipped on the horizontal axis__ &rarr;
+__Create a function called <code>flip_vertical(orig_img)</code>__ that takes an image and returns a new image flipped on the horizontal axis &rarr;
 
 * create a new image
 * go over every pixel in the new image

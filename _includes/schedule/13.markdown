@@ -14,7 +14,6 @@
 * Demo:
     * Tumblr Tags
     * Retrieving Data from nytimes
-* [Image Processing](slides/13/images.html)
 * Evaluations
 
 </td>

@@ -338,8 +338,6 @@ CS for All
 <td markdown="block">
 
 * more web / requests
-* Special Topic (Image Processing or Audio)
-* text blob
 
 
 </td>
@@ -352,14 +350,12 @@ CS for All
 
 <tr><td id="class14">14</td><td><strong>Dec 14</strong><br>Thu</td>
 <td markdown="block">
-* Special Topic (Image Processing or Audio)
+* Special Topic (Image Processing or Audio or NLP)
 
 </td>
 <td markdown="block">
 </td>
-<td></td><td markdown="block"></td>{% comment %}
 {% include schedule/14.markdown %}
-{% endcomment %}
  </tr>
 
 
