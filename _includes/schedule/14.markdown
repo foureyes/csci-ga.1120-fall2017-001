@@ -1,6 +1,12 @@
 	<td markdown="block">
 
+Slides
+
 * [Image Processing](slides/13/images.html)
+
+Class Notes / Demo Code
+
+* [Determining Highest Growth Rate!](resources/code/class14/pil_demo.py)
 
 </td>
 	<td markdown="block">

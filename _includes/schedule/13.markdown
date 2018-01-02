@@ -1,5 +1,7 @@
 	<td markdown="block">
 
+Slides
+
 * Volunteer for Evaluation? (15 min)
 * [Polonsky Foundation, Digital Humanities Internship program](http://gsas.nyu.edu/financial-support/fellowships/polonsky-foundation.html)
 * [Matplotlib Review](slides/13/matplotlib-review.html)
@@ -11,17 +13,14 @@
 * [Web Formats: html, json, sourcing data](slides/10/data-files-advanced.html#14)
     * json
 * [Web Review, APIs, Making Requests](slides/13/api-request.html)
-* Demo:
-    * Tumblr Tags
-    * Retrieving Data from nytimes
 * Evaluations
 
+Class Notes / Demo Code:
+
+* [JSON](resources/code/class13/demojson.py)
+* [Determining Highest Growth Rate!](resources/code/class13/pop.py)
+
 </td>
-{% comment %}
-	<td markdown="block">
-* __Chapter 8__ - Multidimensional Arrays
-</td>
-{% endcomment %}
 	<td markdown="block">
 <!--
 * [](assignments/.html)
