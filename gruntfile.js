@@ -118,7 +118,8 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('build', 'jekyll:build');
 	grunt.registerTask('watch', ['watch:jekyll', 'watch:less']);
-	grunt.registerTask('dev', ['concat', 'copy', 'build', 'connect', 'watch']);
+	//grunt.registerTask('dev', ['concat', 'copy', 'build', 'connect', 'watch']);
+	grunt.registerTask('dev', ['concat', 'build', 'connect', 'watch']);
 
 	grunt.loadNpmTasks('grunt-jekyll');
 	grunt.loadNpmTasks('grunt-contrib-less');
