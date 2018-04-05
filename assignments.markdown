@@ -4,7 +4,9 @@ layout: default
 nav-state: assignments
 ---
 
+See assignment column in schedule
 
+{% comment %}
 * [Assignment #1](assignments/hw01.html)
 * [Assignment #2](assignments/hw02.html)
 * [Assignment #3](assignments/hw03.html)
@@ -15,5 +17,6 @@ nav-state: assignments
 * [Assignment #8](assignments/hw08.html)
 * [Assignment #9](assignments/hw09.html)
 * [Assignment #10](assignments/hw10.html)
+{% endcomment %}
 
 
